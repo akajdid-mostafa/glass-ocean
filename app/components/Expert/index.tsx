@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
-// CAROUSEL DATA
 
 interface DataType {
     profession: string;
@@ -50,17 +49,12 @@ const postData: DataType[] = [
     },
 ]
 
-// CAROUSEL SETTINGS
-
-
 export default class MultipleItems extends Component {
-
     render() {
         const settings = {
             dots: false,
             infinite: true,
             slidesToShow: 3,
-            // centerMode: true,
             slidesToScroll: 1,
             arrows: false,
             autoplay: false,
@@ -97,10 +91,8 @@ export default class MultipleItems extends Component {
                 }
             ]
         };
-
-
         return (
-            <div className="py-10 sm:py-20 bg-gradient-to-br from-blue200 via-Purple200 to-blue300">
+            <div className="py-10 sm:py-20 bg-white">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">

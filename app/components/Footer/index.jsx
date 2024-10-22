@@ -14,6 +14,7 @@ import { footerDataEn } from '../locales/en/translation';
 import { footerDataFr } from '../locales/fr/translation';
 import { footerDataAr } from '../locales/ar/translation';
 
+
 const loadClientData = (lang) => {
   switch (lang) {
     case 'fr':
@@ -22,7 +23,7 @@ const loadClientData = (lang) => {
       return footerDataAr;
     case 'en':
     default:
-      return footerDataEn; // Use the imported JSON directly
+      return footerDataEn; 
   }
 };
 
@@ -38,7 +39,6 @@ const Footer = () => {
     fetchData();
   }, [i18n.language]);
 
-  // Destructure the data from footerData with default values
   const {
     socialLinks = [],
     contactInfo = [],
@@ -50,7 +50,6 @@ const Footer = () => {
     footerCopyright = { text: "", company: "", allRightsReserved: "", message: "" }
   } = footerData;
   const { ourServicesTitle, ourPageTitle, ourFormationTitle, ourlangagueTitle } = footerText;
-
   return (
     <footer className="bg-gradient-to-br from-blue200 via-Purple200 to-blue300  text-black  ">
         <div style={{  top: '-10px' }}>
@@ -69,9 +68,7 @@ const Footer = () => {
                     </svg>
         </div>
       <div className="container mx-auto px-4 md:px-6 lg:px-8" style={{ backgroundImage: 'url("https://d33wubrfki0l68.cloudfront.net/1e0fc04f38f5896d10ff66824a62e466839567f8/699b5/images/hero/3/background-pattern.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        
         <div className="mb-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Contact Information */}
           {contactInfo.map(({ id, Icon, title, content }) => (
             <div key={id} className="flex items-center space-x-3">
               <div className="bg-[#3a86ff] p-2 rounded-md mx-1">
@@ -85,13 +82,11 @@ const Footer = () => {
               </div>
             </div>
           ))}
-
-          {/* Social Links */}
           <div className="flex items-center space-x-3">
             {socialLinks.map(({ id, label, to }) => (
               <div key={id} className="bg-[#3a86ff] p-2 rounded-md mx-1">
                 <Link
-                  href={to} // Changed to href
+                  href={to} 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:scale-110 transition-transform duration-300 ease-in-out hover:text-blue-500"
@@ -106,7 +101,6 @@ const Footer = () => {
             ))}
           </div>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-4">
           <div className="space-y-2 lg:col-span-1">
             <div className="flex items-center space-x-2">
@@ -122,21 +116,19 @@ const Footer = () => {
             <FooterLinkSection title={ourFormationTitle} links={ourFormation} />
           </div>
         </div>
-
-        {/* Copyright Section */}
         <div className="mt-2">
           <hr className="content-center my-4 border-t-2 border-gray-300" />
           <div>
-            <div className="flex justify-between">
+            <div className="flex justify-between pb-4">
               <p className="font-semibold text-md">
                 {footerCopyright.text} {new Date().getFullYear()}{" "}
-                <Link href="/#" className="text-blue-600 hover:text-white"> {/* Changed to href */}
+                <Link href="/#" className="text-blue600 hover:text-white">
                   {footerCopyright.company}
                 </Link>. {footerCopyright.allRightsReserved}
               </p>
               <p className="font-semibold text-md">
                 {footerCopyright.message}
-                <Link href="/#" className="text-blue-600 hover:text-white"> {/* Changed to href */}
+                <Link href="/#" className="text-blue600 hover:text-white">
                   Ocean Connecting
                 </Link>
               </p>
@@ -148,7 +140,7 @@ const Footer = () => {
   );
 };
 
-// FooterLinkSection component
+
 function FooterLinkSection({ title, links }) {
   return (
     <div className="space-y-2">
@@ -156,7 +148,7 @@ function FooterLinkSection({ title, links }) {
       <ul className="space-y-1">
         {links.map(({ id, label, link }) => (
           <li key={id}>
-            <Link href={link} className="text-sm hover:text-[#3a86ff]"> {/* Changed to href */}
+            <Link href={link} className="text-sm hover:text-[#3a86ff]"> 
               {label}
             </Link>
           </li>
@@ -165,5 +157,4 @@ function FooterLinkSection({ title, links }) {
     </div>
   );
 }
-
 export default Footer;

@@ -4,22 +4,16 @@ import { Fade } from "react-awesome-reveal";
 
 
 const Cook = () => {
-
     return (
         <div className='relative' id="cook-section">
             <div className="mx-auto max-w-7xl lg:pt-20 sm:pb-24 px-6">
-
                 <div className='absolute right-0 bottom-[-18%] hidden lg:block'>
                     <Image src={'/images/Cook/burger.png'} alt="burger-image" width={463} height={622} />
                 </div>
-
                 <div className='grid grid-cols-1 lg:grid-cols-12 my-16 space-x-5'>
-
                     <div className='col-span-6 flex justify-start'>
                         <Image src="/images/Cook/cook.png" alt="nothing" width={636} height={808} />
                     </div>
-
-
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                             <h2 className='text-pink text-lg font-normal mb-3 ls-51 uppercase text-start'>cook with us</h2>
@@ -37,14 +31,9 @@ const Cook = () => {
                             </div>
                         </Fade>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div >
     )
 }
-
 export default Cook;
