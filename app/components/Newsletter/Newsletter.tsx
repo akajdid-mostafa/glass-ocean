@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const Newsletter = () => {
     return (
         <div className='relative'>
-            <div className="mx-auto max-w-2xl bg-pink br-50 md:max-w-7xl mt-48 rounded-lg">
+            <div className="mx-auto max-w-2xl bg-gradient-to-r from-blue600 to-red600 br-50 md:max-w-7xl mt-48 rounded-lg">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
 
                     {/* COLUMN-1 */}
@@ -39,19 +39,19 @@ const Newsletter = () => {
                     {/* COLUMN-2 */}
                     <div className="col-span-5 relative hidden md:block">
                         <div>
-                            <Image src={'/images/Newsletter/soup.svg'} alt="soup-image" width={626} height={602} className='-mt-24' />
+                            <Image src={'/images/Newsletter/equipment.png'} alt="soup-image" width={626} height={602} className='-mt-24' />
                         </div>
                         <div className="absolute top-[78%]">
-                            <Image src={'/images/Newsletter/onion.svg'} alt="onion-image" width={300} height={122} />
+                            {/* <Image src={'/images/Newsletter/clian.png'} alt="onion-image" width={300} height={122} /> */}
                         </div>
                         <div className="absolute top-[30%] right-[-23%] hidden lg:block">
-                            <Image src={'/images/Newsletter/lec.svg'} alt="lettuce-image" width={300} height={122} />
+                            {/* <Image src={'/images/Newsletter/clian.png'} alt="lettuce-image" width={300} height={122} /> */}
                         </div>
                         <div className="absolute bottom-[10%] left-[0%]">
-                            <Image src={'/images/Newsletter/yellow.svg'} alt="yellow-image" width={59} height={59} />
+                            {/* <Image src={'/images/Newsletter/clian.png'} alt="yellow-image" width={59} height={59} /> */}
                         </div>
                         <div className="absolute bottom-[20%] right-[20%]">
-                            <Image src={'/images/Newsletter/blue.svg'} alt="blue-image" width={25} height={25} />
+                            {/* <Image src={'/images/Newsletter/equipment.png'} alt="blue-image" width={75} height={75} /> */}
                         </div>
                     </div>
 

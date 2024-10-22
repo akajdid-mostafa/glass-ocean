@@ -23,7 +23,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
         >
             <section
                 className={
-                    "w-340px max-w-lg left-0 absolute bg-white h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
+                    "w-340px max-w-lg left-0 absolute bg-white  h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
                     (isOpen ? "translate-x-0" : "-translate-x-full")
                 }
             >
@@ -32,9 +32,9 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                     <header className="px-4 py-4 flex items-center justify-between">
 
                         <div className="flex flex-shrink-0 items-center border-right">
-                            <Image src="/images/Logo/Logo.svg" alt="logo" width={36} height={36} />
+                            
                             <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                Chef&apos;s Kitchen.
+                            <Image src="/images/Logo/ocean3.png" alt="logo" width={140} height={36} />
                             </Link>
                         </div>
 

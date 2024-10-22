@@ -79,7 +79,7 @@ const Contactusform = () => {
                                 leaveFrom="opacity-100 scale-100"
                                 leaveTo="opacity-0 scale-95"
                             >
-                                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-transparent  p-6 text-left align-middle shadow-xl transition-all">
 
                                     <div className="py-8 lg:py-8 px-4 mx-auto max-w-screen-md">
                                         <div className="flex flex-shrink-0 items-center justify-center">
@@ -132,7 +132,7 @@ const Contactusform = () => {
                                             <button type="submit"
                                                 onClick={handleClick}
                                                 disabled={isDisabled}
-                                                className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-blue focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+                                                className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-transparent  focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
 
                                         </form>
 

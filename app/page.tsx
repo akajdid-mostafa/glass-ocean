@@ -1,4 +1,4 @@
-import Banner from './components/Banner/index';
+import Hero from './components/Hero/index';
 import Features from './components/Work/index';
 import Cook from './components/Cook/index';
 import Expert from './components/Expert/index';
@@ -10,11 +10,11 @@ import Newsletter from './components/Newsletter/Newsletter';
 export default function Home() {
   return (
     <main>
-      <Banner />
-      <Features />
-      <Cook />
+      <Hero />
+      {/* <Features /> */}
+      {/* <Cook /> */}
       <Expert />
-      <Gallery />
+      {/* <Gallery /> */}
       <Newsletter />
     </main>
   )

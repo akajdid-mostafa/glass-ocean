@@ -16,32 +16,37 @@ const postData: DataType[] = [
     {
         profession: 'Senior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boyone.svg',
+        imgSrc: '/images/Expert/ayoub.png',
     },
     {
         profession: 'Junior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        imgSrc: '/images/Expert/hwara.png',
     },
     {
         profession: 'Junior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boytwo.svg',
+        imgSrc: '/images/Expert/omar.png',
     },
     {
         profession: 'Junior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        imgSrc: '/images/Expert/simo.png',
     },
     {
         profession: 'Junior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        imgSrc: '/images/Expert/team1.png',
     },
     {
         profession: 'Junior Chef',
         name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        imgSrc: '/images/Expert/team2.png',
+    },
+    {
+        profession: 'Junior Chef',
+        name: 'Shoo Thar Mien',
+        imgSrc: '/images/Expert/team3.png',
     },
 ]
 
@@ -95,7 +100,7 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="py-10 sm:py-20 bg-darkpink">
+            <div className="py-10 sm:py-20 bg-gradient-to-br from-blue200 via-Purple200 to-blue300">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">

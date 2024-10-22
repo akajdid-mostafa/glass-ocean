@@ -41,7 +41,7 @@ const Data = () => {
                         ))}
                         <div className="mt-4"></div>
                         <button className='flex justify-center text-base w-full font-medium rounded-full bg-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white'>Sign in</button>
-                        <button className='flex justify-center text-base w-full font-medium rounded-full bg-transparent border border-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white hover:bg-pink'>Contact us</button>
+                        <button className='flex justify-center text-base w-full font-medium rounded-full bg-white border border-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white hover:bg-pink'>Contact us</button>
 
                         {/* <Contactusform /> */}
                     </div>
