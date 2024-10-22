@@ -42,20 +42,16 @@ const cardData: cardDataType[] = [
 
 const Work = () => {
     return (
-
-
         <div>
             <div className='mx-auto max-w-7xl  px-6' id="about-section">
                 <div className='text-center mb-14' >
                     <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                        <h3 className='text-pink text-lg font-normal mb-3 ls-51 uppercase'>Features</h3>
+                        <h3 className='text-lg font-normal mb-3 ls-51 uppercase'>Entreprise de nettoyage</h3>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Get a many of interesting <br /> features.</p>
+                        <p className='text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent'>S&apos;ADAPTER A VOTRE SECTEUR D&apos;ACTIVITE</p>
                     </Fade>
                 </div>
-
-
                 <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
                     <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
@@ -74,8 +70,6 @@ const Work = () => {
                 </div>
             </div>
         </div>
-
     )
 }
-
 export default Work;

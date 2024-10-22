@@ -14,37 +14,37 @@ interface DataType {
 const postData: DataType[] = [
     {
         profession: 'Senior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Aoub lwa3er',
         imgSrc: '/images/Expert/ayoub.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Ayoub lhwari',
         imgSrc: '/images/Expert/hwara.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Omar chi7aja',
         imgSrc: '/images/Expert/omar.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Mohamed Tarast',
         imgSrc: '/images/Expert/simo.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Smehliya ma3reftekch',
         imgSrc: '/images/Expert/team1.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: '7ta nta ma3reftekch',
         imgSrc: '/images/Expert/team2.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
+        name: 'Sme7liya 7ta nta',
         imgSrc: '/images/Expert/team3.png',
     },
 ]
@@ -92,16 +92,15 @@ export default class MultipleItems extends Component {
             ]
         };
         return (
-            <div className="py-10 sm:py-20 bg-white">
-
+            <div className="py-10  bg-white">
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>EXPERT CHEFS</h2>
+                            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Meet The Team</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-                                Let&apos;s meet the expert.
+                            Notre équipe dévouée
                             </h3>
                         </Fade>
                     </div>

@@ -71,7 +71,7 @@ const Navbar = () => {
                             <div className='gap-6 hidden lg:flex'>
                                 <div className='flex items-center gap-2'>
                                     <Image src={'/images/Navbar/phone.svg'} alt="phone-image" width={19} height={19} />
-                                    <p className='text-lg font-medium'>+1(909) 235-9814</p>
+                                    <span className='text-lg font-medium'>+212 704-309787</span>
                                 </div>
                                 {/* <button className='flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-black'>Sign in</button> */}
                             </div>
