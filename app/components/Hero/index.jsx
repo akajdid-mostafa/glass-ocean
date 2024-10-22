@@ -41,10 +41,10 @@ const Banner = () => {
 
                     <div className='col-span-6 flex flex-col justify-center'>
                         <h1 className="text-2xl lg:text-5xl font-semibold mb-5 mt-20 text-white text-center">
-                        Optez pour un nettoyage innovant et engagé
+                            Optez pour un nettoyage innovant et engagé
                         </h1>
                         <p className='text-white lg:text-lg font-normal mb-10 text-center'>
-                        Découvrez des services de nettoyage à la pointe de l'innovation, engagés à offrir des résultats exceptionnels.
+                            Découvrez des services de nettoyage à la pointe de l&#39;innovation, engagés à offrir des résultats exceptionnels.
                         </p>
                         <div className='md:flex align-middle justify-center'>
                             <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6'>
