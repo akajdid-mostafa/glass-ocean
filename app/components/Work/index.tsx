@@ -14,27 +14,27 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: "Menu variations",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        imgSrc: '/images/Features/201.svg',
+        heading: "REACTIVITE",
+        subheading: "Être proche de vous, c’est répondre au plus vite à vos demandes et aux imprévus.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
-        heading: "Cooking warw",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        imgSrc: '/images/Features/202.svg',
+        heading: "PILOTAGE ET QUALITE",
+        subheading: "Nous avons développé pour vous un Espace Client qui centralise le suivi de vos prestations.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
-        heading: "Best chef",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        imgSrc: '/images/Features/203.svg',
+        heading: "INNOVATION",
+        subheading: "Notre comité innovation s'engage à vous proposer des services toujours plus innovants.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/featureFour.svg',
-        heading: "Fast food",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
+        imgSrc: '/images/Features/204.svg',
+        heading: "RSE",
+        subheading: "Les enjeux environnementaux et sociaux font partie intégrante de notre stratégie globale.",
         link: 'Learn more'
     }
 
@@ -59,17 +59,15 @@ const Work = () => {
                     <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
                             <div className='card-b p-8 relative rounded-3xl' key={i}>
-                                <div className='work-img-bg rounded-full flex justify-center absolute top-[-50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]'>
-                                    <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10} />
-                                </div>
-                                <h3 className='text-2xl text-black font-semibold text-center mt-16'>{items.heading}</h3>
+                                <div className='work-img-bg h-32 w-32 rounded-full flex justify-center items-center absolute top-[-50px] left-[50%] transform -translate-x-1/2'>
+                                <Image src={items.imgSrc} alt={items.imgSrc} width={100} height={100} className="object-cover"/></div>
+                                <h3 className='text-2xl bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent font-semibold text-center mt-16'>{items.heading}</h3>
                                 <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
-                                <div className='flex items-center justify-center'>
-                                    <Link href='/'><p className='text-center text-lg font-medium text-pink mt-2 hover-underline'>{items.link}<ChevronRightIcon width={20} height={20} /></p></Link>
-                                </div>
+                                <div className='flex items-center justify-center'><Link href='/'><p className='text-center text-lg font-medium text-blue600 mt-2 hover-underline'>{items.link}<ChevronRightIcon width={20} height={20} /></p></Link></div>
                             </div>
                         ))}
                     </Fade>
+
                 </div>
             </div>
         </div>
