@@ -51,9 +51,11 @@ const Work = () => {
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                         <p className='text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent'>S&apos;ADAPTER A VOTRE SECTEUR D&apos;ACTIVITE</p>
                     </Fade>
-                    <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-lg font-semibold '>Nous sommes spécialisés dans le nettoyage et l&apos;entretien, notamment le nettoyage de façades et de bâtiments hauts, offrant des services de propreté de haute qualité pour tous vos locaux professionnels.</p>
-                    </Fade>
+                    <div className='text-center mt-4 flex justify-center'>
+                        <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
+                            <p className='max-w-5xl text-lg font-semibold'>Nous sommes spécialisés dans le nettoyage et l&apos;entretien, notamment le nettoyage de façades et de bâtiments hauts, offrant des services de propreté de haute qualité pour tous vos locaux professionnels.</p>
+                        </Fade>
+                    </div>
                 </div>
                 <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
                     <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
