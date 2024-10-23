@@ -11,7 +11,7 @@ export default function CleaningServicesLayout() {
             <h2 className="text-3xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">UNE OFFRE SUR-MESURE POUR VOUS</h2>
           </div>
           <p className="text-gray700">
-            <span className="font-semibold">Bénéficiez d'un service de qualité</span> adapté à vos besoins et à votre
+            <span className="font-semibold">Bénéficiez d&apos;un service de qualité</span> adapté à vos besoins et à votre
             budget. Nos prestations de nettoyage sont entièrement personnalisables pour répondre au mieux à vos
             attentes.
           </p>

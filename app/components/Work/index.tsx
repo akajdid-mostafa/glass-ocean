@@ -52,7 +52,7 @@ const Work = () => {
                         <p className='text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent'>S&apos;ADAPTER A VOTRE SECTEUR D&apos;ACTIVITE</p>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-lg font-semibold '>Nous sommes une entreprise spécialisée dans le domaine du nettoyage et de l’entretien, offrant un large éventail de prestations de propreté pour les professionnels. Que ce soit pour vos locaux professionnels, vos copropriétés, vos bureaux ou vos grandes surfaces, nous assurons un service de nettoyage professionnel de haute qualité.</p>
+                        <p className='text-lg font-semibold '>Nous sommes une entreprise spécialisée dans le domaine du nettoyage et de l&apos;entretien, offrant un large éventail de prestations de propreté pour les professionnels. Que ce soit pour vos locaux professionnels, vos copropriétés, vos bureaux ou vos grandes surfaces, nous assurons un service de nettoyage professionnel de haute qualité.</p>
                     </Fade>
                 </div>
                 <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>

@@ -13,6 +13,7 @@ import Link from "next/link";
 import { footerDataEn } from '../locales/en/translation';
 import { footerDataFr } from '../locales/fr/translation';
 import { footerDataAr } from '../locales/ar/translation';
+import Image from 'next/image'; // Add this import
 
 
 const loadClientData = (lang) => {
@@ -104,7 +105,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4">
           <div className="space-y-2 lg:col-span-1">
             <div className="flex items-center space-x-2">
-              <img src="/images/Logo/ocean3.png" alt={footerText.logoAlt} style={{ width: '120px' }} />
+              <Image src="/images/Logo/ocean3.png" alt={footerText.logoAlt} width={36} height={120} />
             </div>
             <p className="text-sm">{footerText.mainDescription}</p>
             <p className="text-sm">{footerText.detailedDescription}</p>

@@ -31,7 +31,7 @@ const Banner = () => {
                 muted
                 playsInline
             >
-                <source src="https://www.deca-proprete.fr/wp-content/uploads/video-deca-proprete.mp4" type="video/mp4" />
+                <source src="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FWhatsApp%20Video%202024-10-23%20at%2017.29.47_9f7bc990.mp4?alt=media&token=034ce728-0a1b-4f59-8ae4-8c87c16ad554" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 

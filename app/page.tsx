@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <Hero />
       <CleaningServicesLayout/>
-      <Features />
+      {/* <Features /> */}
       {/* <Cook /> */}
       <Expert />
       {/* <Gallery /> */}
