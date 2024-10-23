@@ -96,10 +96,10 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Meet The Team</h2>
+                            <h2 className='text-gray700 text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Meet The Team</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                            <h3 className="text-3xl lg:text-5xl font-semibold text-black">
+                            <h3 className="text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
                             Notre équipe dévouée
                             </h3>
                         </Fade>
@@ -111,9 +111,9 @@ export default class MultipleItems extends Component {
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
-                                        <div className="absolute top-[50%] right-[2%]">
+                                        {/* <div className="absolute top-[50%] right-[2%]">
                                             <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
                                     <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
