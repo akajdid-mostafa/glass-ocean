@@ -13,9 +13,9 @@ export default function Home() {
       <Hero />
       <CleaningServicesLayout/>
       <Features />
-      <Cook />
+      {/* <Cook /> */}
       <Expert />
-      <Gallery />
+      {/* <Gallery /> */}
       <Newsletter />
     </main>
   )

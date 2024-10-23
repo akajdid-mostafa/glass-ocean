@@ -52,7 +52,7 @@ const Work = () => {
                         <p className='text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent'>S&apos;ADAPTER A VOTRE SECTEUR D&apos;ACTIVITE</p>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-lg font-semibold '>Nous sommes une entreprise spécialisée dans le domaine du nettoyage et de l&apos;entretien, offrant un large éventail de prestations de propreté pour les professionnels. Que ce soit pour vos locaux professionnels, vos copropriétés, vos bureaux ou vos grandes surfaces, nous assurons un service de nettoyage professionnel de haute qualité.</p>
+                        <p className='text-lg font-semibold '>Nous sommes spécialisés dans le nettoyage et l&apos;entretien, notamment le nettoyage de façades et de bâtiments hauts, offrant des services de propreté de haute qualité pour tous vos locaux professionnels.</p>
                     </Fade>
                 </div>
                 <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
@@ -63,7 +63,13 @@ const Work = () => {
                                 <Image src={items.imgSrc} alt={items.imgSrc} width={100} height={100} className="object-cover"/></div>
                                 <h3 className='text-2xl bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent font-semibold text-center mt-16'>{items.heading}</h3>
                                 <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
-                                <div className='flex items-center justify-center'><Link href='/'><p className='text-center text-lg font-medium text-blue600 mt-2 hover-underline'>{items.link}<ChevronRightIcon width={20} height={20} /></p></Link></div>
+                                <div className='flex items-center justify-center'>
+                                    <Link href='/'>
+                                    <p className=' bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-medium  mt-2 hover-underline'>{items.link}
+                                        <ChevronRightIcon width={20} height={20} />
+                                    </p>
+                                    </Link>
+                                </div>
                             </div>
                         ))}
                     </Fade>
