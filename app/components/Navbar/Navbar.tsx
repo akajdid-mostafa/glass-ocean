@@ -14,10 +14,11 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/#home-section', current: false },
+    { name: 'Get Devis', href: '/devis', current: false },
     { name: 'About us', href: '/#about-section', current: false },
     { name: 'Recipe', href: '/#cook-section', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
-    { name: 'Devis', href: '/devis', current: false },
+
 ]
 
 function classNames(...classes: string[]) {
@@ -34,31 +35,28 @@ const Navbar = () => {
                 <div className="mx-auto max-w-7xl p-3 md:p-6 lg:px-8">
                     <div className="relative flex h-16 sm:h-12 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
-
                             {/* LOGO */}
-
                             <div className="flex sm:hidden flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                <Image src="/images/Logo/ocean3.png" alt="logo" width={150} height={46}  />
+                                    <Image src="/images/Logo/ocean3.png" alt="logo" width={150} height={46} />
                                 </Link>
                             </div>
                             <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                <Image src="/images/Logo/ocean3.png" alt="logo" width={140} height={36} />
+                                    <Image src="/images/Logo/ocean3.png" alt="logo" width={140} height={36} />
                                 </Link>
                             </div>
-
                             {/* LINKS */}
-
                             <div className="hidden lg:flex items-center border-right ">
-                                <div className="flex justify-end space-x-4">
+                                <div className="flex justify-end  space-x-4">
                                     {navigation.map((item) => (
                                         <Link
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                                item.current ? 'bg-black' : 'navlinks hover:opacity-100',
-                                                'px-3 py-4 rounded-md text-lg font-normal opacity-50 hover:text-black space-links'
+                                                item.name === 'Get Devis'
+                                                    ? 'bg-gradient-to-r from-blue600 to-red600 text-white px-3 py-2  rounded-xl font-bold  space-links'
+                                                    : 'navlinks hover:opacity-100 px-3 py-2 rounded-md text-lg font-normal opacity-50 hover:text-black space-links'
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >
@@ -66,7 +64,6 @@ const Navbar = () => {
                                         </Link>
                                     ))}
                                 </div>
-
                             </div>
                             <div className='gap-6 hidden lg:flex'>
                                 <div className='flex items-center gap-2'>
