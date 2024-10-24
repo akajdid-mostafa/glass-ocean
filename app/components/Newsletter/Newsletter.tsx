@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const Newsletter = () => {
     return (
         <div className='relative'>
-            <div className="mx-auto max-w-2xl bg-gradient-to-r from-blue600 to-red600 br-50 md:max-w-7xl mt-48 rounded-lg">
+            <div className="mx-auto max-w-2xl bg-gradient-to-r from-blue600 to-red600 br-50 md:max-w-7xl mt-30 rounded-lg">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
 
                     {/* COLUMN-1 */}

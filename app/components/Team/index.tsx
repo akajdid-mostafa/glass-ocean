@@ -9,36 +9,42 @@ interface DataType {
     name: string;
     imgSrc: string;
     socialLinks: {
-        linkedin?: string;
         facebook?: string;
+        insta?: string;
         twitter?: string;
         // Add more social platforms as needed
     };
 }
+interface socialLinksType {
+    platform: string;
+    imgSrc: string;
+    width: number;
+}
 
-// interface imagesvg {
-//     linkedin: string;
-//     facebook: string;
-//     twitter: string;
-// }
-
-// const imagesvg: imagesvg [] = [
-//     {
-//         facebook: '/images/Footer/facebook.svg',
-//         twitter: '/images/Footer/insta.svg',
-//         linkedin: '/images/Footer/twitter.svg',
-//     }
-
-
-// ]
-
+const socialLinks: socialLinksType[] = [
+    {
+        platform: 'facebook',
+        imgSrc: '/images/Footer/facebook.svg',
+        width: 10
+    },
+    {
+        platform: 'insta',
+        imgSrc: '/images/Footer/insta.svg',
+        width: 14
+    },
+    {
+        platform: 'twitter',
+        imgSrc: '/images/Footer/twitter.svg',
+        width: 14
+    }
+];
 const postData: DataType[] = [
     {
         name: 'Ayoub Id Bounid',
         imgSrc: '/images/Expert/ayoub.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/ayoub-id-bounid',
+            insta: 'https://www.instagram.com/in/ayoub-id-bounid',
             twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
         },
     },
@@ -46,54 +52,54 @@ const postData: DataType[] = [
         name: 'Ayoub Salim',
         imgSrc: '/images/Expert/hwara.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/ayoub-salim',
+            insta: 'https://www.instagram.com/in/ayoub-salim',
+            twitter: 'https://www.linkedin.com/in/ayoub-salim',
         },
     },
     {
         name: 'Omar Taghratine',
         imgSrc: '/images/Expert/omar.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/omar-taghratine',
+            insta: 'https://www.instagram.com/in/omar-taghratine',
+            twitter: 'https://www.linkedin.com/in/omar-taghratine',
         },
     },
     {
         name: 'Mohamed Touhmou',
         imgSrc: '/images/Expert/simo.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/mohamed-touhmou',
+            insta: 'https://www.instagram.com/in/mohamed-touhmou',
+            twitter: 'https://www.linkedin.com/in/mohamed-touhmou',
         },
     },
     {
         name: 'Ismail Azouka',
         imgSrc: '/images/Expert/team1.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/ismail-azouka',
+            insta: 'https://www.instagram.com/in/ismail-azouka',
+            twitter: 'https://www.linkedin.com/in/ismail-azouka',
         },
     },
     {
         name: 'Mohamed Adrdour',
         imgSrc: '/images/Expert/team2.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/mohamed-adrdour',
+            insta: 'https://www.instagram.com/in/mohamed-adrdour',
+            twitter: 'https://www.linkedin.com/in/mohamed-adrdour',
         },
     },
     {
         name: 'Abdellah Duchbok',
         imgSrc: '/images/Expert/team3.png',
         socialLinks: {
-            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
-            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.facebook.com/in/abdellah-duchok',
+            insta: 'https://www.instagram.com/in/abdellah-duchok',
+            twitter: 'https://www.linkedin.com/in/abdellah-duchok',
         },
     },
 ];
@@ -160,42 +166,46 @@ export default class MultipleItems extends Component {
 
         return (
             <div className="py-10 bg-white">
-                <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
+                <div className="mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8">
                     <div className="text-center">
-                        <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-gray700 text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Meet The Team</h2>
+                        <Fade direction={"up"} delay={400} cascade damping={1e-1} triggerOnce={true}>
+                            <h2 className="text-gray700 text-lg font-normal mb-3 tracking-widest uppercase ls-51">
+                                Meet The Team
+                            </h2>
                         </Fade>
-                        <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
+                        <Fade direction={"up"} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
                                 Notre équipe dévouée
                             </h3>
                         </Fade>
                     </div>
                     <Slider ref={this.sliderRef} {...settings}>
-                        {postData.map((items, i) => (
+                        {postData.map((post, i) => (
                             <div key={i} onClick={this.handleSlideClick}>
-                                <div className='m-3 py-14 my-10 text-center'>
+                                <div className="m-3 py-14 my-10 text-center">
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt={items.name} width={362} height={262} className="inline-block m-auto" />
-                                        <Link href="/Devis">
-                                            <div className="absolute top-[50%] right-[2%]">
-                                                <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={20} height={20} />
-                                            </div>
-                                        </Link>
+                                        <Image src={post.imgSrc} alt={post.name} width={362} height={262} className="inline-block m-auto" />
                                     </div>
-                                    <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
-                                    <div className='flex gap-4'>
-                                        <div className="flex items-center justify-center space-x-2">
-                                            <Link href='#'>
-                                                <Image src="/images/Footer/facebook.svg" alt="Facebook" width={14} height={14} className="sepiaa" />
-                                            </Link>
-                                            <Link href='#'>
-                                                <Image src="/images/Footer/insta.svg" alt="Instagram" width={14} height={14} className="sepiaa" />
-                                            </Link>
-                                            <Link href='#'>
-                                                <Image src="/images/Footer/twitter.svg" alt="Twitter" width={14} height={14} className="sepiaa" />
-                                            </Link>
-                                        </div>
+                                    <h3 className="text-2xl font-semibold mt-2 text-lightblack">{post.name}</h3>
+                                    <div className="flex gap-4 mt-4 items-center justify-center">
+                                        {socialLinks.map((item, i) => {
+                                            const socialUrl = post.socialLinks[item.platform as keyof typeof post.socialLinks];
+                                            return (
+                                                socialUrl && (
+                                                    <Link href={socialUrl} key={i}>
+                                                        <div className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-pink">
+                                                            <Image
+                                                                src={item.imgSrc}
+                                                                alt={item.platform}
+                                                                width={item.width}
+                                                                height={2}
+                                                                className="sepiaa"
+                                                            />
+                                                        </div>
+                                                    </Link>
+                                                )
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </div>
