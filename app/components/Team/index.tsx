@@ -14,37 +14,37 @@ interface DataType {
 const postData: DataType[] = [
     {
         profession: 'Senior Chef',
-        name: 'Aoub lwa3er',
+        name: 'Ayoub Id Bounid',
         imgSrc: '/images/Expert/ayoub.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Ayoub lhwari',
+        name: 'Ayoub Salim',
         imgSrc: '/images/Expert/hwara.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Omar chi7aja',
+        name: 'Omar Taghratine',
         imgSrc: '/images/Expert/omar.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Mohamed Tarast',
+        name: 'Mohamed Touhmou',
         imgSrc: '/images/Expert/simo.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Smehliya ma3reftekch',
+        name: 'Ismail Azouka',
         imgSrc: '/images/Expert/team1.png',
     },
     {
         profession: 'Junior Chef',
-        name: '7ta nta ma3reftekch',
+        name: 'Mohamed Adrdour',
         imgSrc: '/images/Expert/team2.png',
     },
     {
         profession: 'Junior Chef',
-        name: 'Sme7liya 7ta nta',
+        name: 'Abdellah Duchbok',
         imgSrc: '/images/Expert/team3.png',
     },
 ];

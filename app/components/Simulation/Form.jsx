@@ -16,6 +16,8 @@ export default function TwoStageForm() {
         message: ''
     });
 
+    const [showModal, setShowModal] = useState(false); // Modal visibility state
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prev => ({ ...prev, [name]: value }));
@@ -29,8 +31,26 @@ export default function TwoStageForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
-        // You can replace this with an API call to send the form data
+        // Simulate successful form submission
+
+        // Clear the form
+        setFormData({
+            nameEntreprise: '',
+            etage: '',
+            surface: '',
+            ville: '',
+            phone: '',
+            nom: '',
+            email: '',
+            adresse: '',
+            codePostal: '',
+            message: ''
+        });
+
+        // Show the modal
+        setShowModal(true);
     };
+
 
     return (
         <>
@@ -170,6 +190,21 @@ export default function TwoStageForm() {
                         </button>
                     </div>
                 </form>
+                {/* Modal */}
+                {showModal && (
+                    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800 bg-opacity-75">
+                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                            <h2 className="text-xl font-semibold mb-4">Simulation Submitted</h2>
+                            <p>Your request has been successfully submitted.</p>
+                            <button
+                                onClick={() => setShowModal(false)} // Close modal
+                                className="mt-4 bg-blue600 text-white py-2 px-4 rounded-lg hover:bg-blue700"
+                            >
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
         </>
     );
