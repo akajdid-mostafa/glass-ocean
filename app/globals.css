@@ -114,4 +114,10 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 
+.slider-container {
+  overflow: hidden; /* Prevents content from overflowing the slider */
+}

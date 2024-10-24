@@ -37,8 +37,7 @@ const Banner = () => {
 
             {/* Overlay content */}
             <div className="relative bg-opacity-70" style={{ background: 'rgba(0, 0, 0, 0.4)' }}>
-                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[800px] flex justify-center items-center">
-
+                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[600px] flex justify-center items-center">
                     <div className='col-span-6 flex flex-col justify-center'>
                         <h1 className="text-2xl lg:text-5xl font-semibold mb-5 mt-20 text-white text-center">
                             Optez pour un nettoyage innovant et engagé
