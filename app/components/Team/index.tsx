@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import Slider from "react-slick";
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
-
 
 interface DataType {
     profession: string;
@@ -47,20 +47,32 @@ const postData: DataType[] = [
         name: 'Sme7liya 7ta nta',
         imgSrc: '/images/Expert/team3.png',
     },
-]
+];
 
 export default class MultipleItems extends Component {
+    sliderRef = createRef<Slider>();
+
+    handleSlideClick = () => {
+        if (this.sliderRef.current) {
+            this.sliderRef.current?.slickPause();
+            setTimeout(() => {
+                this.sliderRef.current?.slickPlay(); 
+            }, 2000);
+        }
+    };
+
     render() {
         const settings = {
             dots: false,
             infinite: true,
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 4,
             arrows: true,
-            autoplay: true,  // Enable auto-scrolling
-            speed: 3000,
-            autoplaySpeed: 2000,
+            autoplay: true,  
+            speed: 6000,   
+            autoplaySpeed: 2000, 
             cssEase: "linear",
+            pauseOnHover: false, 
             responsive: [
                 {
                     breakpoint: 1200,
@@ -91,8 +103,9 @@ export default class MultipleItems extends Component {
                 }
             ]
         };
+
         return (
-            <div className="py-10  bg-white">
+            <div className="py-10 bg-white">
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
@@ -100,19 +113,21 @@ export default class MultipleItems extends Component {
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-                            Notre équipe dévouée
+                                Notre équipe dévouée
                             </h3>
                         </Fade>
                     </div>
-                    <Slider {...settings}>
+                    <Slider ref={this.sliderRef} {...settings}>
                         {postData.map((items, i) => (
-                            <div key={i}>
+                            <div key={i} onClick={this.handleSlideClick}>
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
-                                        {/* <div className="absolute top-[50%] right-[2%]">
-                                            <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
-                                        </div> */}
+                                        <Image src={items.imgSrc} alt={items.name} width={362} height={262} className="inline-block m-auto" />
+                                        <Link href="/Devis">
+                                            <div className="absolute top-[50%] right-[2%]">
+                                                <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={20} height={20} />
+                                            </div>
+                                        </Link>
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
                                     <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
