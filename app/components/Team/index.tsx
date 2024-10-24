@@ -54,19 +54,19 @@ export default class MultipleItems extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
-            arrows: false,
-            autoplay: false,
-            speed: 4000,
+            arrows: true,
+            autoplay: true,  // Enable auto-scrolling
+            speed: 3000,
             autoplaySpeed: 2000,
             cssEase: "linear",
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: false
                     }
@@ -74,8 +74,8 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 800,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: false
                     }
@@ -104,16 +104,15 @@ export default class MultipleItems extends Component {
                             </h3>
                         </Fade>
                     </div>
-
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
-                                        {/* <div className="absolute top-[50%] right-[2%]">
+                                        <div className="absolute top-[50%] right-[2%]">
                                             <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
-                                        </div> */}
+                                        </div>
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
                                     <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
@@ -121,10 +120,8 @@ export default class MultipleItems extends Component {
                             </div>
                         ))}
                     </Slider>
-
                 </div>
             </div>
-
         );
     }
 }
