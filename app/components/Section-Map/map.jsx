@@ -28,7 +28,7 @@ export default function MoroccoMap() {
             Société de nettoyage dans votre région
           </h2>
           <p className="text-gray700 mb-8">
-            Pour répondre à vos besoins de propreté avec une approche sur mesure, nous mettons un point d'honneur à rester à vos côtés où que vous soyez au Maroc. Avec notre réseau d'entreprises de nettoyage, nous couvrons l'ensemble du territoire, de Tanger à Laâyoune, en passant par Casablanca, Rabat et Marrakech.
+            Pour répondre à vos besoins de propreté avec une approche sur mesure, nous mettons un point d&apos;honneur à rester à vos côtés où que vous soyez au Maroc. Avec notre réseau d&apos;entreprises de nettoyage, nous couvrons l&apos;ensemble du territoire, de Tanger à Laâyoune, en passant par Casablanca, Rabat et Marrakech.
           </p>
           <button className="w-full lg:w-auto hover:bg-gray700 bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
             Discover the cities we are available in
