@@ -1,6 +1,6 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
-import Footer from './components/Footer/index';
+import Footer from './components/Footer/Footer';
 
 export const metadata = {
   title: 'Ocean Glass',

@@ -6,46 +6,95 @@ import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 
 interface DataType {
-    profession: string;
     name: string;
     imgSrc: string;
+    socialLinks: {
+        linkedin?: string;
+        facebook?: string;
+        twitter?: string;
+        // Add more social platforms as needed
+    };
 }
+
+// interface imagesvg {
+//     linkedin: string;
+//     facebook: string;
+//     twitter: string;
+// }
+
+// const imagesvg: imagesvg [] = [
+//     {
+//         facebook: '/images/Footer/facebook.svg',
+//         twitter: '/images/Footer/insta.svg',
+//         linkedin: '/images/Footer/twitter.svg',
+//     }
+
+
+// ]
 
 const postData: DataType[] = [
     {
-        profession: 'Senior Chef',
         name: 'Ayoub Id Bounid',
         imgSrc: '/images/Expert/ayoub.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Ayoub Salim',
         imgSrc: '/images/Expert/hwara.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Omar Taghratine',
         imgSrc: '/images/Expert/omar.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Mohamed Touhmou',
         imgSrc: '/images/Expert/simo.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Ismail Azouka',
         imgSrc: '/images/Expert/team1.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Mohamed Adrdour',
         imgSrc: '/images/Expert/team2.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
     {
-        profession: 'Junior Chef',
         name: 'Abdellah Duchbok',
         imgSrc: '/images/Expert/team3.png',
+        socialLinks: {
+            linkedin: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            facebook: 'https://www.linkedin.com/in/ayoub-id-bounid',
+            twitter: 'https://www.linkedin.com/in/ayoub-id-bounid',
+        },
     },
 ];
 
@@ -54,10 +103,14 @@ export default class MultipleItems extends Component {
 
     handleSlideClick = () => {
         if (this.sliderRef.current) {
-            this.sliderRef.current?.slickPause();
-            setTimeout(() => {
-                this.sliderRef.current?.slickPlay(); 
-            }, 2000);
+            if (this.sliderRef.current) {
+                this.sliderRef.current.slickPause();
+                setTimeout(() => {
+                    if (this.sliderRef.current) {
+                        this.sliderRef.current.slickPlay();
+                    }
+                }, 2000);
+            }
         }
     };
 
@@ -66,13 +119,14 @@ export default class MultipleItems extends Component {
             dots: false,
             infinite: true,
             slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToScroll: 1,
             arrows: true,
-            autoplay: true,  
-            speed: 6000,   
-            autoplaySpeed: 2000, 
+            autoplay: true,
+            speed: 2000,
+            autoplaySpeed: 1000,
             cssEase: "linear",
-            pauseOnHover: false, 
+            pauseOnHover: true, // Change to true to pause on hover
+            draggable: true, // Allow dragging to scroll
             responsive: [
                 {
                     breakpoint: 1200,
@@ -130,7 +184,19 @@ export default class MultipleItems extends Component {
                                         </Link>
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
-                                    <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
+                                    <div className='flex gap-4'>
+                                        <div className="flex items-center justify-center space-x-2">
+                                            <Link href='#'>
+                                                <Image src="/images/Footer/facebook.svg" alt="Facebook" width={14} height={14} className="sepiaa" />
+                                            </Link>
+                                            <Link href='#'>
+                                                <Image src="/images/Footer/insta.svg" alt="Instagram" width={14} height={14} className="sepiaa" />
+                                            </Link>
+                                            <Link href='#'>
+                                                <Image src="/images/Footer/twitter.svg" alt="Twitter" width={14} height={14} className="sepiaa" />
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         ))}
