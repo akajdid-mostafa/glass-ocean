@@ -66,7 +66,10 @@ html:not([data-scroll="0"]) .navbar {
 .hover-underline {
   display: inline-flex;
   position: relative;
-  color: #DF6751;
+  color: transparent; /* Make text transparent */
+  background: linear-gradient(to right, #1D4ED8, #EF4444); /* Gradient from blue to red */
+  background-clip: text; /* Clip the background to text */
+  -webkit-background-clip: text; /* Webkit support */
   justify-content: center;
   align-items: center;
 }
@@ -76,10 +79,10 @@ html:not([data-scroll="0"]) .navbar {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 1px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #DF6751;
+  background: linear-gradient(to right, #1D4ED8, #EF4444); /* Gradient from blue to red */
   transform-origin: bottom right;
   transition: transform .25s ease-out;
 }
@@ -88,6 +91,7 @@ html:not([data-scroll="0"]) .navbar {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 
 .w-340px {
   width: 340px;

@@ -5,6 +5,7 @@ import Expert from './components/Expert/index';
 import Gallery from './components/Gallery/index';
 import Newsletter from './components/Newsletter/Newsletter';
 import CleaningServicesLayout from './components/Service/service';
+import SectionMap from './components/Section-Map/map';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <CleaningServicesLayout/>
       <Features />
+      <SectionMap/>
       {/* <Cook /> */}
       <Expert />
       {/* <Gallery /> */}

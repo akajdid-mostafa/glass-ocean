@@ -57,7 +57,7 @@ const Work = () => {
                         </Fade>
                     </div>
                 </div>
-                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32 mb-20'>
                     <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
                             <div className='card-b p-8 relative rounded-3xl' key={i}>
@@ -67,15 +67,14 @@ const Work = () => {
                                 <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
                                 <div className='flex items-center justify-center'>
                                     <Link href='/'>
-                                    <p className=' bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-medium  mt-2 hover-underline'>{items.link}
-                                        <ChevronRightIcon width={20} height={20} />
+                                    <p className=' bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-bold  mt-2 hover-underline'>{items.link}
+                                        <ChevronRightIcon className='text-red600 font-bold'  width={20} height={20} />
                                     </p>
                                     </Link>
                                 </div>
                             </div>
                         ))}
                     </Fade>
-
                 </div>
             </div>
         </div>

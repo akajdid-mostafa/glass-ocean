@@ -25,7 +25,8 @@ export default function CleaningServicesLayout() {
             ].map((item, index) => (
               <li key={index} className="flex items-center space-x-2">
                 {/* Commented out icon for testing */}
-                <FaCheese className="text-blue500 flex-shrink-0" />
+                {/* <FaCheese className="bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent flex-shrink-0" /> */}
+                <Image src={'/Icon/svgrepo.svg'} alt="phone-image" width={20} height={20} />
                 <span className="text-gray700">{item}</span>
               </li>
             ))}
