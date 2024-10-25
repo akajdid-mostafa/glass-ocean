@@ -6,7 +6,7 @@ import Gallery from './components/Gallery/index';
 import Newsletter from './components/Newsletter/Newsletter';
 import CleaningServicesLayout from './components/Service/service';
 import SectionMap from './components/Section-Map/map';
-
+import VideoPopup from './components/YouTube/index';
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <CleaningServicesLayout/>
       <Features />
       <SectionMap/>
+      <VideoPopup/>
       {/* <Cook /> */}
       <Expert />
       {/* <Gallery /> */}
