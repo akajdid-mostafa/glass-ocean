@@ -12,7 +12,7 @@ const navigation: NavigationItem[] = [
     { name: 'About us', href: '/#about-section', current: false },
     { name: 'Recipe', href: '/#cook-section', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
-    { name: 'Devis', href: '/devis', current: false },
+    { name: 'Devis', href: '/Devis', current: false },
 ]
 
 
