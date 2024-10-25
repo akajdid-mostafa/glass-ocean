@@ -1,29 +1,45 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function TwoStageForm() {
     const [formData, setFormData] = useState({
         nameEntreprise: '',
         etage: '',
-        surface: '',
+        surfaceId: '',
         ville: '',
         phone: '',
-        nom: '',
+        namePersone: '',
         email: '',
-        adresse: '',
-        codePostal: '',
-        message: ''
+        Adress: '',
+        codePostall: '',
+        message: '',
+        status: 'PENDING',
     });
+    const [surfaceOptions, setSurfaceOptions] = useState([]);
+    const [showModal, setShowModal] = useState(false);
 
-    const [showModal, setShowModal] = useState(false); // Modal visibility state
+    useEffect(() => {
+        const fetchSurfaceOptions = async () => {
+            try {
+                const response = await fetch('https://ocean-dashbord.vercel.app/api/surface');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log("Fetched data:", data); // Log data to verify
+                setSurfaceOptions(data);
+            } catch (error) {
+                console.error('Error fetching surface options:', error);
+            }
+        };
+    
+        fetchSurfaceOptions();
+    }, []);
+    
+    
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prev => ({ ...prev, [name]: value }));
-    };
-
-    const handleSelectChange = (e) => {
         const { name, value } = e.target;
         setFormData(prev => ({ ...prev, [name]: value }));
     };
@@ -31,27 +47,25 @@ export default function TwoStageForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
-        // Simulate successful form submission
 
         // Clear the form
         setFormData({
             nameEntreprise: '',
             etage: '',
-            surface: '',
+            surfaceId: '',
             ville: '',
             phone: '',
-            nom: '',
+            namePersone: '',
             email: '',
-            adresse: '',
-            codePostal: '',
-            message: ''
+            Adress: '',
+            codePostall: '',
+            message: '',
+            status: 'PENDING',
         });
 
         // Show the modal
         setShowModal(true);
     };
-
-
     return (
         <>
             <div className='mx-auto max-w-xs lg:max-w-7xl sm:py-4 lg:px-8'>
@@ -82,21 +96,21 @@ export default function TwoStageForm() {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="surface" className="block text-sm font-medium text-gray700">Surface</label>
+                                <label htmlFor="surfaceId" className="block text-sm font-medium text-gray700">Surface</label>
                                 <select
-                                    id="surface"
-                                    name="surface"
-                                    value={formData.surface}
-                                    onChange={handleSelectChange}
+                                    id="surfaceId"
+                                    name="surfaceId"
+                                    value={formData.surfaceId}
+                                    onChange={handleChange}
                                     required
-                                    className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
+                                    className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                                 >
                                     <option value="" disabled>Sélectionnez la surface</option>
-                                    <option value="1">S &lt; 50m²</option>
-                                    <option value="2">50m² &lt; S &lt; 150m²</option>
-                                    <option value="3">150m² &lt; S &lt; 250m²</option>
-                                    <option value="4">250m² &lt; S &lt; 500m²</option>
-                                    <option value="5">S &gt; 500m²</option>
+                                    {surfaceOptions.map((option) => (
+                                        <option key={option.id} value={option.id}>
+                                            {option.valeur}
+                                        </option>
+                                    ))}
                                 </select>
                             </div>
                             <div>
@@ -124,11 +138,11 @@ export default function TwoStageForm() {
                         </div>
                         <div className="space-y-4 md:w-1/2">
                             <div>
-                                <label htmlFor="nom" className="block text-sm font-medium text-gray700">Nom</label>
+                                <label htmlFor="namePersone" className="block text-sm font-medium text-gray700">Nom</label>
                                 <input
-                                    id="nom"
-                                    name="nom"
-                                    value={formData.nom}
+                                    id="namePersone"
+                                    name="namePersone"
+                                    value={formData.namePersone}
                                     onChange={handleChange}
                                     required
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
@@ -147,22 +161,22 @@ export default function TwoStageForm() {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="adresse" className="block text-sm font-medium text-gray700">Adresse</label>
+                                <label htmlFor="Adress" className="block text-sm font-medium text-gray700">Adresse</label>
                                 <input
-                                    id="adresse"
-                                    name="adresse"
-                                    value={formData.adresse}
+                                    id="Adress"
+                                    name="Adress"
+                                    value={formData.Adress}
                                     onChange={handleChange}
                                     required
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="codePostal" className="block text-sm font-medium text-gray700">Code Postal</label>
+                                <label htmlFor="codePostall" className="block text-sm font-medium text-gray700">Code Postal</label>
                                 <input
-                                    id="codePostal"
-                                    name="codePostal"
-                                    value={formData.codePostal}
+                                    id="codePostall"
+                                    name="codePostall"
+                                    value={formData.codePostall}
                                     onChange={handleChange}
                                     required
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"

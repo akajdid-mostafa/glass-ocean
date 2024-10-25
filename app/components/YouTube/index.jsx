@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Play } from 'lucide-react';
+import { Fade } from 'react-awesome-reveal';
 
 export default function VideoPopup() {
     const [isVideoVisible, setIsVideoVisible] = useState(false);
@@ -28,15 +29,17 @@ export default function VideoPopup() {
                 <div className="absolute w-32 h-32 bg-gradient-to-r from-blue600 to-red600 rounded-full top-40 right-60 opacity-40 animate-ping"></div>
 
                 <div className="max-w-3xl w-full space-y-8 relative">
-                    <div className="text-center space-y-2">
-                        <p className="text-md font-bold">Short Intro Video</p>
-                        <h1 className="text-5xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-                            Built Exclusively For You
-                        </h1>
-                        <p className="text-lg text-gray-700 max-w-xl mx-auto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
+                    <Fade direction="up" delay={400} triggerOnce>
+                        <div className="text-center space-y-2">
+                            <p className="text-md font-bold">Short Intro Video</p>
+                            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
+                                Built Exclusively For You
+                            </h1>
+                            <p className="text-lg text-gray-700 max-w-xl mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </Fade>
                     <div className="relative group">
                         {!isVideoVisible ? (
                             <>
