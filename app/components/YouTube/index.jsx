@@ -43,20 +43,26 @@ export default function VideoPopup() {
                     <div className="relative group">
                         {!isVideoVisible ? (
                             <>
-                                <img
-                                    src="images/YouTube/youtube.jpg?height=400&width=800px"
-                                    alt="Dog looking out of a car window"
-                                    className="w-full h-auto rounded-xl shadow-lg"
-                                />
+                                <Fade direction={'up'} delay={400} triggerOnce={true}>
+                                    <img
+                                        src="images/YouTube/youtube.jpg?height=400&width=800px"
+                                        alt="Dog looking out of a car window"
+                                        className="w-full h-auto rounded-xl shadow-lg"
+                                    />
+                                </Fade>
+
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <button
-                                        onClick={() => setIsVideoVisible(true)}
-                                        className="rounded-full w-16 h-16 bg-gradient-to-r from-blue600 to-red600 bg-opacity-75 hover:bg-opacity-100 transition-all duration-300 group-hover:scale-110 flex items-center justify-center animate-pulse"
-                                        aria-label="Play video"
-                                    >
-                                        <Play className="w-8 h-8 text-white" />
-                                    </button>
+                                    <Fade direction={'up'} delay={400} triggerOnce={true}>
+                                        <button
+                                            onClick={() => setIsVideoVisible(true)}
+                                            className="rounded-full w-16 h-16 bg-gradient-to-r from-blue600 to-red600 bg-opacity-75 hover:bg-opacity-100 transition-all duration-300 group-hover:scale-110 flex items-center justify-center animate-pulse"
+                                            aria-label="Play video"
+                                        >
+                                            <Play className="w-8 h-8 text-white" />
+                                        </button>
+                                    </Fade>
                                 </div>
+
                             </>
                         ) : (
                             <iframe
