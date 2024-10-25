@@ -14,30 +14,29 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/images/Features/201.svg',
-        heading: "REACTIVITE",
-        subheading: "Être proche de vous, c’est répondre au plus vite à vos demandes et aux imprévus.",
+        imgSrc: '/images/Features/301.png',
+        heading: "Inclusion",
+        subheading: "Service inclusif, respectueux de la diversité pour un environnement harmonieux.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/202.svg',
-        heading: "PILOTAGE ET QUALITE",
-        subheading: "Nous avons développé pour vous un Espace Client qui centralise le suivi de vos prestations.",
+        imgSrc: '/images/Features/302.png',
+        heading: "Professionnels",
+        subheading: "Équipe formée et certifiée pour un service de haute qualité.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/203.svg',
-        heading: "INNOVATION",
-        subheading: "Notre comité innovation s'engage à vous proposer des services toujours plus innovants.",
+        imgSrc: '/images/Features/303.png',
+        heading: "Adaptabilité",
+        subheading: "Horaires flexibles pour répondre à vos besoins spécifiques.",
         link: 'Learn more'
     },
     {
-        imgSrc: '/images/Features/204.svg',
-        heading: "RSE",
-        subheading: "Les enjeux environnementaux et sociaux font partie intégrante de notre stratégie globale.",
+        imgSrc: '/images/Features/304.png',
+        heading: "Continuité",
+        subheading: "Service continu et fiable pour des espaces toujours impeccables.",
         link: 'Learn more'
     }
-
 ]
 
 const Work = () => {

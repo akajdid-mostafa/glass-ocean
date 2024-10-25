@@ -13,8 +13,8 @@ export default function Home() {
     <main>
       <Hero />
       <CleaningServicesLayout/>
-      <Features />
       <SectionMap/>
+      <Features />
       <VideoPopup/>
       {/* <Cook /> */}
       <Expert />
