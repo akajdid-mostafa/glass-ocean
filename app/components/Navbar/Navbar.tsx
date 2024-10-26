@@ -18,7 +18,6 @@ const navigation: NavigationItem[] = [
     { name: 'About us', href: '/#about-section', current: false },
     { name: 'Recipe', href: '/#cook-section', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
-
 ]
 
 function classNames(...classes: string[]) {
@@ -35,7 +34,6 @@ const Navbar = () => {
                 <div className="mx-auto max-w-7xl p-3 md:p-6 lg:px-8">
                     <div className="relative flex h-16 sm:h-12 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
-                            {/* LOGO */}
                             <div className="flex sm:hidden flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
                                     <Image src="/images/Logo/ocean3.png" alt="logo" width={150} height={46} />
@@ -46,7 +44,6 @@ const Navbar = () => {
                                     <Image src="/images/Logo/ocean3.png" alt="logo" width={140} height={36} />
                                 </Link>
                             </div>
-                            {/* LINKS */}
                             <div className="hidden lg:flex items-center border-right ">
                                 <div className="flex justify-end  space-x-4">
                                     {navigation.map((item) => (
@@ -70,24 +67,14 @@ const Navbar = () => {
                                     <Image src={'/images/Navbar/phone.svg'} alt="phone-image" width={19} height={19} />
                                     <span className='text-lg font-medium'>+212 704-309787</span>
                                 </div>
-                                {/* <button className='flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-black'>Sign in</button> */}
                             </div>
                         </div>
-
-                        {/* DRAWER FOR MOBILE VIEW */}
-
-                        {/* DRAWER ICON */}
-
                         <div className='block lg:hidden'>
                             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
-
-                        {/* DRAWER LINKS DATA */}
-
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                             <Drawerdata />
                         </Drawer>
-
                     </div>
                 </div>
             </>

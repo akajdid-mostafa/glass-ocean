@@ -27,7 +27,7 @@ export default function TwoStageForm() {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                console.log("Fetched data:", data); // Log data to verify
+                console.log("Fetched data:", data); 
                 setSurfaceOptions(data);
             } catch (error) {
                 console.error('Error fetching surface options:', error);
@@ -47,8 +47,6 @@ export default function TwoStageForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
-
-        // Clear the form
         setFormData({
             nameEntreprise: '',
             etage: '',
@@ -63,7 +61,6 @@ export default function TwoStageForm() {
             status: 'PENDING',
         });
 
-        // Show the modal
         setShowModal(true);
     };
     return (
@@ -204,7 +201,6 @@ export default function TwoStageForm() {
                         </button>
                     </div>
                 </form>
-                {/* Modal */}
                 {showModal && (
                     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800 bg-opacity-75">
                         <div className="bg-white p-6 rounded-lg shadow-lg">

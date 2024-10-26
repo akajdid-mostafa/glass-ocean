@@ -12,7 +12,6 @@ interface DataType {
         facebook?: string;
         insta?: string;
         twitter?: string;
-        // Add more social platforms as needed
     };
 }
 interface socialLinksType {
@@ -131,8 +130,8 @@ export default class MultipleItems extends Component {
             speed: 2000,
             autoplaySpeed: 1000,
             cssEase: "linear",
-            pauseOnHover: true, // Change to true to pause on hover
-            draggable: true, // Allow dragging to scroll
+            pauseOnHover: true,
+            draggable: true,
             responsive: [
                 {
                     breakpoint: 1200,

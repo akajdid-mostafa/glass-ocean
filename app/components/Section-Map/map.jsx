@@ -23,7 +23,6 @@ export default function MoroccoMap() {
         </svg>
       </div>
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between p-8">
-        {/* Left Section (Image and Other Content) */}
         <div className="w-full lg:w-1/2 pr-0 lg:pr-8 mb-8 lg:mb-0 relative">
         <Fade direction={'up'} delay={800} triggerOnce={true}>
             <h1 className="text-3xl font-bold text-black mb-4">
@@ -40,8 +39,6 @@ export default function MoroccoMap() {
             </button>
           </Fade>
         </div>
-
-        {/* Right Section (Text) */}
         <div className="w-full lg:w-1/2 pl-0 lg:pl-8 mb-8 lg:mb-0">
         <Fade direction={'up'} delay={400} triggerOnce={true}>
             <Image

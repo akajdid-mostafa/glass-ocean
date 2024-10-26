@@ -27,7 +27,6 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                     (isOpen ? "translate-x-0" : "-translate-x-full")
                 }
             >
-
                 <article className="relative w-340px max-w-lg pb-10 flex flex-col space-y-6 h-full">
                     <header className="px-4 py-4 flex items-center justify-between">
 

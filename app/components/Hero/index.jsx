@@ -23,7 +23,6 @@ const Banner = () => {
 
     return (
         <div id="home-section" className='relative'>
-            {/* Background Video */}
             <video
                 ref={videoRef}
                 className="absolute top-0 left-0 w-full h-full object-cover"
@@ -35,8 +34,6 @@ const Banner = () => {
                 <source src="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FWhatsApp%20Video%202024-10-23%20at%2017.29.47_9f7bc990.mp4?alt=media&token=034ce728-0a1b-4f59-8ae4-8c87c16ad554" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-
-            {/* Overlay content */}
             <div className="relative bg-opacity-70" style={{ background: 'rgba(0, 0, 0, 0.4)' }}>
                 <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[680px] flex justify-center items-center">
                     <div className='col-span-6 flex flex-col justify-center'>
@@ -51,16 +48,13 @@ const Banner = () => {
                                 <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6'>
                                     <Link href='#cook-section'>GET Devis</Link>
                                 </button>
-
                                 <button className='flex border w-full md:w-auto mt-5 md:mt-0 justify-center rounded-full text-xl font-medium items-center py-4 px-10 text-white hover:text-white hover:bg-gradient-to-r from-blue600 to-red600'>
                                     <Link href='#about-section'>Contact Us</Link>
                                 </button>
                             </div>
                         </Fade>
                     </div>
-
                 </div>
-                {/* SVG Wave */}
                 <div className="deca-custom-shape-divider" style={{ transform: 'rotate(180deg)', position: 'absolute', bottom: '0', left: '0', width: '100%' }}>
                     <svg
                         data-name="Layer 1"

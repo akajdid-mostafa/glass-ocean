@@ -1,8 +1,7 @@
-'use client'; // Enable client-side rendering
-
+'use client';
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation'; // Ensure this import is from 'next/navigation'
-import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { useRouter } from 'next/navigation';
+import { useTranslation } from 'react-i18next'; 
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
@@ -13,9 +12,9 @@ const fetchAllGalleries = async () => {
 };
 
 const GalleryDetail = ({ params }) => {
-  const { id } = React.use(params); // Unwrap params with React.use
+  const { id } = React.use(params); 
   const [galleryAlbum, setGalleryAlbum] = useState(null);
-  const { t } = useTranslation(); // Use translation hook
+  const { t } = useTranslation(); 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,12 +29,12 @@ const GalleryDetail = ({ params }) => {
 
   useEffect(() => {
     if (galleryAlbum) {
-      Fancybox.bind('[data-fancybox="gallery"]'); // Initialize Fancybox
+      Fancybox.bind('[data-fancybox="gallery"]'); 
     }
   }, [galleryAlbum]);
 
   if (!galleryAlbum) {
-    return <div className="text-center py-4">Loading...</div>; // Loading state
+    return <div className="text-center py-4"></div>;
   }
 
   return (
@@ -43,7 +42,7 @@ const GalleryDetail = ({ params }) => {
       <section className="flex-grow mb-20">
         <div className="mt-20 container mx-auto px-4 lg:px-8 max-w-7xl">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            {t(galleryAlbum.title)} {/* Display album title */}
+            {t(galleryAlbum.title)} 
           </h1>
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {galleryAlbum.img.map((url, index) => (

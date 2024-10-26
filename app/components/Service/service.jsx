@@ -55,7 +55,6 @@ export default function CleaningServicesLayout() {
             </div>
           </Fade>
         </div>
-
         <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
           <div className="lg:w-2/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
             {[

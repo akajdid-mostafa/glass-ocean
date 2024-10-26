@@ -12,9 +12,9 @@ const navigation: NavigationItem[] = [
     { name: 'About us', href: '/#about-section', current: false },
     { name: 'Recipe', href: '/#cook-section', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
-    { name: 'Devis', href: '/Devis', current: false },
-]
+    { name: 'Get Devis', href: '/Devis', current: false },
 
+]
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
@@ -31,8 +31,11 @@ const Data = () => {
                                 key={item.name}
                                 href={item.href}
                                 className={classNames(
-                                    item.current ? 'bg-gray-900 text-purple' : 'text-black hover:bg-gray-700 hover:text-purple',
-                                    'block  py-2 rounded-md text-base font-medium'
+                                    
+                                    item.name === 'Get Devis'
+                                    ? 'bg-gradient-to-r from-blue600 to-red600  font-bold rounded-full py-3 px-4 text-white text-center space-links' 
+                                    : 'text-black hover:bg-gray-700 text-center hover:text-purple space-links',
+                                    'block  py-2  text-base font-bold'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
                             >
@@ -40,8 +43,7 @@ const Data = () => {
                             </Link>
                         ))}
                         <div className="mt-4"></div>
-                        <button className='flex justify-center text-base w-full font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton '>Contact us</button>
-                        {/* <button className='flex justify-center text-base w-full font-medium rounded-full bg-white border border-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white hover:bg-pink'>Contact us</button> */}
+                        <button className='flex justify-center text-base w-full font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
                     </div>
                 </div>
             </div>
