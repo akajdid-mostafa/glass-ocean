@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next'; 
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
+import Image from 'next/image'; // Import the Image component
 
 const fetchAllGalleries = async () => {
   const response = await fetch('https://hono-on-vercel123-54cp.vercel.app/api/galleries');
@@ -53,10 +54,12 @@ const GalleryDetail = ({ params }) => {
                 aria-label={`Gallery image ${index + 1}`}
               >
                 <a data-fancybox="gallery" href={url} data-caption={`Image ${index + 1}`}>
-                  <img
+                  <Image // Use the Image component
                     src={url}
                     alt={`Gallery ${index + 1}`}
                     className="w-full h-56 object-cover transition-transform duration-300 hover:scale-105"
+                    width={500} // Specify width
+                    height={400} // Specify height
                   />
                 </a>
               </div>

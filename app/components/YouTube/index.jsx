@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Play } from 'lucide-react';
 import { Fade } from 'react-awesome-reveal';
+import Image from 'next/image';
 
 export default function VideoPopup() {
     const [isVideoVisible, setIsVideoVisible] = useState(false);
@@ -43,9 +44,11 @@ export default function VideoPopup() {
                         {!isVideoVisible ? (
                             <>
                                 <Fade direction={'up'} delay={400} triggerOnce={true}>
-                                    <img
-                                        src="images/YouTube/youtube.jpg?height=400&width=800px"
+                                    <Image
+                                        src="/images/YouTube/youtube.jpg"
                                         alt="Dog looking out of a car window"
+                                        width={800}
+                                        height={400}
                                         className="w-full h-auto rounded-xl shadow-lg"
                                     />
                                 </Fade>

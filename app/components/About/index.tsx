@@ -24,7 +24,7 @@ const Cook = () => {
                             </h3>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>Chez Ocean Connecting, nous sommes spécialisés dans le nettoyage de façades. Nous utilisons des techniques avancées et des produits respectueux de l'environnement pour garantir une propreté éclatante et durable. Notre équipe d'experts est formée pour traiter toutes les surfaces, qu'il s'agisse de bâtiments commerciaux ou résidentiels. </p>
+                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>Chez Ocean Connecting, nous sommes spécialisés dans le nettoyage de façades. Nous utilisons des techniques avancées et des produits respectueux de l&apos;environnement pour garantir une propreté éclatante et durable. Notre équipe d&apos;experts est formée pour traiter toutes les surfaces, qu&apos;il s&apos;agisse de bâtiments commerciaux ou résidentiels. </p>
                             <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>Faites confiance à Ocean Connecting pour redonner à votre façade tout son éclat....</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 <button className='text-xl font-bold rounded-full text-white py-5 px-6 bg-gradient-to-r from-blue600 to-red600  lg:px-10 mr-6'>Learn more</button>

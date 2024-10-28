@@ -2,7 +2,6 @@ import Hero from './components/Hero/index';
 import Features from './components/Work/index';
 import Cook from './components/About/index';
 import Expert from './components/Team/index';
-import Gallery from './components/Gallery/index';
 import Newsletter from './components/Newsletter/Newsletter';
 import CleaningServicesLayout from './components/Service/service';
 import ServicesSection from './components/Service/index';
@@ -20,7 +19,6 @@ export default function Home() {
       <VideoPopup/>
       <Cook />
       <Expert />
-      {/* <Gallery /> */}
       <Newsletter />
     </main>
   )
