@@ -16,7 +16,7 @@ export default function Home() {
       <SectionMap/>
       <Features />
       <VideoPopup/>
-      {/* <Cook /> */}
+      <Cook />
       <Expert />
       {/* <Gallery /> */}
       <Newsletter />

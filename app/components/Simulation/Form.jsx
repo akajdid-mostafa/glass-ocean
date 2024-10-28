@@ -6,13 +6,13 @@ export default function TwoStageForm() {
     const [formData, setFormData] = useState({
         nameEntreprise: '',
         etage: '',
-        surfaceId: '',
+        surfaceId: 0,
         ville: '',
-        phone: '',
+        numberPhon: '',
         namePersone: '',
         email: '',
         Adress: '',
-        codePostall: '',
+        codePostall:8000,
         message: '',
         status: 'PENDING',
     });
@@ -27,59 +27,84 @@ export default function TwoStageForm() {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                console.log("Fetched data:", data); 
+                console.log("Fetched data:", data);
                 setSurfaceOptions(data);
             } catch (error) {
                 console.error('Error fetching surface options:', error);
             }
         };
-    
+
         fetchSurfaceOptions();
     }, []);
-    
-    
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData(prev => ({ ...prev, [name]: value }));
+        // Convert surfaceId and codePostall to numbers if they are in formData
+        setFormData(prev => ({
+            ...prev,
+            [name]: name === 'surfaceId' || name === 'codePostall' ? Number(value) : value
+        }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formData);
-        setFormData({
-            nameEntreprise: '',
-            etage: '',
-            surfaceId: '',
-            ville: '',
-            phone: '',
-            namePersone: '',
-            email: '',
-            Adress: '',
-            codePostall: '',
-            message: '',
-            status: 'PENDING',
-        });
 
-        setShowModal(true);
+        try {
+            const response = await fetch('https://ocean-dashbord.vercel.app/api/Devis', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData), // Send formData directly
+            });
+
+            // Check if the response is successful
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Error ${response.status}: ${errorText}`);
+            }
+
+            const data = await response.json();
+            console.log("Form data successfully submitted:", data);
+            setShowModal(true);
+
+            setFormData({
+                nameEntreprise: '',
+                etage: '',
+                surfaceId: 0,
+                ville: '',
+                numberPhon: '',
+                namePersone: '',
+                email: '',
+                Adress: '',
+                codePostall: 8000,
+                message: '',
+                status: 'PENDING',
+            });
+
+        } catch (error) {
+            console.log('Error submitting form:', error.message);
+        }
     };
+
+
     return (
         <>
             <div className='mx-auto max-w-xs lg:max-w-7xl sm:py-4 lg:px-8'>
                 <form onSubmit={handleSubmit} >
-                    <div>
-                        <label htmlFor="nameEntreprise" className="block text-sm font-medium text-gray700">Nom Entreprise</label>
-                        <input
-                            id="nameEntreprise"
-                            name="nameEntreprise"
-                            value={formData.nameEntreprise}
-                            onChange={handleChange}
-                            required
-                            className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
-                        />
-                    </div>
                     <div className=" mt-2 space-y-8 md:space-y-0 md:flex md:gap-8">
                         <div className="space-y-4 md:w-1/2">
+                            <div>
+                                <label htmlFor="nameEntreprise" className="block text-sm font-medium text-gray700">Nom Entreprise</label>
+                                <input
+                                    id="nameEntreprise"
+                                    name="nameEntreprise"
+                                    value={formData.nameEntreprise}
+                                    onChange={handleChange}
+                                    required
+                                    className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
+                                />
+                            </div>
                             <div>
                                 <label htmlFor="etage" className="block text-sm font-medium text-gray700">Number Étage</label>
                                 <input
@@ -102,7 +127,7 @@ export default function TwoStageForm() {
                                     required
                                     className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                                 >
-                                    <option value="" disabled>Sélectionnez la surface</option>
+                                    <option value="0" disabled>Sélectionnez la surface</option>
                                     {surfaceOptions.map((option) => (
                                         <option key={option.id} value={option.id}>
                                             {option.valeur}
@@ -121,17 +146,7 @@ export default function TwoStageForm() {
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
                                 />
                             </div>
-                            <div>
-                                <label htmlFor="phone" className="block text-sm font-medium text-gray700">Number Phone</label>
-                                <input
-                                    id="phone"
-                                    name="phone"
-                                    value={formData.phone}
-                                    onChange={handleChange}
-                                    required
-                                    className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
-                                />
-                            </div>
+
                         </div>
                         <div className="space-y-4 md:w-1/2">
                             <div>
@@ -158,6 +173,17 @@ export default function TwoStageForm() {
                                 />
                             </div>
                             <div>
+                                <label htmlFor="numberPhon" className="block text-sm font-medium text-gray700">Number Phone</label>
+                                <input
+                                    id="numberPhon"
+                                    name="numberPhon"
+                                    value={formData.numberPhon}
+                                    onChange={handleChange}
+                                    required
+                                    className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
+                                />
+                            </div>
+                            <div>
                                 <label htmlFor="Adress" className="block text-sm font-medium text-gray700">Adresse</label>
                                 <input
                                     id="Adress"
@@ -168,17 +194,17 @@ export default function TwoStageForm() {
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
                                 />
                             </div>
-                            <div>
+                            
+                            {/* <div>
                                 <label htmlFor="codePostall" className="block text-sm font-medium text-gray700">Code Postal</label>
                                 <input
                                     id="codePostall"
                                     name="codePostall"
                                     value={formData.codePostall}
                                     onChange={handleChange}
-                                    required
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
                                 />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div>
