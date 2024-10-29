@@ -35,7 +35,7 @@ const Banner = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="relative bg-opacity-70" style={{ background: 'rgba(0, 0, 0, 0.4)' }}>
-                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[600px] flex justify-center items-center">
+                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[680px] flex justify-center items-center">
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} triggerOnce={true}>
                             <h1 className="text-2xl lg:text-5xl font-semibold mb-5 mt-20 text-white text-center">
