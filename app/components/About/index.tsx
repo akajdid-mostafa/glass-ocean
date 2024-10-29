@@ -22,7 +22,7 @@ const Cook = () => {
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={0.1} triggerOnce={true}>
                             <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>
-                                Chez Ocean Connecting, nous sommes spécialisés dans le nettoyage de façades. Nous utilisons des techniques avancées et des produits respectueux de l'environnement pour garantir une propreté éclatante et durable. Notre équipe d'experts est formée pour traiter toutes les surfaces, qu'il s'agisse de bâtiments commerciaux ou résidentiels.
+                                Chez Ocean Connecting, nous sommes spécialisés dans le nettoyage de façades. Nous utilisons des techniques avancées et des produits respectueux de l&apos;environnement pour garantir une propreté éclatante et durable. Notre équipe d&apos;experts est formée pour traiter toutes les surfaces, qu&apos;il s&apos;agisse de bâtiments commerciaux ou résidentiels.
                             </p>
                             <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>
                                 Faites confiance à Ocean Connecting pour redonner à votre façade tout son éclat....
