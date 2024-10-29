@@ -9,7 +9,7 @@ const Startcontact = () => {
                     <div className="mx-auto max-w-7xl pt-10 sm:pt-20 sm:pb-24 px-6 h-[150px] flex justify-center items-center">
                         <div className='col-span-6 flex flex-col justify-center'>
                             <h1 className="text-2xl lg:text-5xl font-semibold text-white text-center">
-                                Préparer des devis de nettoyage en un rien de temps
+                                CONTACTEZ-NOUS
                             </h1>
                         </div>
                     </div>
@@ -33,14 +33,13 @@ const Startcontact = () => {
             <div className="container flex flex-col items-center justify-center w-full p-6 mx-auto text-center xl:px-0">
                 <div className="text-sm font-bold tracking-wider text-lightgrey uppercase">Devis de nettoyage gratuit en ligne</div>
                 <h2 className="max-w-6xl mt-3 text-3xl font-bold leading-snug tracking-tight bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:leading-tight lg:text-4xl dark:text-white">
-                    ESTIMEZ LE BUDGET DE VOS PRESTATIONS DE NETTOYAGE
+                COMMENT POUVONS-NOUS VOUS AIDER ?
                 </h2>
-                <p className="max-w-6xl py-2 text-lg leading-normal text-lightgrey lg:text-xl xl:text-xl dark:text-gray-300">
+                {/* <p className="max-w-6xl py-2 text-lg leading-normal text-lightgrey lg:text-xl xl:text-xl dark:text-gray-300">
                     Vous souhaitez connaître le montant approximatif de votre prestation de nettoyage ?
-                </p>
+                </p> */}
                 <p className="max-w-6xl py-2 text-md leading-normal text-lightgrey lg:text-md xl:text-md dark:text-gray-300">
-                    En quelques clics, réalisez la simulation budgétaire de votre service de nettoyage pour vos locaux professionnels grâce à notre devis en ligne de nettoyage gratuit. N’hésitez pas à nous contacter si vous avez des besoins spécifiques ! <br/>
-                    (Rappel : Même si nous aimerions réaliser des prestations de nettoyage pour tous, nous n’intervenons que chez les professionnels)                </p>
+                Bienvenue chez Ocean Connecting ! Nous sommes heureux de vous proposer des services de nettoyage de façades de bâtiments et de panneaux solaires de premier ordre. Veuillez remplir le formulaire de contact ci-dessous pour nous contacter. Nous sommes là pour veiller à ce que votre propriété brille et fonctionne de manière optimale. Merci de nous avoir choisis !               </p>
             </div>
         </div>
     );

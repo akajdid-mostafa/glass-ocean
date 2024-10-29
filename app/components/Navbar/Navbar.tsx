@@ -36,12 +36,12 @@ const Navbar = () => {
                         <div className="flex flex-1 items-center sm:justify-between">
                             <div className="flex sm:hidden flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                    <Image src="/images/Logo/ocean3.png" alt="logo" width={150} height={46} />
+                                    <Image src="/images/Logo/ocean1.svg" alt="logo" width={150} height={56} />
                                 </Link>
                             </div>
                             <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                                    <Image src="/images/Logo/ocean3.png" alt="logo" width={140} height={36} />
+                                    <Image src="/images/Logo/ocean1.svg" alt="logo" width={150} height={36} />
                                 </Link>
                             </div>
                             <div className="hidden lg:flex items-center border-right ">

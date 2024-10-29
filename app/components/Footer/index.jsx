@@ -104,8 +104,8 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4">
           <div className="space-y-2 lg:col-span-1">
-            <div className="flex items-center space-x-2">
-              <Image src="/images/Logo/ocean3.png" alt={footerText.logoAlt} width={36} height={120} />
+            <div className="flex items-center mb-4 space-x-2">
+              <Image src="/images/Logo/ocean2.svg" alt={footerText.logoAlt} width={240} height={50} />
             </div>
             <p className="text-sm">{footerText.mainDescription}</p>
             <p className="text-sm">{footerText.detailedDescription}</p>
