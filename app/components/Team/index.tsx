@@ -24,17 +24,17 @@ const socialLinks: socialLinksType[] = [
     {
         platform: 'facebook',
         imgSrc: '/images/Footer/facebook.svg',
-        width: 10
+        width: 15
     },
     {
         platform: 'insta',
         imgSrc: '/images/Footer/insta.svg',
-        width: 14
+        width: 21
     },
     {
         platform: 'twitter',
         imgSrc: '/images/Footer/twitter.svg',
-        width: 14
+        width: 21
     }
 ];
 const postData: DataType[] = [
@@ -192,13 +192,13 @@ export default class MultipleItems extends Component {
                                             return (
                                                 socialUrl && (
                                                     <Link href={socialUrl} key={i}>
-                                                        <div className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-pink">
+                                                        <div className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-gradient-to-r from-blue600 to-red600">
                                                             <Image
                                                                 src={item.imgSrc}
                                                                 alt={item.platform}
                                                                 width={item.width}
                                                                 height={2}
-                                                                className="sepiaa"
+                                                                className="sepiaa hover-invert"
                                                             />
                                                         </div>
                                                     </Link>

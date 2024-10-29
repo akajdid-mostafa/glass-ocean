@@ -132,5 +132,16 @@ html, body {
 }
 
 .animate-custom-pulse {
-  animation: custom-pulse 1s infinite;
+  animation: custom-pulse 0.5s infinite;
+}
+.hover-invert {
+  transition: filter 0.3s ease;
+}
+
+.hover-invert:hover {
+  filter: brightness(0) invert(1);
+}
+.footer-icons:hover .hover-invert {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
 }

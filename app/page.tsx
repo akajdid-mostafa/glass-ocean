@@ -7,6 +7,7 @@ import CleaningServicesLayout from './components/Service/service';
 import ServicesSection from './components/Service/index';
 import SectionMap from './components/Section-Map/map';
 import VideoPopup from './components/YouTube/index';
+import Contact from './components/Contact/index';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <VideoPopup/>
       <Cook />
       <Expert />
+      <Contact/>
       <Newsletter />
     </main>
   )

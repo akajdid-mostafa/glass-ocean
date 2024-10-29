@@ -42,7 +42,7 @@ const cardData: cardDataType[] = [
 const Work = () => {
     return (
         <div>
-            <div className='mx-auto max-w-7xl  px-6' id="about-section">
+            <div className='mx-auto max-w-7xl  px-6' >
                 <div className='text-center mb-14' >
                     <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                         <h3 className='text-lg font-normal mb-3 ls-51 uppercase'>Les avantages Ocean-Glass Propreté</h3>

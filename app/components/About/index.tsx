@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Cook = () => {
     return (
-        <div className='relative' id="cook-section">
+        <div className='relative' id="about-section">
             <div className="mx-auto max-w-7xl lg:pt-20 sm:pb-24 px-6">
                 <div className='absolute right-0 bottom-[6%] hidden lg:block'>
                     <Image src={'/images/About/about1.png'} alt="burger-image" width={463} height={622} />

@@ -15,9 +15,9 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/#home-section', current: false },
     { name: 'Get Devis', href: '/Devis', current: false },
-    { name: 'About us', href: '/#about-section', current: false },
-    { name: 'Recipe', href: '/#cook-section', current: false },
+    { name: 'Service', href: '/#service', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
+    { name: 'About us', href: '/#about-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -67,6 +67,10 @@ const Navbar = () => {
                                     <Image src={'/images/Navbar/phone.svg'} alt="phone-image" width={19} height={19} />
                                     <span className='text-lg font-medium'>+212 704-309787</span>
                                 </div>
+                                <div>
+                                <button className='flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
+                                </div>
+
                             </div>
                         </div>
                         <div className='block lg:hidden'>
