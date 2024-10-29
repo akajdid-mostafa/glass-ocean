@@ -35,7 +35,7 @@ const Banner = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="relative bg-opacity-70" style={{ background: 'rgba(0, 0, 0, 0.4)' }}>
-                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[680px] flex justify-center items-center">
+                <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[600px] flex justify-center items-center">
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} triggerOnce={true}>
                             <h1 className="text-2xl lg:text-5xl font-semibold mb-5 mt-20 text-white text-center">
@@ -46,10 +46,10 @@ const Banner = () => {
                             </p>
                             <div className='md:flex align-middle justify-center'>
                                 <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6'>
-                                    <Link href='#cook-section'>GET Devis</Link>
+                                    <Link href='/Devis'>GET Devis</Link>
                                 </button>
                                 <button className='flex border w-full md:w-auto mt-5 md:mt-0 justify-center rounded-full text-xl font-medium items-center py-4 px-10 text-white hover:text-white hover:bg-gradient-to-r from-blue600 to-red600'>
-                                    <Link href='#about-section'>Contact Us</Link>
+                                    <Link href='#Contact'>Contact Us</Link>
                                 </button>
                             </div>
                         </Fade>

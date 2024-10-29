@@ -42,10 +42,10 @@ export default function MoroccoMap() {
         <div className="w-full lg:w-1/2 pl-0 lg:pl-8 mb-8 lg:mb-0">
         <Fade direction={'up'} delay={400} triggerOnce={true}>
             <Image
-              src="/images/Secction-Map/maroc.png"
+              src="/images/Secction-Map/maroc.svg"
               alt="Carte du Maroc avec les principales villes"
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               className="w-full h-auto"
             />
             {/* <div

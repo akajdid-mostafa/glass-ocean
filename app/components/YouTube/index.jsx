@@ -24,7 +24,7 @@ export default function VideoPopup() {
                     ></path>
                 </svg>
             </div>
-            <div className="mx-auto max-w-7xl min-h-screen text-center flex items-center justify-center p-4 relative bg-gradient-to-b from-blue200 via-Purple200 to-white">
+            <div className="mx-auto max-w-7xl  text-center flex items-center justify-center p-4 relative bg-gradient-to-b from-blue200 via-Purple200 to-white">
                 <div className="absolute w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-full bottom-20 right-20 opacity-75 animate-bounce"></div>
                 <div className="absolute w-32 h-32 bg-gradient-to-r from-blue600 to-red600 rounded-full top-40 right-60 opacity-40 animate-ping"></div>
 

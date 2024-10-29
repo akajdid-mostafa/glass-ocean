@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import Simulation from '../components/Simulation/index';
 import TwoStageForm from '../components/Simulation/Form';
 

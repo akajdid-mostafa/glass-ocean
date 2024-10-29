@@ -42,8 +42,10 @@ const Data = () => {
                                 {item.name}
                             </Link>
                         ))}
+                        <Link href="/contact">
                         <div className="mt-4"></div>
                         <button className='flex justify-center text-base w-full font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
+                        </Link>
                     </div>
                 </div>
             </div>

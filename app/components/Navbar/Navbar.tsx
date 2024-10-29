@@ -67,9 +67,12 @@ const Navbar = () => {
                                     <Image src={'/images/Navbar/phone.svg'} alt="phone-image" width={19} height={19} />
                                     <span className='text-lg font-medium'>+212 704-309787</span>
                                 </div>
+                                <Link href="/contact">
                                 <div>
                                 <button className='flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
                                 </div>
+                                </Link>
+                                
 
                             </div>
                         </div>
