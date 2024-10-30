@@ -48,20 +48,6 @@ export default function MoroccoMap() {
               height={300}
               className="w-full h-auto"
             />
-            {/* <div
-              className="absolute"
-              style={{
-                top: '25%',
-                left: '65%',
-                transform: 'translate(-50%, -50%)',
-                background: 'linear-gradient(to right, #2563eb, #f43f5e)',
-                color: 'white',
-                padding: '4px 10px',
-                borderRadius: '5px',
-              }}
-            >
-              Casablanca
-            </div> */}
           </Fade>
         </div>
       </div>

@@ -9,7 +9,6 @@ import Features from '../components/Work/index';
 export default function Simulat() {
     return (
       <main>
-
         <Startcontact/>
         <Contact/>
         <Features/>

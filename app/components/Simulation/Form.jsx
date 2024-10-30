@@ -39,7 +39,6 @@ export default function TwoStageForm() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        // Convert surfaceId and codePostall to numbers if they are in formData
         setFormData(prev => ({
             ...prev,
             [name]: name === 'surfaceId' || name === 'codePostall' ? Number(value) : value
@@ -55,10 +54,9 @@ export default function TwoStageForm() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData), // Send formData directly
+                body: JSON.stringify(formData), 
             });
 
-            // Check if the response is successful
             if (!response.ok) {
                 const errorText = await response.text();
                 throw new Error(`Error ${response.status}: ${errorText}`);
@@ -194,17 +192,6 @@ export default function TwoStageForm() {
                                     className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
                                 />
                             </div>
-                            
-                            {/* <div>
-                                <label htmlFor="codePostall" className="block text-sm font-medium text-gray700">Code Postal</label>
-                                <input
-                                    id="codePostall"
-                                    name="codePostall"
-                                    value={formData.codePostall}
-                                    onChange={handleChange}
-                                    className="mt-1 block w-full p-3 border border-gray300 rounded-lg shadow-sm focus:border-blue500 focus:ring focus:ring-blue500 focus:ring-opacity-50"
-                                />
-                            </div> */}
                         </div>
                     </div>
                     <div>
@@ -233,7 +220,7 @@ export default function TwoStageForm() {
                             <h2 className="text-xl font-semibold mb-4">Simulation Submitted</h2>
                             <p>Your request has been successfully submitted.</p>
                             <button
-                                onClick={() => setShowModal(false)} // Close modal
+                                onClick={() => setShowModal(false)} 
                                 className="mt-4 bg-blue600 text-white py-2 px-4 rounded-lg hover:bg-blue700"
                             >
                                 Close

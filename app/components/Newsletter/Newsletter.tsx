@@ -35,20 +35,7 @@ const Newsletter = () => {
                         <div>
                             <Image src={'/images/Newsletter/equipment.png'} alt="soup-image" width={626} height={602} className='-mt-24' />
                         </div>
-                        <div className="absolute top-[78%]">
-                            {/* <Image src={'/images/Newsletter/clian.png'} alt="onion-image" width={300} height={122} /> */}
-                        </div>
-                        <div className="absolute top-[30%] right-[-23%] hidden lg:block">
-                            {/* <Image src={'/images/Newsletter/clian.png'} alt="lettuce-image" width={300} height={122} /> */}
-                        </div>
-                        <div className="absolute bottom-[10%] left-[0%]">
-                            {/* <Image src={'/images/Newsletter/clian.png'} alt="yellow-image" width={59} height={59} /> */}
-                        </div>
-                        <div className="absolute bottom-[20%] right-[20%]">
-                            {/* <Image src={'/images/Newsletter/equipment.png'} alt="blue-image" width={75} height={75} /> */}
-                        </div>
                     </div>
-
                 </div>
             </div>
         </div>

@@ -69,7 +69,7 @@ export default function VideoPopup() {
                             <iframe
                                 width="100%"
                                 height="480"
-                                src="https://www.youtube.com/embed/njx-CtWPX3E" // Correct embed URL
+                                src="https://www.youtube.com/watch?v=9nR772f0qyQ" 
                                 title="YouTube video player"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -9,12 +9,6 @@ export default function Simulat() {
       <main>
         <Simulation/>
         <TwoStageForm />
-        {/* <Hero /> */}
-        {/* <Features /> */}
-        {/* <Cook /> */}
-        {/* <Expert /> */}
-        {/* <Gallery /> */}
-        {/* <Newsletter /> */}
       </main>
     )
   }

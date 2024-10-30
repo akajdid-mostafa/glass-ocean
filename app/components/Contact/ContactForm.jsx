@@ -21,10 +21,8 @@ const Contactus = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         
-        // Use your email function here to send the form data
         await sendEmail(formData);
 
-        // Optional: Clear the form fields after submission
         setFormData({
             name: "",
             phone: "",
@@ -102,7 +100,6 @@ const Contactus = () => {
     );
 };
 
-// Replace this with your actual email-sending function
 const sendEmail = async (data) => {
     const emailContent = `
         Nom: ${data.name}\n
@@ -112,8 +109,6 @@ const sendEmail = async (data) => {
         Message: ${data.message}
     `;
     
-    // Configure your email API here to send the message to mosmos@gmail.com
-    // Example: EmailJS, Nodemailer with SMTP, or a similar email service
     console.log("Sending email with the following content:", emailContent);
 };
 

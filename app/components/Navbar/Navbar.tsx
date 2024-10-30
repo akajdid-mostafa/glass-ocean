@@ -72,8 +72,6 @@ const Navbar = () => {
                                 <button className='flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
                                 </div>
                                 </Link>
-                                
-
                             </div>
                         </div>
                         <div className='block lg:hidden'>

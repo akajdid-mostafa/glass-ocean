@@ -35,9 +35,6 @@ const Startcontact = () => {
                 <h2 className="max-w-6xl mt-3 text-3xl font-bold leading-snug tracking-tight bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:leading-tight lg:text-4xl dark:text-white">
                 COMMENT POUVONS-NOUS VOUS AIDER ?
                 </h2>
-                {/* <p className="max-w-6xl py-2 text-lg leading-normal text-lightgrey lg:text-xl xl:text-xl dark:text-gray-300">
-                    Vous souhaitez connaître le montant approximatif de votre prestation de nettoyage ?
-                </p> */}
                 <p className="max-w-6xl py-2 text-md leading-normal text-lightgrey lg:text-md xl:text-md dark:text-gray-300">
                 Bienvenue chez Ocean Connecting ! Nous sommes heureux de vous proposer des services de nettoyage de façades de bâtiments et de panneaux solaires de premier ordre. Veuillez remplir le formulaire de contact ci-dessous pour nous contacter. Nous sommes là pour veiller à ce que votre propriété brille et fonctionne de manière optimale. Merci de nous avoir choisis !               </p>
             </div>

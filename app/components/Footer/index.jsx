@@ -1,4 +1,3 @@
-// Add this at the top
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -13,7 +12,7 @@ import Link from "next/link";
 import { footerDataEn } from '../locales/en/translation';
 import { footerDataFr } from '../locales/fr/translation';
 import { footerDataAr } from '../locales/ar/translation';
-import Image from 'next/image'; // Add this import
+import Image from 'next/image'; 
 
 
 const loadClientData = (lang) => {

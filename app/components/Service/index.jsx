@@ -4,7 +4,6 @@ import { ArrowRight } from "lucide-react";
 import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 
-// This would typically come from a database or API
 const services = [
     {
         title: "Nettoyage des interfaces",

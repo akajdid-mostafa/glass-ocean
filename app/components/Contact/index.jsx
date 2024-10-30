@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MdMarkEmailRead, MdPhoneInTalk, MdLocationOn } from "react-icons/md";
-import { Fade } from "react-awesome-reveal"; // Import the Fade component
+import { Fade } from "react-awesome-reveal"; 
 import Contactus from './ContactForm';
 
 const socialLinks = [
@@ -18,7 +18,6 @@ const Contact = () => {
         <div id="Contact" className=" flex  flex-col justify-center overflow-hidden mb-10 py-6 sm:py-12">
             <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce={true}>
                 <div className="bg-white max-w-7xl mx-auto w-full rounded-xl p-4">
-                    {/* Contact Information Section */}
                     <div className="container flex flex-col mx-auto bg-white">
                         <div className="w-full">
                             <div className="container flex flex-col items-center gap-16 mx-auto">
@@ -49,7 +48,6 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Map and Social Links Section */}
                     <div className="grid grid-cols-1 md:grid-cols-2 h-full gap-4">
                         <Fade direction="up" delay={800} cascade damping={0.1} triggerOnce={true}>
                             <div className="col-span-1 px-6">
@@ -62,7 +60,6 @@ const Contact = () => {
                                     loading="lazy"
                                     title="Ocean Connecting Map"
                                 ></iframe>
-                                {/* Social Links Section */}
                                 <div className="flex flex-col md:flex-row gap-4 mt-10 items-center">
                                     <div className="font-bold text-xl mb-4 md:mb-0">Follow on social media</div>
                                     <div className="flex flex-wrap gap-4">
@@ -83,7 +80,6 @@ const Contact = () => {
                                 </div>
                             </div>
                         </Fade>
-                        {/* Contact Form Section */}
                         {/* <ContactForm /> */}
                         <Contactus />
                     </div>
@@ -93,7 +89,6 @@ const Contact = () => {
     );
 };
 
-// Reusable Contact Card Component
 const ContactCard = ({ icon, title, description, link, linkText }) => (
     <div className="flex flex-col items-center gap-3 px-6 py-8 bg-white rounded-3xl shadow-main">
         <span className="flex items-center">
@@ -138,7 +133,6 @@ const ContactCard = ({ icon, title, description, link, linkText }) => (
 //     </Fade>
 // );
 
-// Reusable Input Field Component
 const InputField = ({ placeholder }) => (
     <input
         className="py-4 bg-white rounded-full px-6 placeholder:text-xs"
