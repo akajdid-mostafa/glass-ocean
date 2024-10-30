@@ -2,6 +2,8 @@
 
 import Simulation from '../components/Simulation/index';
 import TwoStageForm from '../components/Simulation/Form';
+import CleaningServicesLayout from '../components/Service/service';
+
 
 
 export default function Simulat() {
@@ -9,6 +11,7 @@ export default function Simulat() {
       <main>
         <Simulation/>
         <TwoStageForm />
+        <CleaningServicesLayout />
       </main>
     )
   }

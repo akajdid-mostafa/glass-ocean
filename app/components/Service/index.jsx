@@ -2,13 +2,14 @@
 
 import { ArrowRight } from "lucide-react";
 import Image from 'next/image';
+import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 
 const services = [
     {
         title: "Nettoyage des interfaces",
         description: "Nous assurons un nettoyage méticuleux des interfaces pour garantir une clarté optimale et un fonctionnement sans faille.",
-        image: "/images/service/service.jpg?height=80&width=80"
+        image: "/images/service/facade.jpg?height=80&width=80"
     },
     {
         title: "Nettoyage des panneaux solaires",
@@ -18,12 +19,12 @@ const services = [
     {
         title: "Nettoyage des maisons terminées",
         description: "Nous offrons un nettoyage des maisons récemment terminées, laissant les espaces impeccables et prêts à occuper.",
-        image: "/images/service/service.jpg?height=80&width=80"
+        image: "/images/service/maison.jpg?height=80&width=80"
     },
     {
         title: "Nettoyage des panneaux d'affichage",
         description: "Nous maintenons vos panneaux d'affichage en parfait état, assurant une visibilité maximale et une présentation soignée.",
-        image: "/images/service/service.jpg?height=80&width=80"
+        image: "/images/service/paneau.jpg?height=80&width=80"
     }
 ]
 
@@ -59,9 +60,9 @@ export default function ServicesSection() {
                                     </div>
                                     <h4 className="text-xl font-semibold mb-2 text-center">{service.title}</h4>
                                     <p className="text-gray700 text-center mb-4">{service.description}</p>
-                                    <button className="w-12 h-12 font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center mx-auto">
+                                    {/* <button className="w-12 h-12 font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center mx-auto">
                                         <ArrowRight className="w-6 h-6 text-white" />
-                                    </button>
+                                    </button> */}
                                 </div>
                                 <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
                             </div>
@@ -70,9 +71,9 @@ export default function ServicesSection() {
                 </div>
                 <div className="text-center">
                     <Fade direction="up" delay={1200} triggerOnce>
-                        <button className="bg-gradient-to-r from-blue600 to-red600 text-white px-8 py-3 rounded-full font-bold uppercase tracking-wide hover:bg-yellow-500 transition-colors">
+                        <Link href="/Devis" className="bg-gradient-to-r from-blue600 to-red600 text-white px-8 py-3 rounded-full font-bold uppercase tracking-wide hover:bg-yellow-500 transition-colors">
                             More Services
-                        </button>
+                        </Link>
                     </Fade>
                 </div>
             </div>

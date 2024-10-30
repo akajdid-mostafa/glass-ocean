@@ -7,10 +7,10 @@ import { Fade } from "react-awesome-reveal";
 import Contactus from './ContactForm';
 
 const socialLinks = [
-    { imgSrc: '/images/Footer/facebook.svg', link: 'https://facebook.com', width: 20 },
-    { imgSrc: '/images/Footer/insta.svg', link: 'https://instagram.com', width: 28 },
-    { imgSrc: '/images/Footer/twitter.svg', link: 'https://twitter.com', width: 28 },
-    { imgSrc: '/images/Footer/youtube.svg', link: 'https://youtube.com', width: 28 },
+    { imgSrc: '/images/Footer/facebook.svg', link: 'https://www.facebook.com/profile.php?id=61567020357925&mibextid=ZbWKwL', width: 20 },
+    { imgSrc: '/images/Footer/insta.svg', link: 'https://www.instagram.com/ocean.connecting', width: 28 },
+    { imgSrc: '/images/Footer/twitter.svg', link: '#', width: 28 },
+    { imgSrc: '/images/Footer/youtube.svg', link: 'https://www.youtube.com/results?search_query=ocean+connecting', width: 28 },
 ];
 
 const Contact = () => {

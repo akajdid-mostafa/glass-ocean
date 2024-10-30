@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 
 export default function MoroccoMap() {
@@ -34,9 +35,9 @@ export default function MoroccoMap() {
             <p className="text-gray700 mb-8">
               Pour répondre à vos besoins de propreté avec une approche sur mesure, nous mettons un point d&apos;honneur à rester à vos côtés où que vous soyez au Maroc. Avec notre réseau d&apos;entreprises de nettoyage, nous couvrons l&apos;ensemble du territoire, de Tanger à Laâyoune, en passant par Casablanca, Rabat et Marrakech.
             </p>
-            <button className="w-full lg:w-auto hover:bg-gray700 bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
-              Discover the cities we are available in
-            </button>
+            <Link href="/Devis" className="w-full lg:w-auto hover:bg-gray700 bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
+                Discover the cities we are available in
+            </Link>
           </Fade>
         </div>
         <div className="w-full lg:w-1/2 pl-0 lg:pl-8 mb-8 lg:mb-0">

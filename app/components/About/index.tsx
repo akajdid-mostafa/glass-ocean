@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Fade } from "react-awesome-reveal";
 
 const Cook = () => {
@@ -28,9 +29,9 @@ const Cook = () => {
                                 Faites confiance à Ocean Connecting pour redonner à votre façade tout son éclat....
                             </p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button className='text-xl font-bold rounded-full text-white py-5 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-10 mr-6'>
-                                    Learn more
-                                </button>
+                                <Link href="#Contact" className='text-xl font-bold rounded-full text-white py-5 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-10 mr-6'>
+                                    Contact Us
+                                </Link>
                             </div>
                         </Fade>
                     </div>

@@ -2,6 +2,7 @@
 
 import { FaCheese } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 
 export default function CleaningServicesLayout() {
@@ -46,12 +47,12 @@ export default function CleaningServicesLayout() {
               ))}
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
+              <Link href='/Devis' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
                 OBTENIR LE DEVIS DE NETTOYAGE
-              </button>
-              <button className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-3 rounded-lg font-bold text-md">
+              </Link>
+              <Link href='#Contact' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-3 rounded-lg font-bold text-md">
                 CONTACT US
-              </button>
+              </Link>
             </div>
           </Fade>
         </div>
