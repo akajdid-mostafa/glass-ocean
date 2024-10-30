@@ -20,7 +20,7 @@ export default function Home() {
       <VideoPopup/>
       <Cook />
       <Expert />
-      <Contact/>
+      {/* <Contact/> */}
       <Newsletter />
     </main>
   )
