@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdMarkEmailRead, MdPhoneInTalk, MdLocationOn } from "react-icons/md";
 import { Fade } from "react-awesome-reveal"; // Import the Fade component
+import Contactus from './ContactForm';
 
 const socialLinks = [
     { imgSrc: '/images/Footer/facebook.svg', link: 'https://facebook.com', width: 20 },
@@ -82,7 +83,8 @@ const Contact = () => {
                             </div>
                         </Fade>
                         {/* Contact Form Section */}
-                        <ContactForm />
+                        {/* <ContactForm /> */}
+                        <Contactus />
                     </div>
                 </div>
             </Fade>
