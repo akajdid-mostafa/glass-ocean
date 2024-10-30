@@ -60,6 +60,7 @@ const Contact = () => {
                                     className="rounded-lg shadow-md sm:h-200px"
                                     allowFullScreen=""
                                     loading="lazy"
+                                    title="Ocean Connecting Map"
                                 ></iframe>
                                 {/* Social Links Section */}
                                 <div className="flex flex-col md:flex-row gap-4 mt-10 items-center">
@@ -109,33 +110,33 @@ const ContactCard = ({ icon, title, description, link, linkText }) => (
 );
 
 // Contact Form Component
-const ContactForm = () => (
-    <Fade direction="up" delay={1200} cascade damping={0.1} triggerOnce={true}>
-        <div className="bg-gradient-to-b from-blue200 via-Purple200 to-white p-10 rounded-xl">
-            <h2 className="mb-10 font-bold text-2xl md:text-4xl relative before:block before:absolute before:bg-sky300 before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
-                Nous contacter rapidement
-            </h2>
-            <div className="grid gap-4 mb-6 md:grid-cols-2">
-                <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Votre nom" />
-                <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Votre prénom" />
-            </div>
-            <div className="grid gap-4 mb-6 md:grid-cols-2">
-                <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Email Adresse" />
-                <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Number phone" />
-            </div>
-            <textarea
-                className="w-full rounded-2xl placeholder:text-md md:placeholder:text-lg px-6 py-4 mb-6"
-                placeholder="Votre message ici"
-                rows="4"
-            ></textarea>
-            <div className="flex justify-center">
-                <button className="rounded-full bg-gradient-to-r from-blue600 to-red600 text-white font-bold py-4 px-6 min-w-40 hover:bg-blue-800 transition-all">
-                    Envoyez votre message
-                </button>
-            </div>
-        </div>
-    </Fade>
-);
+// const ContactForm = () => (
+//     <Fade direction="up" delay={1200} cascade damping={0.1} triggerOnce={true}>
+//         <div className="bg-gradient-to-b from-blue200 via-Purple200 to-white p-10 rounded-xl">
+//             <h2 className="mb-10 font-bold text-2xl md:text-4xl relative before:block before:absolute before:bg-sky300 before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
+//                 Nous contacter rapidement
+//             </h2>
+//             <div className="grid gap-4 mb-6 md:grid-cols-2">
+//                 <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Votre nom" />
+//                 <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Votre prénom" />
+//             </div>
+//             <div className="grid gap-4 mb-6 md:grid-cols-2">
+//                 <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Email Adresse" />
+//                 <InputField className="placeholder:text-md md:placeholder:text-lg" placeholder="Number phone" />
+//             </div>
+//             <textarea
+//                 className="w-full rounded-2xl placeholder:text-md md:placeholder:text-lg px-6 py-4 mb-6"
+//                 placeholder="Votre message ici"
+//                 rows="4"
+//             ></textarea>
+//             <div className="flex justify-center">
+//                 <button className="rounded-full bg-gradient-to-r from-blue600 to-red600 text-white font-bold py-4 px-6 min-w-40 hover:bg-blue-800 transition-all">
+//                     Envoyez votre message
+//                 </button>
+//             </div>
+//         </div>
+//     </Fade>
+// );
 
 // Reusable Input Field Component
 const InputField = ({ placeholder }) => (
