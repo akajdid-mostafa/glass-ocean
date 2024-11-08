@@ -44,7 +44,7 @@ const Contactus = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        className="placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
+                        className="block placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
                         placeholder="Votre nom"
                         required
                     />
@@ -53,7 +53,7 @@ const Contactus = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
+                        className="block placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
                         placeholder="Number phone"
                         required
                     />
