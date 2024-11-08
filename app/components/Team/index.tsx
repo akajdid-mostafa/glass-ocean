@@ -186,7 +186,7 @@ export default class MultipleItems extends Component {
                                         <Image src={post.imgSrc} alt={post.name} width={362} height={262} className="inline-block m-auto" />
                                     </div>
                                     <h3 className="text-2xl font-semibold mt-2 text-lightblack">{post.name}</h3>
-                                    <div className="flex gap-4 mt-4 items-center justify-center">
+                                    {/* <div className="flex gap-4 mt-4 items-center justify-center">
                                         {socialLinks.map((item, i) => {
                                             const socialUrl = post.socialLinks[item.platform as keyof typeof post.socialLinks];
                                             return (
@@ -205,7 +205,7 @@ export default class MultipleItems extends Component {
                                                 )
                                             );
                                         })}
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))}

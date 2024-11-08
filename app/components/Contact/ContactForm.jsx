@@ -38,7 +38,7 @@ const Contactus = () => {
                 <h2 className="mb-10 font-bold text-2xl md:text-4xl relative before:block before:absolute before:bg-sky-300 before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
                     Nous contacter rapidement
                 </h2>
-                <div className="grid gap-4 mb-6 md:grid-cols-2">
+                <div className="mx-auto max-w-xs lg:max-w-7xl grid gap-4 mb-6 md:grid-cols-2">
                     <input
                         type="text"
                         name="name"
@@ -58,7 +58,7 @@ const Contactus = () => {
                         required
                     />
                 </div>
-                <div className="grid gap-4 mb-6 md:grid-cols-2">
+                <div className=" mx-auto max-w-xs lg:max-w-7xl grid gap-4 mb-6 md:grid-cols-2">
                     <input
                         type="email"
                         name="email"
@@ -85,7 +85,7 @@ const Contactus = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full rounded-2xl placeholder:text-md md:placeholder:text-lg px-6 py-4 mb-6"
+                    className="rounded-2xl w-full placeholder:text-md md:placeholder:text-lg px-6 py-4 mb-6"
                     placeholder="Votre message ici"
                     rows="4"
                     required
