@@ -58,7 +58,7 @@ const Contactus = () => {
                         required
                     />
                 </div>
-                <div className=" mx-auto max-w-xs lg:max-w-7xl grid gap-4 mb-6 md:grid-cols-2">
+                <div className=" mx-auto max-w-xs lg:max-w-7xl md:items-center grid gap-4 mb-6 md:grid-cols-2">
                     <input
                         type="email"
                         name="email"
