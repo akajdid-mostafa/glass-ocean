@@ -69,13 +69,13 @@ export default function ServicesSection() {
                         ))}
                     </Fade>
                 </div>
-                <div className="text-center">
+                {/* <div className="text-center">
                     <Fade direction="up" delay={1200} triggerOnce>
                         <Link href="/Devis" className="bg-gradient-to-r from-blue600 to-red600 text-white px-8 py-3 rounded-full font-bold uppercase tracking-wide hover:bg-yellow-500 transition-colors">
                             More Services
                         </Link>
                     </Fade>
-                </div>
+                </div> */}
             </div>
         </section>
     )

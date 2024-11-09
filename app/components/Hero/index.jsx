@@ -46,10 +46,10 @@ const Banner = () => {
                             </p>
                             <div className='md:flex align-middle justify-center'>
                                 <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6'>
-                                    <Link href='/Devis'>GET Devis</Link>
+                                    <Link href='/Devis'>Obtenir un devis gratuit</Link>
                                 </button>
                                 <button className='flex border w-full md:w-auto mt-5 md:mt-0 justify-center rounded-full text-xl font-medium items-center py-4 px-10 text-white hover:text-white hover:bg-gradient-to-r from-blue600 to-red600'>
-                                    <Link href='#Contact'>Contact Us</Link>
+                                    <Link href='#Contact'>Nous contacter</Link>
                                 </button>
                             </div>
                         </Fade>
