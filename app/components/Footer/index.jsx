@@ -18,11 +18,11 @@ import Image from 'next/image';
 const loadClientData = (lang) => {
   switch (lang) {
     case 'fr':
+      default:
       return footerDataFr;
     case 'ar':
       return footerDataAr;
     case 'en':
-    default:
       return footerDataEn; 
   }
 };

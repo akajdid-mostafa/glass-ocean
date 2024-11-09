@@ -42,11 +42,11 @@ export const footerDataFr = {
         { "id": 5, "label": "Frances", "link": "/Contact" }
     ],
     "ourServices": [
-        { "id": 1, "label": "Development Informatique", "link": "/Development" },
-        { "id": 2, "label": "Formation", "link": "/Formation" },
-        { "id": 3, "label": "Des façades propres", "link": "/facades" },
-        { "id": 4, "label": "Recrutement", "link": "/Recruitment" },
-        { "id": 5, "label": "Domiciliation", "link": "/Domiciliation" }
+        { "id": 1, "label": "Development Informatique", "link": "https://www.oceanconnecting.dev/" },
+        { "id": 2, "label": "Formation", "link": "https://oceanconnecting.info/" },
+        { "id": 3, "label": "Des façades propres", "link": "https://www.oceanconnecting.net/" },
+        { "id": 4, "label": "Recrutement", "link": "https://www.oceanconnecting.org/" },
+        { "id": 5, "label": "Domiciliation", "link": "https://www.oceanconnecting.dev/" }
     ],
     "ourFormation": [
         { "id": 1, "label": "First aid", "link": "/Development" },

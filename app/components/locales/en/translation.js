@@ -45,12 +45,12 @@ export const footerDataEn = {
         { "id": 5, "label": "Frances", "link": "/" },
     ],
     "ourServices": [
-        { "id": 1, "label": "Development Informatique", "link": "/team" },
-        { "id": 2, "label": "Formation", "link": "/Formation" },
-        { "id": 3, "label": "Clean facades", "link": "/teamglass" },
-        { "id": 4, "label": "Recruitment", "link": "/jobs" },
-        { "id": 5, "label": "Domiciliation", "link": "/Domiciliation" },
-        { "id": 6, "label": "Nurs", "link": "/nurse" },
+        { "id": 1, "label": "Development Informatique", "link": "https://www.oceanconnecting.dev/" },
+        { "id": 2, "label": "Formation", "link": "https://www.oceanconnecting.info/" },
+        { "id": 3, "label": "Clean facades", "link": "https://www.oceanconnecting.net/" },
+        { "id": 4, "label": "Recruitment", "link": "https://www.oceanconnecting.org/" },
+        { "id": 5, "label": "Domiciliation", "link": "https://www.oceanconnecting.dev/" },
+        { "id": 6, "label": "Nurs", "link": "https://www.oceanconnecting.dev/" },
     ],
     "ourFormation": [
         { "id": 1, "label": "First aid", "link": "/" },

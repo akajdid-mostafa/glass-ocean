@@ -6,9 +6,10 @@ const Contactus = () => {
     name: "",
     phone: "",
     email: "",
-    service: "",
+    service: "0",
     message: "",
   });
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,16 +21,46 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const emailSent = await sendEmail(formData); // Wait for email to be sent
+    if (emailSent) {
+      // Only show modal and clear form if email was successfully sent
+      setIsModalVisible(true); // This should make the modal visible
+        console.log("Modal visibility set to true");
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        service: "0",
+        message: "",
+      });
+    }
+  };
 
-    await sendEmail(formData);
+  const sendEmail = async (data) => {
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      if (response.ok) {
+        console.log("Email sent successfully!"); // Check if this is logged
+        return true; // Indicate success
+      } else {
+        console.log("Failed to send email");
+        
+        return false;
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      return false;
+    }
+  };
 
-    setFormData({
-      name: "",
-      phone: "",
-      email: "",
-      service: "",
-      message: "",
-    });
+  const closeModal = () => {
+    setIsModalVisible(false);
   };
 
   return (
@@ -57,7 +88,7 @@ const Contactus = () => {
             value={formData.phone}
             onChange={handleChange}
             className="block w-full placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
-            placeholder="Number phone"
+            placeholder="Numéro de téléphone"
             required
           />
         </div>
@@ -68,7 +99,7 @@ const Contactus = () => {
             value={formData.email}
             onChange={handleChange}
             className="w-full placeholder:text-md md:placeholder:text-lg p-4 rounded-lg"
-            placeholder="Email Adresse"
+            placeholder="Adresse email"
             required
           />
           <select
@@ -81,12 +112,12 @@ const Contactus = () => {
             <option value="0" disabled>
               Select service
             </option>
-            <option value="Facade">Facade</option>
-            <option value="Solaire">Solaire</option>
-            <option value="Maison">Maison</option>
+            <option value="Nettoyage All">Nettoyage All</option>
+            <option value="Nettoyage Facade">Nettoyage Facade</option>
+            <option value="Nettoyage Paneau">Nettoyage Paneau</option>
+            <option value="Nettoyage Maison">Nettoyage Maison</option>
           </select>
         </div>
-
         <textarea
           name="message"
           value={formData.message}
@@ -105,20 +136,36 @@ const Contactus = () => {
           </button>
         </div>
       </form>
+
+      {/* Modal for confirmation */}
+      {isModalVisible && (
+        <div className="fixed inset-0 px-2 z-10 overflow-hidden flex items-center justify-center">
+          <div className="absolute inset-0 bg-gray-700 bg-opacity-75 transition-opacity"></div>
+          <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-md w-full sm:w-96 md:w-1/2 lg:w-2/3 xl:w-1/3 z-50 transition-transform transform scale-100">
+            <div className="bg-gradient-to-r from-blue600 to-red600 text-white px-4 py-2 flex justify-between">
+              <h2 className="text-lg font-semibold">
+                DEVIS DE NETTOYAGE EN LIGNE
+              </h2>
+            </div>
+            <div className="p-4">
+              <p>
+                Demande de devis de nettoyage gratuit bien reçue. Notre équipe
+                commerciale vous contactera bientôt.
+              </p>
+            </div>
+            <div className="px-4 py-2 flex justify-end">
+              <button
+                onClick={closeModal}
+                className="px-4 py-2 font-bold bg-gradient-to-r from-blue600 to-red600 text-white rounded-md w-full sm:w-auto"
+              >
+                Accept
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </Fade>
   );
-};
-
-const sendEmail = async (data) => {
-  const emailContent = `
-        Nom: ${data.name}\n
-        Téléphone: ${data.phone}\n
-        Email: ${data.email}\n
-        Service: ${data.service}\n
-        Message: ${data.message}
-    `;
-
-  console.log("Sending email with the following content:", emailContent);
 };
 
 export default Contactus;

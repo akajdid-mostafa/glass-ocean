@@ -44,12 +44,12 @@ export const footerDataAr = {
         { "id": 5, "label": "الفرنسية", "link": "/Contact" }
     ],
     "ourServices": [
-        { "id": 1, "label": "إنشاء المواقع و التطبيقات", "link": "/team" },
-        { "id": 2, "label": "التدريبات", "link": "/team" },
-        { "id": 3, "label": "تنضيف الواجهات", "link": "/teamglass" },
-        { "id": 4, "label": "التوضيف الخارجي", "link": "/jobs" },
-        { "id": 5, "label": "التمريض حتى المنزل", "link": "/nurse" },
-        { "id": 6, "label": "إنشاء شركة", "link": "/" }
+        { "id": 1, "label": "إنشاء المواقع و التطبيقات", "link": "https://www.oceanconnecting.dev/" },
+        { "id": 2, "label": "التدريبات", "link": "https://www.oceanconnecting.info/" },
+        { "id": 3, "label": "تنضيف الواجهات", "link": "https://www.oceanconnecting.net/" },
+        { "id": 4, "label": "التوضيف الخارجي", "link": "https://www.oceanconnecting.org/" },
+        { "id": 5, "label": "التمريض حتى المنزل", "link": "https://www.oceanconnecting.dev/" },
+        { "id": 6, "label": "إنشاء شركة", "link": "https://www.oceanconnecting.dev/" }
     ],
     "ourFormation": [
         { "id": 1, "label": "تكوين الإسعافات الأولية", "link": "/" },
