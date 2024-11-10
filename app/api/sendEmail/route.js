@@ -41,7 +41,7 @@ export async function POST(req) {
       
       <!-- Message Section -->
       <div style="margin-top: 20px;">
-        <h3 style="color: #4CAF50; border-bottom: 1px solid #ddd; padding-bottom: 8px;">Message:</h3>
+        <h3 style="color: #2563EB; border-bottom: 1px solid #ddd; padding-bottom: 8px;">Message:</h3>
         <p style="padding: 8px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">${message}</p>
       </div>
       
