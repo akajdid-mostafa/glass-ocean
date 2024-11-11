@@ -15,7 +15,6 @@ export async function POST(req) {
       },
     });
 
-    // Improved HTML structure for the email
     const emailContent = `
   <div style="font-family: Arial, sans-serif; color: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f3f4f6;">
     <div style="max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center;">
@@ -56,9 +55,9 @@ export async function POST(req) {
 
 
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: "mostafaakajdid6@gmail.com", // Replace with recipient email
-      subject: "New Contact Form Submission",
+      from: "Ocean Glass",
+      to: "mostafaakajdid6@gmail.com", 
+      subject: "Nouveau formulaire de contact",
       html: emailContent,
     });
 
