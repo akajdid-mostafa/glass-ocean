@@ -169,7 +169,7 @@ export default class MultipleItems extends Component {
                     <div className="text-center">
                         <Fade direction={"up"} delay={400} cascade damping={1e-1} triggerOnce={true}>
                             <h2 className="text-gray700 text-lg font-normal mb-3 tracking-widest uppercase ls-51">
-                                Meet The Team
+                            Présentation de l&apos;équipe
                             </h2>
                         </Fade>
                         <Fade direction={"up"} delay={800} cascade damping={1e-1} triggerOnce={true}>

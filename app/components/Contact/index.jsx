@@ -31,14 +31,14 @@ const Contact = () => {
                                     />
                                     <ContactCard
                                         icon={<MdPhoneInTalk className="h-6 w-6 mr-2 text-blue600" />}
-                                        title="Phone"
+                                        title="Téléphone"
                                         description="Nous contacter par téléphone"
                                         link="tel:+212704-309787"
                                         linkText="+212 704-309787"
                                     />
                                     <ContactCard
                                         icon={<MdLocationOn className="h-6 w-6 mr-2 text-blue600" />}
-                                        title="Location"
+                                        title="Emplacement"
                                         description="Nous trouver dans nos centre"
                                         link="https://goo.gl/maps/QcWzYETAh4FS3KTD7"
                                         linkText="Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR"
@@ -60,12 +60,12 @@ const Contact = () => {
                                     loading="lazy"
                                     title="Ocean Connecting Map"
                                 ></iframe>
-                                <div className="flex flex-col md:flex-row gap-4 mt-10 items-center">
-                                    <div className="font-bold text-xl mb-4 md:mb-0">Follow on social media</div>
+                                <div className="flex flex-col md:flex-row gap-4 mt-10 items-center justify-center">
+                                    <div className="font-bold text-xl mb-4 md:mb-0">Suivez-nous: </div>
                                     <div className="flex flex-wrap gap-4">
                                         {socialLinks.map(({ link, imgSrc, width }, i) => (
                                             <Link href={link} key={i}>
-                                                <div className="bg-white h-14 w-14 shadow-xl rounded-full flex items-center justify-center footer-icons hover:bg-gradient-to-r from-blue600 to-red600 transition-all">
+                                                <div className="bg-white h-12 w-12 shadow-xl rounded-full flex items-center justify-center footer-icons hover:bg-gradient-to-r from-blue600 to-red600 transition-all">
                                                     <Image
                                                         src={imgSrc}
                                                         alt={`${imgSrc} icon`}

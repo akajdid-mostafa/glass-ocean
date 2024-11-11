@@ -13,11 +13,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '/#home-section' },
-    { name: 'Get Devis', href: '/Devis' },
+    { name: 'Accueil', href: '/#home-section' },
+    { name: 'Obtenir Devis', href: '/Devis' },
     { name: 'Service', href: '/#service' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'About us', href: '/#about-section' },
+    { name: 'Galerie', href: '/gallery' },
+    { name: 'A propos de nous', href: '/#about-section' },
 ];
 
 const Navbar = () => {
@@ -61,7 +61,7 @@ const Navbar = () => {
                                         key={item.name}
                                         href={item.href}
                                         className={`
-                                            ${item.name === 'Get Devis' 
+                                            ${item.name === 'Obtenir Devis' 
                                                 ? 'bg-gradient-to-r from-blue600 to-red600 text-white px-3 py-2 rounded-xl font-bold space-links' 
                                                 : (isActive 
                                                     ? 'font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent' 
@@ -78,13 +78,13 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="gap-6 hidden lg:flex">
-                            <div className="flex items-center gap-2">
+                            {/* <div className="flex items-center gap-2">
                                 <Image src={'/images/Navbar/phone.svg'} alt="phone-image" width={19} height={19} />
                                 <span className="text-lg font-medium">+212 704-309787</span>
-                            </div>
+                            </div> */}
                             <Link href="/contact">
                                 <button className="flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white py-3 px-4 lg:px-10 navbutton space-links">
-                                    Contact us
+                                Contactez-nous
                                 </button>
                             </Link>
                         </div>

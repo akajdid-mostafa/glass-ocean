@@ -17,25 +17,25 @@ const cardData: cardDataType[] = [
         imgSrc: '/images/Features/301.png',
         heading: "Inclusion",
         subheading: "Service inclusif, respectueux de la diversité pour un environnement harmonieux.",
-        link: 'Learn more'
+        link: 'En savoir plus'
     },
     {
         imgSrc: '/images/Features/302.png',
         heading: "Professionnels",
         subheading: "Équipe formée et certifiée pour un service de haute qualité.",
-        link: 'Learn more'
+        link: 'En savoir plus'
     },
     {
         imgSrc: '/images/Features/303.png',
         heading: "Adaptabilité",
         subheading: "Horaires flexibles pour répondre à vos besoins spécifiques.",
-        link: 'Learn more'
+        link: 'En savoir plus'
     },
     {
         imgSrc: '/images/Features/304.png',
         heading: "Continuité",
         subheading: "Service continu et fiable pour des espaces toujours impeccables.",
-        link: 'Learn more'
+        link: 'En savoir plus'
     }
 ]
 

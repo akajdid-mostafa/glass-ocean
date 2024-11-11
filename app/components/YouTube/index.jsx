@@ -31,12 +31,12 @@ export default function VideoPopup() {
                 <div className="max-w-3xl w-full space-y-8 relative">
                     <Fade direction="up" delay={400} triggerOnce>
                         <div className="text-center space-y-2">
-                            <p className="text-md font-bold">Short Intro Video</p>
+                            <p className="text-md font-bold">Courte vidéo d&apos;introduction</p>
                             <h1 className="text-5xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-                                Built Exclusively For You
+                            Nos experts en action
                             </h1>
                             <p className="text-lg text-gray-700 max-w-xl mx-auto">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Découvrez nos services experts de nettoyage de vitres et de façades dans la vidéo ci-dessous. Regardez la vidéo !
                             </p>
                         </div>
                     </Fade>

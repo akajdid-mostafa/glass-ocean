@@ -34,13 +34,13 @@ export default function ServicesSection() {
             <div className="mx-auto max-w-7xl">
                 <div className="text-center mb-12">
                     <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce>
-                        <h3 className="text-sm font-semibold uppercase tracking-wide mb-2">Our Services</h3>
+                        <h3 className="text-sm font-semibold uppercase tracking-wide mb-2">Nos services</h3>
                         <h2 className="text-5xl bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent font-bold mb-4">
-                            Most Popular Services
+                        Services les plus populaires
                         </h2>
                         <p className="text-gray700 max-w-2xl mx-auto">
-                            We offer a wide range of cleaning services to keep your space spotless and comfortable.
-                            Choose from our most popular options below.
+                        Nous proposons une large gamme de services de nettoyage pour que votre espace reste impeccable et confortable.
+                        Choisissez parmi nos options les plus populaires ci-dessous.
                         </p>
                     </Fade>
                 </div>

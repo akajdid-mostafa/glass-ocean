@@ -49,7 +49,7 @@ const Banner = () => {
                                     <Link href='/Devis'>Obtenir un devis gratuit</Link>
                                 </button>
                                 <button className='flex border w-full md:w-auto mt-5 md:mt-0 justify-center rounded-full text-xl font-medium items-center py-4 px-10 text-white hover:text-white hover:bg-gradient-to-r from-blue600 to-red600'>
-                                    <Link href='#Contact'>Nous contacter</Link>
+                                    <Link href='#Contact'>Contactez-nous</Link>
                                 </button>
                             </div>
                         </Fade>

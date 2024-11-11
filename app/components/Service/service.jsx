@@ -51,7 +51,7 @@ export default function CleaningServicesLayout() {
                 OBTENIR LE DEVIS DE NETTOYAGE
               </Link>
               <Link href='#Contact' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-3 rounded-lg font-bold text-md">
-                CONTACT US
+              CONTACTEZ-NOUS
               </Link>
             </div>
           </Fade>

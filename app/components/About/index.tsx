@@ -30,7 +30,7 @@ const Cook = () => {
                             </p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 <Link href="#Contact" className='text-xl font-bold rounded-full text-white py-5 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-10 mr-6'>
-                                    Contact Us
+                                Contactez-nous
                                 </Link>
                             </div>
                         </Fade>

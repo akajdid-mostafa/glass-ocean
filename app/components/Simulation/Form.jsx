@@ -101,7 +101,7 @@ export default function TwoStageForm() {
                   htmlFor="nameEntreprise"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Nom Entreprise
+                  Votre entreprise ou organisation
                 </label>
                 <input
                   id="nameEntreprise"
@@ -117,7 +117,7 @@ export default function TwoStageForm() {
                   htmlFor="etage"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Number Étage
+                  N° d&apos;étage
                 </label>
                 <input
                   id="etage"
@@ -134,7 +134,7 @@ export default function TwoStageForm() {
                   htmlFor="surfaceId"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Surface
+                   Vos mesures de surface
                 </label>
                 <select
                   id="surfaceId"
@@ -177,7 +177,7 @@ export default function TwoStageForm() {
                   htmlFor="namePersone"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Nom
+                  Votre nom
                 </label>
                 <input
                   id="namePersone"
@@ -193,7 +193,7 @@ export default function TwoStageForm() {
                   htmlFor="email"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Email
+                  Votre E-mail
                 </label>
                 <input
                   id="email"
@@ -210,7 +210,7 @@ export default function TwoStageForm() {
                   htmlFor="numberPhon"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Number Phone
+                  Votre téléphone
                 </label>
                 <input
                   id="numberPhon"
@@ -226,7 +226,7 @@ export default function TwoStageForm() {
                   htmlFor="Adress"
                   className="block text-sm font-medium text-gray700"
                 >
-                  Adresse
+                  Adresse des locaux concernés
                 </label>
                 <input
                   id="Adress"
@@ -244,7 +244,7 @@ export default function TwoStageForm() {
               htmlFor="message"
               className=" mt-3 block text-sm font-medium text-gray700"
             >
-              Message
+              Votre message
             </label>
             <textarea
               id="message"
@@ -260,7 +260,7 @@ export default function TwoStageForm() {
               type="submit"
               className="w-full md:w-auto bg-gradient-to-r text-white font-bold mb-10 mt-6 py-4 px-10 rounded-lg border-2 border-gradient-to-r from-blue600 to-red600 hover:bg-blue700 focus:outline-none focus:ring focus:ring-blue500 focus:ring-opacity-50"
             >
-              Get Simulation
+              Envoyer un devis
             </button>
           </div>
         </form>

@@ -8,11 +8,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '/#home-section', current: false },
+    { name: 'Accueil', href: '/#home-section', current: false },
     { name: 'Service', href: '/#service', current: false },
-    { name: 'Gallery', href: '/gallery', current: false },
-    { name: 'About us', href: '/#about-section', current: false },
-    { name: 'Get Devis', href: '/Devis', current: false },
+    { name: 'Galerie', href: '/gallery', current: false },
+    { name: 'A propos de nous', href: '/#about-section', current: false },
+    { name: 'Obtenir Devis', href: '/Devis', current: false },
 
 ]
 
@@ -44,7 +44,7 @@ const Data = () => {
                         ))}
                         <Link href="/contact">
                         <div className="mt-4"></div>
-                        <button className='flex justify-center text-base w-full font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contact us</button>
+                        <button className='flex justify-center text-base w-full font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 text-white  py-3 px-4 lg:px-10 navbutton space-links '>Contactez-nous</button>
                         </Link>
                     </div>
                 </div>
