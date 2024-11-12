@@ -50,7 +50,7 @@ export default function CleaningServicesLayout() {
               <Link href='/Devis' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
                 OBTENIR LE DEVIS DE NETTOYAGE
               </Link>
-              <Link href='#Contact' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-3 rounded-lg font-bold text-md">
+              <Link href='#Contact' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
               CONTACTEZ-NOUS
               </Link>
             </div>
