@@ -47,8 +47,8 @@ export default function Gallery() {
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent  tracking-tight mb-4">Bienvenue dans notre galerie !</h1>
-          <p className="text-xl text-gray700">Découvrez la créativité et la passion qui se cachent derrière notre travail à travers ces images. Appréciez la vue !</p>
+          <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent  tracking-tight mb-4">Bienvenue dans notre Galerie !</h1>
+          <p className="text-xl text-gray700">Explorez la créativité et l&apos;engagement qui animent notre travail à travers ces images. Profitez de la visite !</p>
         </header>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6  text-white">

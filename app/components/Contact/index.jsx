@@ -32,14 +32,14 @@ const Contact = () => {
                                     <ContactCard
                                         icon={<MdPhoneInTalk className="h-6 w-6 mr-2 text-blue600" />}
                                         title="Téléphone"
-                                        description="Nous contacter par téléphone"
+                                        description="Nous Contacter par Téléphone"
                                         link="tel:+212704-309787"
                                         linkText="+212 704-309787"
                                     />
                                     <ContactCard
                                         icon={<MdLocationOn className="h-6 w-6 mr-2 text-blue600" />}
                                         title="Emplacement"
-                                        description="Nous trouver dans nos centre"
+                                        description="Nous Trouver dans Nos Centres"
                                         link="https://goo.gl/maps/QcWzYETAh4FS3KTD7"
                                         linkText="Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR"
                                     />

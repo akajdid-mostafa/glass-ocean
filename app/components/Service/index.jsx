@@ -7,23 +7,23 @@ import { Fade } from "react-awesome-reveal";
 
 const services = [
     {
-        title: "Nettoyage des interfaces",
-        description: "Nous assurons un nettoyage méticuleux des interfaces pour garantir une clarté optimale et un fonctionnement sans faille.",
+        title: "Nettoyage des Interfaces",
+        description: "Nous réalisons un nettoyage soigné des interfaces pour assurer une clarté parfaite et un fonctionnement optimal.",
         image: "/images/service/facade.jpg?height=80&width=80"
     },
     {
-        title: "Nettoyage des panneaux solaires",
-        description: "Nos services de nettoyage des panneaux solaires optimisent leur rendement en éliminant toute poussière et saleté.",
+        title: "Nettoyage des Panneaux Solaires",
+        description: "Nous nettoyons vos panneaux solaires pour maximiser leur efficacité en éliminant poussière et impuretés.",
         image: "/images/service/service.jpg?height=80&width=80"
     },
     {
-        title: "Nettoyage des maisons terminées",
-        description: "Nous offrons un nettoyage des maisons récemment terminées, laissant les espaces impeccables et prêts à occuper.",
+        title: "Nettoyage des Maisons Terminées",
+        description: "Nous assurons le nettoyage des maisons récemment achevées, pour des espaces impeccables et prêts à emménager.",
         image: "/images/service/maison.jpg?height=80&width=80"
     },
     {
-        title: "Nettoyage des panneaux d'affichage",
-        description: "Nous maintenons vos panneaux d'affichage en parfait état, assurant une visibilité maximale et une présentation soignée.",
+        title: "Nettoyage des Panneaux d'Affichage",
+        description: "Nous nettoyons vos panneaux d'affichage pour garantir une visibilité optimale et une présentation soignée.",
         image: "/images/service/paneau.jpg?height=80&width=80"
     }
 ]
@@ -34,7 +34,7 @@ export default function ServicesSection() {
             <div className="mx-auto max-w-7xl">
                 <div className="text-center mb-12">
                     <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce>
-                        <h3 className="text-sm font-semibold uppercase tracking-wide mb-2">Nos services</h3>
+                        <h3 className="text-sm font-semibold uppercase tracking-wide mb-2">Nos Services</h3>
                         <h2 className="text-5xl bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent font-bold mb-4">
                         Services les plus populaires
                         </h2>

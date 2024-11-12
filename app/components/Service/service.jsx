@@ -13,27 +13,26 @@ export default function CleaningServicesLayout() {
           <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce>
             <div>
               <h3 className="text-green700 text-sm font-semibold mb-2">
-                Nos services de propreté modulables
+              Nos Services de Propreté Modulables
               </h3>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-                UNE OFFRE SUR-MESURE POUR VOUS
+              Une Offre Personnalisée pour Vous
               </h2>
             </div>
             <p className="text-gray700">
               <span className="font-semibold">
-                Bénéficiez d&apos;un service de qualité
+              Profitez d&apos;un service de nettoyage de qualité, 
               </span>{" "}
-              adapté à vos besoins et à votre budget. Nos prestations de
-              nettoyage sont entièrement personnalisables pour répondre au mieux
-              à vos attentes.
+              sur mesure, qui s&apos;adapte à vos besoins et à votre budget. Nos prestations sont entièrement modulables pour satisfaire vos exigences spécifiques.
+
             </p>
             <ul className="space-y-2">
               {[
-                "Techniques de nettoyage de vos locaux.",
-                "Durée de votre contrat.",
-                "Fréquence de passage de nos agents de propreté.",
-                "Périodicité des contrôles qualité.",
-                "Espace Client pour le suivi de vos prestations.",
+                "Techniques de nettoyage adaptées à vos locaux.",
+                "Durée flexible de votre contrat.",
+                "Fréquence de passage de nos agents ajustée à vos besoins.",
+                "Périodicité des contrôles qualité garantie.",
+                "Espace client dédié pour le suivi de vos prestations.",
               ].map((item, index) => (
                 <li key={index} className="flex items-center space-x-2">
                   <Image
@@ -48,10 +47,10 @@ export default function CleaningServicesLayout() {
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href='/Devis' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
-                OBTENIR LE DEVIS DE NETTOYAGE
+              Demandez votre Devis de Nettoyage
               </Link>
               <Link href='#Contact' className="bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
-              CONTACTEZ-NOUS
+              Contactez-nous
               </Link>
             </div>
           </Fade>
@@ -61,26 +60,26 @@ export default function CleaningServicesLayout() {
             {[
               {
                 image: "/Icon/101.svg",
-                title: "SERVICES DE NETTOYAGE REGULIERS",
+                title: "Services de Nettoyage Réguliers",
                 description:
-                  "Nettoyage réguliers, approvisionnement en produits hygiène, gestion de vos déchets,...",
+                  "Nettoyage périodique, approvisionnement en produits d’hygiène et gestion de vos déchets.",
               },
               {
                 image: "/Icon/102.svg",
-                title: "DESINFECTION DE VOS LOCAUX",
+                title: "Désinfection de Vos Locaux",
                 description:
-                  "Désinfection des points de contact, désinfection par nébulisation,...",
+                  "Désinfection des surfaces de contact et désinfection par nébulisation.",
               },
               {
                 image: "/Icon/103.svg",
-                title: "SERVICES DE NETTOYAGE COMPLEMENTAIRES",
+                title: "Services de Nettoyage Complémentaires",
                 description:
-                  "Vitrerie, entretien et rénovation des sols, nettoyage des façades et autres services,...",
+                  "Nettoyage de vitres, entretien et rénovation des sols, nettoyage de façades, et plus encore.",
               },
               {
                 image: "/Icon/104.svg",
-                title: "REMISES EN ETAT",
-                description: "Après travaux, après sinistre, ponctuelle.",
+                title: "Remises en État",
+                description: "Interventions après travaux, après sinistre ou ponctuelles.",
               },
             ].map((service, index) => (
               <div

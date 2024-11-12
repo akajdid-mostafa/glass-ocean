@@ -27,21 +27,20 @@ export default function MoroccoMap() {
         <div className="w-full lg:w-1/2 pr-0 lg:pr-8 mb-8 lg:mb-0 relative">
           <Fade direction={"up"} delay={800} triggerOnce={true}>
             <h1 className="text-3xl font-bold text-black mb-4">
-              TROUVER LA DIRECTION RÉGIONALE LA PLUS PROCHE DE VOUS
+              Trouver la Direction Régionale la Plus Proche
             </h1>
             <h2 className="text-lg font-semibold text-blue600 mb-4">
-              Société de nettoyage dans votre région
+              Votre Société de Nettoyage Partout au Maroc
             </h2>
             <p className="text-gray700 mb-8">
-              Pour répondre à vos besoins de propreté avec une approche sur
-              mesure, nous mettons un point d&apos;honneur à rester à vos côtés
-              où que vous soyez au Maroc. Avec notre réseau d&apos;entreprises
-              de nettoyage, nous couvrons l&apos;ensemble du territoire, de
-              Tanger à Laâyoune, en passant par Casablanca, Rabat et Marrakech.
+              Pour répondre à vos besoins de propreté sur mesure, nous vous
+              accompagnons où que vous soyez au Maroc. Grâce à notre réseau,
+              nous couvrons tout le pays, de Tanger à Dakhla, en passant par
+              Agadir, Marrakech, Casablanca, et Rabat.
             </p>
             <Link href="/Devis">
               <button className="w-full lg:w-auto hover:bg-gray700 bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
-                Discover the cities we are available in
+              Découvrez les villes où nous intervenons
               </button>
             </Link>
           </Fade>

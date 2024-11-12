@@ -42,7 +42,7 @@ const Banner = () => {
                             Un Nettoyage Innovant, Des Résultats Exceptionnels
                             </h1>
                             <p className='text-white lg:text-lg font-normal mb-10 text-center'>
-                                Découvrez des services de nettoyage à la pointe de l&#39;innovation, engagés à offrir des résultats exceptionnels.
+                            Profitez d&apos;un nettoyage avancé, conçu pour offrir des résultats exceptionnels et répondre à vos besoins spécifiques, à Agadir et partout au Maroc.
                             </p>
                             <div className='md:flex align-middle justify-center'>
                                 <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6'>
