@@ -41,7 +41,7 @@ const Banner = () => {
                             <h1 className="text-2xl lg:text-4xl font-semibold mb-5 mt-20 text-white text-center">
                             Un Nettoyage Innovant, Des Résultats Exceptionnels
                             </h1>
-                            <p className='text-white lg:text-lg font-normal mb-10 text-center'>
+                            <p className='max-w-4xl  text-white lg:text-lg font-normal mb-10 text-center'>
                             Profitez d&apos;un nettoyage avancé, conçu pour offrir des résultats exceptionnels et répondre à vos besoins spécifiques, à Agadir et partout au Maroc.
                             </p>
                             <div className='md:flex align-middle justify-center'>
