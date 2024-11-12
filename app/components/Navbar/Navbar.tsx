@@ -16,7 +16,6 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: "Accueil", href: "/#home-section" },
-  { name: "Demande de Devis", href: "/Devis" },
   {
     name: "Services",
     href: "/#service",
@@ -28,27 +27,31 @@ const navigation: NavigationItem[] = [
     ],
   },
   { name: "Galerie", href: "/gallery" },
+  { name: "Contact", href: "/contact" },
   { name: "A propos", href: "/#about-section" },
 ];
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [activeSection, setActiveSection] = useState<string | null>(null);
+  const [activeHash, setActiveHash] = useState<string | null>(null);
   const [isOpen, setIsOpen] = useState(false);
 
+  // Update the active hash whenever the URL hash changes
   useEffect(() => {
-    const updateActiveSection = () => {
-      const hash = window.location.hash.replace("#", "");
-      setActiveSection(hash || null);
+    const handleHashChange = () => {
+      setActiveHash(window.location.hash || null);
     };
 
-    updateActiveSection();
-    window.addEventListener("hashchange", updateActiveSection);
+    // Set initial hash
+    handleHashChange();
+    
+    // Listen for hash changes
+    window.addEventListener("hashchange", handleHashChange);
 
     return () => {
-      window.removeEventListener("hashchange", updateActiveSection);
+      window.removeEventListener("hashchange", handleHashChange);
     };
-  }, []);
+  }, [pathname]);
 
   return (
     <Disclosure as="nav" className="navbar relative z-20">
@@ -66,11 +69,12 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center border-right">
               <div className="flex justify-end space-x-4">
                 {navigation.map((item) => {
+                  const [baseHref, hash] = item.href.split("#");
+
+                  // Determine if this item is active based on pathname and hash
                   const isActive =
-                    pathname === item.href.split("#")[0] &&
-                    (item.href.includes("#")
-                      ? activeSection === item.href.split("#")[1]
-                      : pathname === item.href);
+                    pathname === baseHref &&
+                    (!hash || `#${hash}` === activeHash);
 
                   return item.submenu ? (
                     <div
@@ -79,12 +83,13 @@ const Navbar = () => {
                     >
                       <Link
                         href={item.href}
-                        className=" px-3 py-2 text-lg flex items-center opacity-50 hover:text-blue600 hover:opacity-100 space-links"
+                        className={`px-3 py-2 text-lg flex items-center ${
+                          isActive ? "text-blue500 " : "opacity-50"
+                        } hover:text-blue600 hover:opacity-100 space-links`}
                       >
                         {item.name}
                         <MdNavigateNext className="ml-1" />
                       </Link>
-                      {/* Dropdown menu with scale effect on hover */}
                       <div className="absolute top-full left-0 hidden group-hover:block bg-white shadow-lg rounded-lg p-2 space-y-2 z-50 transform transition-transform duration-200 scale-95 group-hover:scale-100 min-w-max">
                         {item.submenu.map((subitem) => (
                           <Link
@@ -102,12 +107,10 @@ const Navbar = () => {
                       key={item.name}
                       href={item.href}
                       className={`px-3 py-2 rounded-md text-lg font-normal ${
-                        item.name === "Demande de Devis"
-                          ? "bg-gradient-to-r from-blue600 to-red600 text-white px-3 py-2 rounded-xl font-bold space-links"
-                          : isActive
-                          ? "font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent space-links"
-                          : "opacity-50 hover:text-blue600 hover:opacity-100 bg-opacity-20 font-bold space-links"
-                      }`}
+                        isActive
+                          ? "font-bold text-blue500"
+                          : "opacity-50  hover:text-blue600  font-bold hover:opacity-100"
+                      } space-links`}
                       aria-current={isActive ? "page" : undefined}
                     >
                       {item.name}
@@ -117,9 +120,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="gap-6 hidden lg:flex">
-              <Link href="/contact">
+              <Link href='/Devis'>
                 <button className="flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white py-3 px-4 lg:px-10 navbutton space-links">
-                  Contactez-nous
+                Demande de Devis
                 </button>
               </Link>
             </div>
