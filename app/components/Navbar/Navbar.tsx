@@ -44,7 +44,7 @@ const Navbar = () => {
 
     // Set initial hash
     handleHashChange();
-    
+
     // Listen for hash changes
     window.addEventListener("hashchange", handleHashChange);
 
@@ -120,9 +120,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="gap-6 hidden lg:flex">
-              <Link href='/Devis'>
+              <Link href="/Devis">
                 <button className="flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white py-3 px-4 lg:px-10 navbutton space-links">
-                Demande de Devis
+                  Demande de Devis
                 </button>
               </Link>
             </div>

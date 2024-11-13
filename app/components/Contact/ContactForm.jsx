@@ -21,7 +21,7 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Show the toast message and clear the form after a 1-second delay
     setTimeout(() => {
       setShowToast(true);
@@ -146,11 +146,13 @@ const Contactus = () => {
 
       {/* Toast notification */}
       {showToast && (
-          <div className="fixed inset-0 flex items-center justify-center ">
-            <div className="max-w-2xl bg-gradient-to-r from-blue600 to-red600 text-white  font-bold px-6 py-3 rounded-lg shadow-lg">
-              Merci de nous avoir contactés ! Nous avons reçu vos informations et notre équipe vous contactera bientôt. Merci pour votre intérêt et à très bientôt !
-            </div>
+        <div className="fixed inset-0 flex items-center justify-center ">
+          <div className="max-w-2xl bg-gradient-to-r from-blue600 to-red600 text-white  font-bold px-6 py-3 rounded-lg shadow-lg">
+            Merci de nous avoir contactés ! Nous avons reçu vos informations et
+            notre équipe vous contactera bientôt. Merci pour votre intérêt et à
+            très bientôt !
           </div>
+        </div>
       )}
     </>
   );

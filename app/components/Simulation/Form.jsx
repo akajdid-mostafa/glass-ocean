@@ -134,7 +134,7 @@ export default function TwoStageForm() {
                   htmlFor="surfaceId"
                   className="block text-sm font-medium text-gray700"
                 >
-                   Vos mesures de surface
+                  Vos mesures de surface
                 </label>
                 <select
                   id="surfaceId"
@@ -269,11 +269,14 @@ export default function TwoStageForm() {
             <div className="absolute inset-0 bg-gray700 bg-opacity-75 transition-opacity"></div>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-md w-full sm:w-96 md:w-1/2 lg:w-2/3 xl:w-1/3 z-50 transition-transform transform scale-100">
               <div className="bg-gradient-to-r from-blue600 to-red600 text-white px-4 py-2 flex justify-between">
-                <h2 className="text-lg font-semibold">DEVIS DE NETTOYAGE EN LIGNE</h2>
+                <h2 className="text-lg font-semibold">
+                  DEVIS DE NETTOYAGE EN LIGNE
+                </h2>
               </div>
               <div className="p-4">
                 <p>
-                Demande de devis de nettoyage gratuit bien reçue. Notre équipe commerciale vous contactera bientôt.
+                  Demande de devis de nettoyage gratuit bien reçue. Notre équipe
+                  commerciale vous contactera bientôt.
                 </p>
               </div>
               <div className=" px-4 py-2 flex justify-end">

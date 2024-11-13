@@ -15,14 +15,14 @@ const cardData: cardDataType[] = [
   {
     imgSrc: "/images/Features/301.png",
     heading: "Inclusion",
-    subheading:
-      "Un service respectueux pour un environnement harmonieux.",
+    subheading: "Un service respectueux pour un environnement harmonieux.",
     link: "En savoir plus",
   },
   {
     imgSrc: "/images/Features/302.png",
     heading: "Professionnels",
-    subheading: "Une équipe qualifiée et certifiée pour un service de qualité supérieure.",
+    subheading:
+      "Une équipe qualifiée et certifiée pour un service de qualité supérieure.",
     link: "En savoir plus",
   },
   {

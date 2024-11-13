@@ -40,7 +40,7 @@ export default function MoroccoMap() {
             </p>
             <Link href="/Devis">
               <button className="w-full lg:w-auto hover:bg-gray700 bg-gradient-to-r from-blue600 to-red600 text-white px-6 py-4 rounded-lg font-bold text-md">
-              Découvrez les villes où nous intervenons
+                Découvrez les villes où nous intervenons
               </button>
             </Link>
           </Fade>
