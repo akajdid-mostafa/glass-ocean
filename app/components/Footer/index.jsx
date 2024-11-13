@@ -165,10 +165,10 @@ const Footer = () => {
             <FooterLinkSection title={ourFormationTitle} links={ourFormation} />
           </div>
         </div>
-        <div className="mt-2 mb-4">
-          <hr className="content-center my-4 border-t-2 border-gray300" />
+        <div className="mt-2">
+          <hr className="content-center my-4 border-t-2 border-gray700" />
           <div>
-            <div className="flex flex-col items-center space-y-2 lg:flex-row lg:items-center lg:justify-between lg:space-y-0 lg:space-x-4">
+            <div className="flex flex-col items-center space-y-2 lg:flex-row lg:items-center lg:justify-between lg:space-y-0 lg:space-x-4 pb-4">
               <p className="font-semibold text-md">
                 {footerCopyright.text} {new Date().getFullYear()}{" "}
                 <Link href="/#" className="text-blue600 hover:text-white">
