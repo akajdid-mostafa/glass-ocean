@@ -71,7 +71,7 @@ export const footerDataAr = {
         "text": "حقوق الملكية © ",
         "company": "Ocean Connecting",
         "allRightsReserved": "جميع الحقوق محفوظة.",
-        "message": "شكراً لزيارتك موقعنا الإلكتروني ومرحباً بك في ",
+        "message": "شكراً لزيارتكم ومرحباً بكم في",
         
     }
 }; 

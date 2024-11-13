@@ -72,7 +72,7 @@ export const footerDataEn = {
         "text": "Copyright © ",
         "company": "Ocean Connecting",
         "allRightsReserved": "All Rights Reserved.",
-        "message": "Thank you for visiting our website and welcome to ",
+        "message": "Thank you for your visit and welcome to",
         
     }
 }; 
