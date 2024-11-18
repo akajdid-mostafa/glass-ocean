@@ -19,16 +19,16 @@ const services = [
     image: "/images/service/service.jpg?height=80&width=80",
   },
   {
-    title: "Nettoyage des Maisons Terminées",
+    title: "reparations electriques a domicile",
     description:
       "Nous assurons le nettoyage des maisons récemment achevées, pour des espaces impeccables et prêts à emménager.",
-    image: "/images/service/maison.jpg?height=80&width=80",
+    image: "/images/service/check.png?height=80&width=80",
   },
   {
-    title: "Nettoyage des Panneaux d'Affichage",
+    title: "reparations de l'eau a domicile",
     description:
       "Nous nettoyons vos panneaux d'affichage pour garantir une visibilité optimale et une présentation soignée.",
-    image: "/images/service/paneau.jpg?height=80&width=80",
+    image: "/images/service/plombin.png?height=80&width=80",
   },
 ];
 
