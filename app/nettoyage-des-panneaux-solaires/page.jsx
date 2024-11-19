@@ -60,8 +60,8 @@ export default function Simulat() {
           />
           <Features />
           <Startpage
-            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Ftravail-nettoyage-panneaux-solaires-dans-centrale-solaire-nettoyage-professionnel-panneau-solaires_1429-19921.jpg?alt=media&token=c924f0be-ffd2-44e6-939d-f27b37c3b559"
-            subHeading="Nettoyage de façade"
+            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FMMM04211.avif?alt=media&token=443715a6-10c6-44fc-a759-91b822e5d751"
+            //subHeading="Nettoyage de façade"
             title="Comment réaliser le nettoyage de ses panneaux solaires ?"
             description="Notre équipe 100 % intégrée respecte les règles de sécurité et garantit la protection mécanique de votre installation avec du matériel dédié. Nous utilisons des robots de nettoyage et des brosses spécifiques munis de poils adaptés aux panneaux photovoltaïques permettant d’enlever les salissures sans aucune rayure, et de l’eau pure pour vous assurer un résultat efficace et optimal."
             description1="Une intervention de nettoyage de vos panneaux photovoltaïques peut être l’occasion d’effectuer une vérification de votre installation pour détecter d’éventuelles anomalies qui peuvent survenir sur votre installation : fixation qui se desserre, panneau fissuré, cellule brûlée…"
@@ -73,8 +73,8 @@ export default function Simulat() {
             secondbutton="Contacter-nous"
           />
           <Startpage
-            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Ftravail-nettoyage-panneaux-solaires-dans-centrale-solaire-nettoyage-professionnel-panneau-solaires_1429-19921.jpg?alt=media&token=c924f0be-ffd2-44e6-939d-f27b37c3b559"
-            subHeading="Nettoyage de façade"
+            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FE107NLPF.avif?alt=media&token=0848130e-ee70-4c65-b56c-2ecdb825120e"
+            //subHeading="Nettoyage de façade"
             title="L’eau pure : une technique de nettoyage respectueuse de l’environnement"
             description="Le nettoyage des panneaux solaires à l'eau pure se distingue des techniques classiques appliquées par son aspect écologique. En effet, grâce à un système de filtration efficace, elle nous permet de vous débarrasser des divers dépôts de saletés présents sur vos installations photovoltaïques tout en limitant l’impact sur l’environnement."
             description1="Respectant l’environnement, l'eau pure est un nettoyage optimal pour le panneau solaire photovoltaïque car :"
@@ -90,7 +90,7 @@ export default function Simulat() {
             //secondbutton="Contacter-nous"
           />
           <Startpage
-            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Ftravail-nettoyage-panneaux-solaires-dans-centrale-solaire-nettoyage-professionnel-panneau-solaires_1429-19921.jpg?alt=media&token=c924f0be-ffd2-44e6-939d-f27b37c3b559"
+            image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2F3J3A3752.avif?alt=media&token=38ac37b7-d8d3-4039-b239-7719eff60b3d"
             subHeading="Une pré-visite essentielle de votre centrale solaire"
             title="Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité"
             description="Préalablement au nettoyage de vos panneaux solaires, Net’Toi procède à une pré-visite indispensable de votre installation photovoltaïque. Cette visite technique est essentielle, car elle permet à Net'Toi d'identifier les travaux à effectuer et ainsi d'adapter l'entretien de votre installation de manière optimale."

@@ -12,7 +12,7 @@ export default function TwoStageForm() {
     namePersone: "",
     email: "",
     Adress: "",
-    codePostall: 8000,
+    codePostall: "8000",
     message: "",
     status: "PENDING",
   });
@@ -23,7 +23,7 @@ export default function TwoStageForm() {
     const fetchSurfaceOptions = async () => {
       try {
         const response = await fetch(
-          "https://ocean-dashbord.vercel.app/api/surface"
+          "https://ocean-dashbord-elzu.vercel.app/api/surface"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -44,7 +44,7 @@ export default function TwoStageForm() {
     setFormData((prev) => ({
       ...prev,
       [name]:
-        name === "surfaceId" || name === "codePostall" ? Number(value) : value,
+        name === "surfaceId"  ? Number(value) : value,
     }));
   };
 
@@ -53,7 +53,7 @@ export default function TwoStageForm() {
 
     try {
       const response = await fetch(
-        "https://ocean-dashbord.vercel.app/api/Devis",
+        "https://ocean-dashbord-elzu.vercel.app/api/Devis",
         {
           method: "POST",
           headers: {
@@ -81,7 +81,7 @@ export default function TwoStageForm() {
         namePersone: "",
         email: "",
         Adress: "",
-        codePostall: 8000,
+        codePostall: "8000",
         message: "",
         status: "PENDING",
       });

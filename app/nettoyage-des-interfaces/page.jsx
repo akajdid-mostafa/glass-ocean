@@ -35,8 +35,6 @@ const cardData = [
 export default function Simulat() {
   return (
     <main>
-      <div className="w-full px-4 py-12">
-        <div className="max-w-7xl mx-auto text-center space-y-8">
           <Start
             backgroundImage="/images/simulation/facadee.jpg"
             mainHeading="Nettoyage de Façades pour Professionnels"
@@ -101,12 +99,10 @@ export default function Simulat() {
           />
           <Features />
           <SectionMap />
-          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
             Contactez-nous
           </h1>
           <Contact />
-        </div>
-      </div>
     </main>
   );
 }

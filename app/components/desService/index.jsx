@@ -6,6 +6,8 @@ import Link from "next/link";
 const StartPage = ({
   image,
   description1,
+  description2,
+  description3,
   subHeading,
   description,
   title,
@@ -30,12 +32,22 @@ const StartPage = ({
               <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold dark:text-white">
                 {title}
               </h1>
+              {description && (
               <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
                 {description}
               </p>
+              )}
+              {description1 && (
               <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
                 {description1}
               </p>
+              )}
+              {description2 && (
+              <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                {description2}
+              </p>
+              )}
+              {listItems && (
               <ul className="space-y-2">
                 {listItems.map((item, index) => (
                   <li key={index} className="flex items-center space-x-2">
@@ -49,6 +61,11 @@ const StartPage = ({
                   </li>
                 ))}
               </ul>
+              )}
+              {description3 && (
+              <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                {description3}
+              </p>)}
               <div className="flex gap-x-5 flex-col gap-y-2.5 lg:flex-row">
                 {firstbutton && firstbuttonLink ? (
                   <a
@@ -117,12 +134,22 @@ const StartPage = ({
               <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold dark:text-white">
                 {title}
               </h1>
+              {description && (
               <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
                 {description}
               </p>
+              )}
+              {description1 && (
               <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
                 {description1}
               </p>
+              )}
+              {description2 && (
+              <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                {description2}
+              </p>
+              )}
+              {listItems && (
               <ul className="space-y-2">
                 {listItems.map((item, index) => (
                   <li key={index} className="flex items-center space-x-2">
@@ -136,6 +163,12 @@ const StartPage = ({
                   </li>
                 ))}
               </ul>
+              )}
+              {description3 && (
+                <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  {description3}
+                </p>
+              )}
 
               <div className="flex gap-x-5 flex-col gap-y-2.5 lg:flex-row">
                 {firstbutton && firstbuttonLink ? (

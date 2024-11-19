@@ -2,33 +2,51 @@
 
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 
 const services = [
   {
+    link: "/nettoyage-des-interfaces",
     title: "Nettoyage des Interfaces",
     description:
       "Nous réalisons un nettoyage soigné des interfaces pour assurer une clarté parfaite et un fonctionnement optimal.",
     image: "/images/service/facade.jpg?height=80&width=80",
+    action: "En savoir plus",
   },
   {
+    link: "/nettoyage-des-panneaux-solaires",
     title: "Nettoyage des Panneaux Solaires",
     description:
       "Nous nettoyons vos panneaux solaires pour maximiser leur efficacité en éliminant poussière et impuretés.",
     image: "/images/service/service.jpg?height=80&width=80",
+    action: "En savoir plus",
   },
   {
+    link: "/reparations-electriques-a-domicile",
     title: "reparations electriques a domicile",
     description:
-      "Nous assurons le nettoyage des maisons récemment achevées, pour des espaces impeccables et prêts à emménager.",
+      "Nous intervenons rapidement pour réparer vos installations électriques à domicile, garantissant sécurité et conformité.",
     image: "/images/service/check.png?height=80&width=80",
+    action: "En savoir plus",
   },
   {
+    link: "/reparations-de-l-eau-a-domicile",
     title: "reparations de l'eau a domicile",
     description:
-      "Nous nettoyons vos panneaux d'affichage pour garantir une visibilité optimale et une présentation soignée.",
+      "Nous intervenons rapidement pour réparer vos installations de plomberie à domicile, assurant un service fiable et durable.",
     image: "/images/service/plombin.png?height=80&width=80",
+    action: "En savoir plus",
+  },
+  {
+    link: "/destruction-des-insectes-nuisibles",
+    title: "destruction des insectes nuisibles",
+    description:
+      "Nous éliminons efficacement les insectes nuisibles de votre domicile, garantissant un environnement sain et sécurisé.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-19%20at%2011.19.07.jpeg?alt=media&token=283c0429-fc21-4ead-b20c-bfbc39b5bbc7?height=80&width=80",
+    action: "En savoir plus",
   },
 ];
 
@@ -51,45 +69,49 @@ export default function ServicesSection() {
             </p>
           </Fade>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
             {services.map((service, index) => (
               <div
                 key={index}
                 className="bg-white rounded-xl shadow-md overflow-hidden relative"
               >
-                <div className="p-6">
-                  <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center overflow-hidden">
-                    <Image
-                      src={service.image}
-                      alt={service.title}
-                      width={144}
-                      height={144}
-                      className="rounded-full object-cover w-36 h-36"
-                    />
+                <Link href={service.link}>
+                  <div className="p-6">
+                    <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center overflow-hidden">
+                      <Image
+                        src={service.image}
+                        alt={service.title}
+                        width={144}
+                        height={144}
+                        className="rounded-full object-cover w-36 h-36"
+                      />
+                    </div>
+                    <h4 className="text-xl font-semibold mb-2 text-center">
+                      {service.title}
+                    </h4>
+                    <p className="text-gray700 text-center mb-4">
+                      {service.description}
+                    </p>
+                    <div className="flex items-center justify-center">
+                      <Link href={service.link}>
+                        <p className=" bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-bold  mt-2 hover-underline">
+                          {service.action}
+                          <ChevronRightIcon
+                            className="text-red600 font-bold"
+                            width={20}
+                            height={20}
+                          />
+                        </p>
+                      </Link>
+                    </div>
                   </div>
-                  <h4 className="text-xl font-semibold mb-2 text-center">
-                    {service.title}
-                  </h4>
-                  <p className="text-gray700 text-center mb-4">
-                    {service.description}
-                  </p>
-                  {/* <button className="w-12 h-12 font-bold rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center mx-auto">
-                                        <ArrowRight className="w-6 h-6 text-white" />
-                                    </button> */}
-                </div>
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
+                  <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
+                </Link>
               </div>
             ))}
           </Fade>
         </div>
-        {/* <div className="text-center">
-                    <Fade direction="up" delay={1200} triggerOnce>
-                        <Link href="/Devis" className="bg-gradient-to-r from-blue600 to-red600 text-white px-8 py-3 rounded-full font-bold uppercase tracking-wide hover:bg-yellow-500 transition-colors">
-                            More Services
-                        </Link>
-                    </Fade>
-                </div> */}
       </div>
     </section>
   );
