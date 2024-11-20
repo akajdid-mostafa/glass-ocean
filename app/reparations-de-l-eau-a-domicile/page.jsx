@@ -1,5 +1,4 @@
-'use client';
-
+"use client";
 
 import Startpage from "../components/desService/index";
 import Place from "../components/desService/place";
@@ -7,6 +6,8 @@ import Start from "../components/desService/start";
 import Features from "../components/Work/index";
 import Contact from "../components/Contact/index";
 import SectionMap from "../components/Section-Map/map";
+import { Fade } from "react-awesome-reveal";
+import Component from "../components/desService/faq-section";
 
 const cardData = [
   {
@@ -30,8 +31,8 @@ const cardData = [
   },
 ];
 export default function Simulat() {
-    return (
-      <>
+  return (
+    <>
       <Start
         backgroundImage="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fmain-ingenieur-tenant-voltmetre-ca-verifiant-tension-du-courant-electrique-borne-du-disjoncteur_101448-4078.jpg?alt=media&token=721def2c-9232-4fd6-bba0-7dd48aa8a862"
         mainHeading="destruction des insectes nuisibles"
@@ -87,8 +88,8 @@ export default function Simulat() {
         subHeading="Bon à savoir"
         title="Quand faire appel à un plombier ?"
         description="Vous pouvez solliciter l'aide d'un artisan dans les cas suivants :"
-        //description1="C'est pourquoi, Ocean Connecting vous propose un service rapide, avec des électriciens en mesure d'intervenir en urgence, ou sur rendez-vous. Triés sur le volet, ces professionnels qualifiés sont capables de répondre à diverses problématiques, de la plus simple, au chantier le plus complexe. Soucieux du travail bien fait, nos artisans savent exercer dans le strict respect des normes et des protocoles en vigueur, afin de conduire leurs travaux dans de bonnes conditions."
-        //description2="Vous pouvez donc contacter nos artisans dans les cas suivants :"
+        description1="C'est pourquoi, Ocean Connecting vous propose un service rapide, avec des électriciens en mesure d'intervenir en urgence, ou sur rendez-vous. Triés sur le volet, ces professionnels qualifiés sont capables de répondre à diverses problématiques, de la plus simple, au chantier le plus complexe. Soucieux du travail bien fait, nos artisans savent exercer dans le strict respect des normes et des protocoles en vigueur, afin de conduire leurs travaux dans de bonnes conditions."
+        description2="Vous pouvez donc contacter nos artisans dans les cas suivants :"
         firstbutton="Demande de Devis"
         listItems={[
           "Réparation d’une fuite d’eau.",
@@ -114,10 +115,13 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-        Contactez-nous
-      </h1>
+      <Component />
+      <Fade direction="up" delay={600} triggerOnce={true}>
+        <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
+          Contactez-nous
+        </h1>
+      </Fade>
       <Contact />
     </>
-    )
-  }
+  );
+}

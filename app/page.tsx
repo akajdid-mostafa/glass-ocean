@@ -11,7 +11,7 @@ import Contact from './components/Contact/index';
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <ServicesSection/>
       <CleaningServicesLayout/>
@@ -22,6 +22,6 @@ export default function Home() {
       <Expert />
       <Contact/>
       {/* <Newsletter /> */}
-    </main>
+      </>
   )
 }

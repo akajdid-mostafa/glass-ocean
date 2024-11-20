@@ -6,6 +6,8 @@ import Start from "../components/desService/start";
 import Features from "../components/Work/index";
 import Contact from "../components/Contact/index";
 import SectionMap from "../components/Section-Map/map";
+import { Fade } from "react-awesome-reveal";
+import Component from "../components/desService/faq-section";
 
 const cardData = [
   {
@@ -115,9 +117,12 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-        Contactez-nous
-      </h1>
+      <Component />
+      <Fade direction="up" delay={600} triggerOnce={true}>
+        <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
+          Contactez-nous
+        </h1>
+      </Fade>
       <Contact />
     </>
   );

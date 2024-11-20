@@ -94,7 +94,7 @@ export default function ServicesSection() {
                       {service.description}
                     </p>
                     <div className="flex items-center justify-center">
-                      <Link href={service.link}>
+                      {/* <Link href={service.link}> */}
                         <p className=" bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-bold  mt-2 hover-underline">
                           {service.action}
                           <ChevronRightIcon
@@ -103,7 +103,7 @@ export default function ServicesSection() {
                             height={20}
                           />
                         </p>
-                      </Link>
+                      {/* </Link> */}
                     </div>
                   </div>
                   <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
