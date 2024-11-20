@@ -8,7 +8,42 @@ import Contact from "../components/Contact/index";
 import SectionMap from "../components/Section-Map/map";
 import Startcontact from "../components/Contact/Start";
 import { Fade } from "react-awesome-reveal";
-import Component from "../components/desService/faq-section";
+import FAQSection from "../components/desService/faq-section";
+
+const faqItems = [
+  {
+    question: "Quelles sont vos services exactement ?",
+    answer:
+      "Nettoyage de façades, vitres, et surfaces environnantes.",
+  },
+  {
+    question: "Comment puis-je obtenir un devis ?",
+    answer:
+      "Remplissez notre formulaire ou appelez-nous.",
+  },
+  {
+    question: "Dans quelles zones travaillez-vous ?",
+    answer:
+      "Nous sommes disponibles partout au Maroc.",
+  },
+  {
+    question: "Combien de temps faut-il pour nettoyer une façade ?",
+    answer:
+      "Cela dépend de la surface et de la hauteur.",
+  },
+  {
+    question: "Proposez-vous des services réguliers ?",
+    answer:
+      "Oui, services mensuels, trimestriels, et annuels.",
+  },
+  {
+    question: "Comment puis-je prendre rendez-vous ?",
+    answer:
+      "Par téléphone ou via notre site.",
+  },
+  
+];
+
 
 const cardData = [
   {
@@ -102,7 +137,7 @@ export default function Simulat() {
       />
       <Features />
       <SectionMap />
-      <Component />
+      <FAQSection faqItems={faqItems} />
       <Fade direction="up" delay={600} triggerOnce={true}>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
           Contactez-nous

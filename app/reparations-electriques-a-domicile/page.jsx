@@ -7,7 +7,31 @@ import Features from "../components/Work/index";
 import Contact from "../components/Contact/index";
 import SectionMap from "../components/Section-Map/map";
 import { Fade } from "react-awesome-reveal";
-import Component from "../components/desService/faq-section";
+import FAQSection from "../components/desService/faq-section";
+
+const faqItems = [
+  {
+    question: "Comment nettoyer une façade de maison très sale ?",
+    answer:
+      "Il est recommandé d’utiliser un nettoyeur à haute pression pour un lavage plus efficace. Le savon doux : pour les façades en bois, frottez avec une brosse un mélange de savon doux ou savon noir mélangé avec de l’eau chaude pour enlever la saleté et les taches.",
+  },
+  {
+    question: "Comment enlever la moisissure sur des murs extérieurs ?",
+    answer:
+      "Pulvérisez directement du vinaigre blanc non dilué sur la zone moisie et laissez agir pendant au moins une heure. Ensuite, frottez la surface avec une brosse pour éliminer toute trace de moisissure, puis essuyez avec un chiffon humide",
+  },
+  {
+    question: "Comment enlever les taches noires sur un mur ?",
+    answer:
+      "Certains traitements naturels peuvent être utilisés pour éliminer les taches noires sur les façades. Le vinaigre blanc, le bicarbonate de soude, le sel ou les cristaux de soude en font partie. Ces produits peuvent être appliqués avec une éponge ou une brosse, puis rincés à l’eau claire.",
+  },
+  {
+    question: "Quelles autres solutions existe-t-il pour nettoyer sa façade ?",
+    answer:
+      "Pour un nettoyage plus poussé de sa façade, il existe d’autres méthodes encore plus efficaces. Eu égard des produits utilisés, et des techniques plus complexes, il est conseillé de faire appel à un façadier professionnel.",
+  },
+];
+
 
 const cardData = [
   {
@@ -117,7 +141,7 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      <Component />
+      <FAQSection faqItems={faqItems} />
       <Fade direction="up" delay={600} triggerOnce={true}>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
           Contactez-nous

@@ -20,7 +20,7 @@ const navigation: NavigationItem[] = [
     name: "Services",
     href: "/#service",
     submenu: [
-      { name: "Nettoyage des interfaces", href: "/nettoyage-des-interfaces" },
+      { name: "Nettoyage des façades", href: "/nettoyage-des-interfaces" },
       { name: "Nettoyage des panneaux solaires", href: "/nettoyage-des-panneaux-solaires" },
       { name: "Réparations électriques à domicile", href: "/reparations-electriques-a-domicile" },
       { name: "Réparations de l'eau à domicile", href: "/reparations-de-l-eau-a-domicile" },
