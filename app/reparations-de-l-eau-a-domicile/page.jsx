@@ -11,24 +11,29 @@ import FAQSection from "../components/desService/faq-section";
 
 const faqItems = [
   {
-    question: "Comment nettoyer une façade de maison très sale ?",
+    question: "1.⁠ ⁠Quels problèmes réparez-vous ?",
     answer:
-      "Il est recommandé d’utiliser un nettoyeur à haute pression pour un lavage plus efficace. Le savon doux : pour les façades en bois, frottez avec une brosse un mélange de savon doux ou savon noir mélangé avec de l’eau chaude pour enlever la saleté et les taches.",
+      "Nous traitons les fuites d’eau, robinets cassés, canalisations bouchées, chauffe-eau défectueux, et autres soucis liés à la plomberie.",
   },
   {
-    question: "Comment enlever la moisissure sur des murs extérieurs ?",
+    question: "2.⁠ ⁠Intervenez-vous en cas d’urgence ?",
     answer:
-      "Pulvérisez directement du vinaigre blanc non dilué sur la zone moisie et laissez agir pendant au moins une heure. Ensuite, frottez la surface avec une brosse pour éliminer toute trace de moisissure, puis essuyez avec un chiffon humide",
+      "Oui, nous offrons un service d’urgence 24h/24 et 7j/7 pour les fuites importantes ou pannes critiques.",
   },
   {
-    question: "Comment enlever les taches noires sur un mur ?",
+    question: "3.⁠ ⁠Fournissez-vous un devis avant la réparation ?",
     answer:
-      "Certains traitements naturels peuvent être utilisés pour éliminer les taches noires sur les façades. Le vinaigre blanc, le bicarbonate de soude, le sel ou les cristaux de soude en font partie. Ces produits peuvent être appliqués avec une éponge ou une brosse, puis rincés à l’eau claire.",
+      "Oui, un devis détaillé et transparent est fourni avant chaque intervention.",
   },
   {
-    question: "Quelles autres solutions existe-t-il pour nettoyer sa façade ?",
+    question: "4.⁠ ⁠Travaillez-vous sur tous les types d’installations ?",
     answer:
-      "Pour un nettoyage plus poussé de sa façade, il existe d’autres méthodes encore plus efficaces. Eu égard des produits utilisés, et des techniques plus complexes, il est conseillé de faire appel à un façadier professionnel.",
+      "Nous intervenons sur les installations modernes et anciennes, qu’il s’agisse de cuisines, salles de bain ou réseaux extérieurs.",
+  },
+  {
+    question: "5.⁠ ⁠Combien de temps dure une intervention ?",
+    answer:
+      "La durée varie selon le problème, mais la majorité des réparations sont effectuées en moins de 2 heures.",
   },
 ];
 
@@ -139,7 +144,7 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      <FAQSection faqItems={faqItems} />
+      {/* <FAQSection faqItems={faqItems} /> */}
       <Fade direction="up" delay={600} triggerOnce={true}>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
           Contactez-nous

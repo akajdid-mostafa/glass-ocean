@@ -11,48 +11,57 @@ import FAQSection from "../components/desService/faq-section";
 
 const faqItems = [
   {
-    question: "Comment nettoyer une façade de maison très sale ?",
+    question: "Puis-je rester dans ma maison pendant le traitement?",
     answer:
-      "Il est recommandé d’utiliser un nettoyeur à haute pression pour un lavage plus efficace. Le savon doux : pour les façades en bois, frottez avec une brosse un mélange de savon doux ou savon noir mélangé avec de l’eau chaude pour enlever la saleté et les taches.",
+      "Oui, vous pouvez rester chez vous pendant le traitement. Nous utilisons des produits inoffensifs et inodores dans nos services de dératisation et de désinsectisation à Agadir.",
   },
   {
-    question: "Comment enlever la moisissure sur des murs extérieurs ?",
+    question:
+      "Est-ce que vos traitements sont sécuritaires pour les enfants et les animaux domestiques ?",
     answer:
-      "Pulvérisez directement du vinaigre blanc non dilué sur la zone moisie et laissez agir pendant au moins une heure. Ensuite, frottez la surface avec une brosse pour éliminer toute trace de moisissure, puis essuyez avec un chiffon humide",
+      "Oui, nous utilisons des produits approuvés et prenons des précautions strictes pour assurer la sécurité de votre famille et de vos animaux de compagnie avec notre service de contrôle des nuisibles à Agadir.",
   },
   {
-    question: "Comment enlever les taches noires sur un mur ?",
+    question:
+      "Vos traitements sont-ils sans danger pour les enfants et les animaux domestiques?",
     answer:
-      "Certains traitements naturels peuvent être utilisés pour éliminer les taches noires sur les façades. Le vinaigre blanc, le bicarbonate de soude, le sel ou les cristaux de soude en font partie. Ces produits peuvent être appliqués avec une éponge ou une brosse, puis rincés à l’eau claire.",
+      "Oui, nos traitements sont conçus pour être sûrs et respectueux de l'environnement. Nous prenons des précautions supplémentaires pour protéger les enfants et les animaux domestiques tout en assurant un contrôle efficace des nuisibles à Agadir.",
   },
   {
-    question: "Quelles autres solutions existe-t-il pour nettoyer sa façade ?",
+    question: "Offrez-vous des services de prévention?",
     answer:
-      "Pour un nettoyage plus poussé de sa façade, il existe d’autres méthodes encore plus efficaces. Eu égard des produits utilisés, et des techniques plus complexes, il est conseillé de faire appel à un façadier professionnel.",
+      "Oui, nous offrons des services préventifs à Agadir pour éviter de futures infestations de nuisibles. Nous pouvons également vous conseiller sur les mesures préventives adaptées à votre situation, que ce soit pour la lutte contre les nuisibles à Agadir.",
+  },
+  {
+    question: "Quelle est la durée typique d'un traitement?",
+    answer:
+      "Oui, nos traitements sont conçus pour être sûrs et respectueux de l’environnement. Nous prenons des précautions supplémentaires pour protéger les enfants et les animaux domestiques, tout en garantissant une dératisation Marrakech et une désinsectisation à Agadirefficaces.",
   },
 ];
 
-
 const cardData = [
   {
-    imageSrc: "/images/solair/so2.svg",
-    imageAlt: "Durabilité",
-    title: "Durabilité",
-    description: "Prolongez la durée de vie de votre système d'énergie solaire",
-  },
-  {
-    imageSrc: "/images/solair/so3.svg",
-    imageAlt: "Optimisation",
-    title: "Optimisation",
-    description: "Augmentation de 10% de votre production d’électricité ",
-  },
-  {
-    imageSrc: "/images/solair/so1.svg",
-    imageAlt: "Fiabilité",
-    title: "Fiabilité",
+    imageSrc: "/images/far/place1.svg",
+    imageAlt: "désinsectisation",
+    title: "désinsectisation",
     description:
-      "L'assurance d'un rendement des panneaux solaires à 100% garantie",
+      "Éliminez efficacement les insectes nuisibles de votre espace de vie à ِAgadir.",
   },
+  {
+    imageSrc: "/images/far/place2.svg",
+    imageAlt: "dératisation",
+    title: "dératisation",
+    description:
+      "Protégez votre maison contre les rongeurs avec nos solutions expertes. ",
+  },
+  {
+    imageSrc: "/images/far/place3.svg",
+    imageAlt: "désinfection",
+    title: "désinfection",
+    description:
+      "Garantissez une hygiène irréprochable avec notre service de désinfection.",
+  },
+
 ];
 
 export default function Simulat() {
@@ -80,14 +89,14 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      {/* <Place
-            title="Les avantages du nettoyage de panneaux solaires"
-            description="Le nettoyage des panneaux solaires améliore leur efficacité, prolonge leur durée de vie et réduit les coûts de maintenance, assurant ainsi un meilleur rendement énergétique."
-            cards={cardData}
-            partibutton="Obtenez dès maintenant un devis gratuit et personnalisé pour le nettoyage de vos panneaux solaires."
-            buttonText="Demande de devis rapide et gratuit"
-            buttonLink="/Devis"
-          /> */}
+      <Place
+        title="Vous Protéger Contre Les Nuisibles"
+        description="Protéger votre domicile contre les nuisibles préserve votre santé, évite les dégâts et garantit un environnement sain."
+        cards={cardData}
+        partibutton="Obtenez dès maintenant un devis gratuit et personnalisé pour la protection contre les nuisibles de votre domicile."
+        buttonText="Demande de devis rapide et gratuit"
+        buttonLink="/Devis"
+      />
       <Features />
       <Startpage
         image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fservice%2F20-24.jpeg?alt=media&token=ee3e7b0e-b26c-41c6-ba1f-ce579afdfd96"

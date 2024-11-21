@@ -58,10 +58,10 @@ export default function FAQSection({ faqItems }) {
             <div className="space-y-4">
             <Fade direction="up" delay={400} triggerOnce={true}>
               <p className="text-sm font-medium uppercase tracking-wide text-blue500">
-                QUESTIONS ET RÉPONSES
+              Laissez-nous vous aiderؤ
               </p>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent tracking-tight">
-                Vous avez une idée ? Trouvez-la ici.
+              questions fréquemment posées
               </h1>
               <div className="space-y-2">
                 <h2 className="text-lg font-medium text-blue500">Confusion?</h2>

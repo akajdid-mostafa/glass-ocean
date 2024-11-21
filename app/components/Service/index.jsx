@@ -9,7 +9,7 @@ import { Fade } from "react-awesome-reveal";
 const services = [
   {
     link: "/nettoyage-des-interfaces",
-    title: "Nettoyage des Interfaces",
+    title: "Nettoyage des façades",
     description:
       "Nous réalisons un nettoyage soigné des interfaces pour assurer une clarté parfaite et un fonctionnement optimal.",
     image: "/images/service/facade.jpg?height=80&width=80",

@@ -22,7 +22,6 @@ const Contactus = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Show the toast message and clear the form after a 1-second delay
     setTimeout(() => {
       setShowToast(true);
       setFormData({
@@ -33,13 +32,12 @@ const Contactus = () => {
         message: "",
       });
 
-      // Hide the toast message after a delay
+      
       setTimeout(() => {
         setShowToast(false);
-      }, 3000); // 3 seconds delay before disappearing
-    }, 1000); // 1-second delay before showing the toast and clearing the form
-
-    // Proceed to send the email
+      }, 3000); 
+    }, 1000); 
+  
     const emailSent = await sendEmail(formData);
     if (emailSent) {
       console.log("Email sent successfully!");
@@ -118,10 +116,12 @@ const Contactus = () => {
               <option value="0" disabled>
                 Select service
               </option>
-              <option value="Nettoyage All">Nettoyage All</option>
-              <option value="Nettoyage Facade">Nettoyage Facade</option>
-              <option value="Nettoyage Paneau">Nettoyage Paneau</option>
-              <option value="Nettoyage Maison">Nettoyage Maison</option>
+              <option value="Nettoyage All">All Service</option>
+              <option value="Nettoyage des façades">Nettoyage des façades</option>
+              <option value="Nettoyage des Panneaux Solaires">Nettoyage des Panneaux Solaires</option>
+              <option value="reparations electriques a domicile">Reparations electriques a domicile</option>
+              <option value="reparations de l'eau a domicile">Reparations de l&apos;eau a domicile</option>
+              <option value="destruction des insectes nuisibles">Restruction des insectes nuisibles</option>
             </select>
           </div>
           <textarea
