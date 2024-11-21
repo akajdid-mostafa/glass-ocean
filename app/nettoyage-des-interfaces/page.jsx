@@ -124,7 +124,7 @@ export default function Simulat() {
         secondbutton="Contacter-nous"
       />
       <Startpage
-        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FWhatsApp%20Image%202024-11-18%20at%2011.20.27.jpeg?alt=media&token=0c354043-f08e-4334-9344-82439d7daf2d"
+        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-21%20at%2018.08.50.jpeg?alt=media&token=5ff2c52f-8c25-45c4-95d8-0b2c26bf2f9a"
         subHeading="Nettoyage des panneaux d'affichage"
         title="Nettoyage des Panneaux d'Affichage : Clarté et Visibilité"
         description="Le nettoyage des panneaux d'affichage est crucial pour garantir une visibilité optimale et une présentation soignée. En éliminant les poussières, taches et autres salissures, un entretien régulier permet de maintenir la lisibilité des informations affichées. Cela prolonge également la durée de vie des panneaux, tout en assurant une communication claire et professionnelle."
