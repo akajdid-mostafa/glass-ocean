@@ -11,24 +11,29 @@ import FAQSection from "../components/desService/faq-section";
 
 const faqItems = [
   {
-    question: "Comment nettoyer une façade de maison très sale ?",
+    question: "1. Pourquoi nettoyer les panneaux solaires ?",
     answer:
-      "Il est recommandé d’utiliser un nettoyeur à haute pression pour un lavage plus efficace. Le savon doux : pour les façades en bois, frottez avec une brosse un mélange de savon doux ou savon noir mélangé avec de l’eau chaude pour enlever la saleté et les taches.",
+      "La saleté réduit leur rendement de 2 % à 7 %. Un nettoyage régulier maximise leur efficacité et leur durée de vie.",
   },
   {
-    question: "Comment enlever la moisissure sur des murs extérieurs ?",
+    question: "2. Qu'est-ce qui salit les panneaux ?",
     answer:
-      "Pulvérisez directement du vinaigre blanc non dilué sur la zone moisie et laissez agir pendant au moins une heure. Ensuite, frottez la surface avec une brosse pour éliminer toute trace de moisissure, puis essuyez avec un chiffon humide",
+      "Les panneaux peuvent se salir en fonction de leur environnement. En ville, la pollution et les particules fines s'accumulent sur leur surface. À la campagne, ce sont principalement la poussière et les pollens qui les recouvrent. En bord de mer, le sel et le sable sont les principaux agents de salissure. Enfin, dans les zones ventées, le sable est transporté par le vent et se dépose sur les panneaux.",
   },
   {
-    question: "Comment enlever les taches noires sur un mur ?",
+    question: "3. Comment nettoyez-vous les panneaux ?",
     answer:
-      "Certains traitements naturels peuvent être utilisés pour éliminer les taches noires sur les façades. Le vinaigre blanc, le bicarbonate de soude, le sel ou les cristaux de soude en font partie. Ces produits peuvent être appliqués avec une éponge ou une brosse, puis rincés à l’eau claire.",
+      "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
   },
   {
-    question: "Quelles autres solutions existe-t-il pour nettoyer sa façade ?",
+    question: "4. Quand faut-il les nettoyer ?",
     answer:
-      "Pour un nettoyage plus poussé de sa façade, il existe d’autres méthodes encore plus efficaces. Eu égard des produits utilisés, et des techniques plus complexes, il est conseillé de faire appel à un façadier professionnel.",
+      "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
+  },
+  {
+    question: "5. Pourquoi choisir notre service ?",
+    answer:
+      "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations.",
   },
 ];
 

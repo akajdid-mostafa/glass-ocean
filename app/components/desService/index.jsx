@@ -21,7 +21,7 @@ const StartPage = ({
 }) => {
   return (
     <div>
-      <div className="px-7 lg:px-10 max-w-7xl mx-auto flex flex-col gap-y-10 lg:flex-row items-center gap-x-10 justify-center py-10 lg:py-14 dark:bg-gray-800">
+      <div className="px-7 lg:px-10 max-w-7xl mx-auto flex flex-col gap-y-10 lg:flex-row items-center gap-x-10 justify-center py-10 lg:py-14 ">
         {imageFirst ? (
           <>
             <Fade direction="up" delay={400} triggerOnce={true}>
@@ -29,21 +29,21 @@ const StartPage = ({
                 <div className="text-sm font-bold tracking-wider text-lightgrey uppercase">
                   {subHeading}
                 </div>
-                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold dark:text-white">
+                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold ">
                   {title}
                 </h1>
                 {description && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description}
                   </p>
                 )}
                 {description1 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description1}
                   </p>
                 )}
                 {description2 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description2}
                   </p>
                 )}
@@ -63,7 +63,7 @@ const StartPage = ({
                   </ul>
                 )}
                 {description3 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description3}
                   </p>
                 )}
@@ -89,7 +89,7 @@ const StartPage = ({
                   {secondbutton && secondbuttonLink ? (
                     <a
                       href={secondbuttonLink || "#"}
-                      className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 dark:text-white dark:bg-transparent dark:border-gray-500/50"
+                      className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10   "
                     >
                       <span>{secondbutton || "Default Second Button"}</span>
                     </a>
@@ -97,7 +97,7 @@ const StartPage = ({
                     secondbutton && (
                       <a
                         href="#"
-                        className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 dark:text-white dark:bg-transparent dark:border-gray-500/50"
+                        className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                       >
                         <span>{secondbutton}</span>
                       </a>
@@ -139,21 +139,21 @@ const StartPage = ({
                 <div className="text-sm font-bold tracking-wider text-lightgrey uppercase">
                   {subHeading}
                 </div>
-                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold dark:text-white">
+                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold ">
                   {title}
                 </h1>
                 {description && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description}
                   </p>
                 )}
                 {description1 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description1}
                   </p>
                 )}
                 {description2 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description2}
                   </p>
                 )}
@@ -173,7 +173,7 @@ const StartPage = ({
                   </ul>
                 )}
                 {description3 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left dark:text-gray-300">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
                     {description3}
                   </p>
                 )}
@@ -199,7 +199,7 @@ const StartPage = ({
                   {secondbutton && secondbuttonLink ? (
                     <a
                       href={secondbuttonLink || "#"}
-                      className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 dark:text-white dark:bg-transparent dark:border-gray-500/50"
+                      className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                     >
                       <span>{secondbutton || "Default Second Button"}</span>
                     </a>
@@ -207,7 +207,7 @@ const StartPage = ({
                     secondbutton && (
                       <a
                         href="#"
-                        className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 dark:text-white dark:bg-transparent dark:border-gray-500/50"
+                        className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                       >
                         <span>{secondbutton}</span>
                       </a>

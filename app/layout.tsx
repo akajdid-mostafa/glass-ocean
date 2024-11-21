@@ -4,7 +4,7 @@ import Footer from './components/Footer/index';
 
 
 export const metadata = {
-  title: 'Ocean Glass',
+  title: 'Ocean connecting Nettoyage',
   description: "Nous sommes spécialisés dans le nettoyage et l'entretien",
 };
 

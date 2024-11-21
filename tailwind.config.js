@@ -4,9 +4,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
-      // Or if using `src` directory:
-      "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
@@ -37,12 +35,11 @@ module.exports = {
       red600: '#dc2626',
       bgpink: 'rgba(223, 103, 81, 0.15)',
       darkpink: '#FEEDEA',
-      lightblack : '#333333',
+      lightblack: '#333333',
       textbl: "#363636",
       footerlinks: 'rgba(54, 54, 54, 0.9)',
       bordertop: 'rgba(105, 120, 131, 0.16)',
-      darkgrey: 'rgba(44, 9, 11, 0.8)'
-
+      darkgrey: 'rgba(44, 9, 11, 0.8)',
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
@@ -62,4 +59,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  darkMode: false, // Disable dark mode
 };

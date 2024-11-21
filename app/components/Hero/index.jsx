@@ -14,7 +14,7 @@ const Banner = () => {
         playPromise
           .then(() => {})
           .catch((error) => {
-            console.error("Autoplay prevented:", error);
+            console.log("Autoplay prevented:", error);
           });
       }
     }

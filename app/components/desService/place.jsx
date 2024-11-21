@@ -12,7 +12,7 @@ export default function Place({
   partibutton,
 }) {
   return (
-    <div className="w-full px-4 py-12">
+    <div className="w-full px-4  py-12">
       <div className="max-w-7xl mx-auto text-center space-y-8">
         <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce>
           <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
@@ -20,14 +20,14 @@ export default function Place({
           </h1>
           <p className="text-lg max-w-4xl mx-auto">{description}</p>
         </Fade>
-        <div className="mx-auto max-w-7xl text-center p-6 dark:bg-gray900">
+        <div className="mx-auto max-w-7xl text-center p-6 ">
           <div className="gr mx-auto max-w-4xl items-stretch space-y-4 text-left sm:flex sm:space-y-0 sm:space-x-8 sm:text-center">
             <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
               {cards &&
                 cards.map((card, index) => (
                   <Card
                     key={index}
-                    className="flex w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg dark:text-white dark:hover:bg-white dark:hover:bg-opacity-10 sm:flex-col sm:hover:shadow-2xl"
+                    className="flex w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
                   >
                     <Image
                       className="mr-4 w-12 sm:mr-0 sm:h-32 sm:w-32"
@@ -61,7 +61,7 @@ export default function Place({
 }
 function Card({ className, children }) {
   return (
-    <div className={`backdrop-blur-sm shadow-lg rounded-lg ${className}`}>
+    <div className={` shadow-lg rounded-lg ${className}`}>
       {children}
     </div>
   );

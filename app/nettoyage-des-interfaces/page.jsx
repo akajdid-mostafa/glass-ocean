@@ -12,32 +12,32 @@ import FAQSection from "../components/desService/faq-section";
 
 const faqItems = [
   {
-    question: "Quelles sont vos services exactement ?",
+    question: "1. Quelles sont vos services exactement ?",
     answer:
       "Nettoyage de façades, vitres, et surfaces environnantes.",
   },
   {
-    question: "Comment puis-je obtenir un devis ?",
+    question: "2. Comment puis-je obtenir un devis ?",
     answer:
       "Remplissez notre formulaire ou appelez-nous.",
   },
   {
-    question: "Dans quelles zones travaillez-vous ?",
+    question: "3. Dans quelles zones travaillez-vous ?",
     answer:
       "Nous sommes disponibles partout au Maroc.",
   },
   {
-    question: "Combien de temps faut-il pour nettoyer une façade ?",
+    question: "4. Combien de temps faut-il pour nettoyer une façade ?",
     answer:
       "Cela dépend de la surface et de la hauteur.",
   },
   {
-    question: "Proposez-vous des services réguliers ?",
+    question: "5. Proposez-vous des services réguliers ?",
     answer:
       "Oui, services mensuels, trimestriels, et annuels.",
   },
   {
-    question: "Comment puis-je prendre rendez-vous ?",
+    question: "6. Comment puis-je prendre rendez-vous ?",
     answer:
       "Par téléphone ou via notre site.",
   },
