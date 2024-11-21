@@ -144,7 +144,7 @@ export default function Simulat() {
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      {/* <FAQSection faqItems={faqItems} /> */}
+      <FAQSection faqItems={faqItems} />
       <Fade direction="up" delay={600} triggerOnce={true}>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
           Contactez-nous

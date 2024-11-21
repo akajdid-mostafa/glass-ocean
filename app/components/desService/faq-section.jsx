@@ -58,7 +58,7 @@ export default function FAQSection({ faqItems }) {
             <div className="space-y-4">
             <Fade direction="up" delay={400} triggerOnce={true}>
               <p className="text-sm font-medium uppercase tracking-wide text-blue500">
-              Laissez-nous vous aiderؤ
+              Laissez-nous vous aider
               </p>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent tracking-tight">
               questions fréquemment posées

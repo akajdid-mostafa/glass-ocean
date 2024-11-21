@@ -11,27 +11,35 @@ import FAQSection from "../components/desService/faq-section";
 
 const faqItems = [
   {
-    question: "Comment nettoyer une façade de maison très sale ?",
+    question: "1.⁠ ⁠Quels types de réparations électriques effectuez-vous ?",
     answer:
-      "Il est recommandé d’utiliser un nettoyeur à haute pression pour un lavage plus efficace. Le savon doux : pour les façades en bois, frottez avec une brosse un mélange de savon doux ou savon noir mélangé avec de l’eau chaude pour enlever la saleté et les taches.",
+      "Nous réparons les installations électriques défectueuses, les prises et interrupteurs défectueux, les courts-circuits, les pannes de lumière, ainsi que l'installation et la réparation des disjoncteurs et tableaux électriques.",
   },
+
   {
-    question: "Comment enlever la moisissure sur des murs extérieurs ?",
+    question: "2.⁠ ⁠Intervenez-vous en cas d’urgence électrique ?",
     answer:
-      "Pulvérisez directement du vinaigre blanc non dilué sur la zone moisie et laissez agir pendant au moins une heure. Ensuite, frottez la surface avec une brosse pour éliminer toute trace de moisissure, puis essuyez avec un chiffon humide",
+      "Oui, nous offrons un service d'urgence disponible 24h/24 et 7j/7 pour résoudre les pannes électriques critiques et garantir la sécurité de votre installation.",
   },
+
   {
-    question: "Comment enlever les taches noires sur un mur ?",
+    question: "3.⁠ ⁠Fournissez-vous un devis avant l'intervention ?",
     answer:
-      "Certains traitements naturels peuvent être utilisés pour éliminer les taches noires sur les façades. Le vinaigre blanc, le bicarbonate de soude, le sel ou les cristaux de soude en font partie. Ces produits peuvent être appliqués avec une éponge ou une brosse, puis rincés à l’eau claire.",
+      "Oui, nous fournissons un devis gratuit et détaillé avant toute intervention, afin que vous sachiez exactement ce qui sera réparé et à quel coût.",
   },
+
   {
-    question: "Quelles autres solutions existe-t-il pour nettoyer sa façade ?",
+    question: "4.⁠ ⁠Pouvez-vous intervenir sur des installations anciennes ?",
     answer:
-      "Pour un nettoyage plus poussé de sa façade, il existe d’autres méthodes encore plus efficaces. Eu égard des produits utilisés, et des techniques plus complexes, il est conseillé de faire appel à un façadier professionnel.",
+      "Oui, nous intervenons sur toutes les installations électriques, qu’elles soient récentes ou anciennes, et nous veillons à respecter les normes de sécurité en vigueur.",
+  },
+
+  {
+    question: "5.⁠ ⁠Combien de temps prend une réparation électrique ?",
+    answer:
+      "La durée de l'intervention dépend de la nature du problème, mais en général, les réparations électriques sont réalisées en 1 à 2 heures.",
   },
 ];
-
 
 const cardData = [
   {
