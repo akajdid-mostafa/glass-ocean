@@ -18,8 +18,8 @@ const navigation: NavigationItem[] = [
     submenu: [
       { name: "Nettoyage des façades", href: "/nettoyage-des-interfaces" },
       { name: "Nettoyage des panneaux solaires", href: "/nettoyage-des-panneaux-solaires" },
-      { name: "Réparations électriques à domicile", href: "/reparations-electriques-a-domicile" },
-      { name: "Réparations de l'eau à domicile", href: "/reparations-de-l-eau-a-domicile" },
+      { name: "Maintenance électrique à domicile", href: "/reparations-electriques-a-domicile" },
+      { name: "Plomberie et canalisation a domicile", href: "/reparations-de-l-eau-a-domicile" },
       { name: "Destruction des insectes nuisibles", href: "/destruction-des-insectes-nuisibles" },
     ],
   },

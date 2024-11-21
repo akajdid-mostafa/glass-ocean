@@ -25,7 +25,7 @@ const services = [
   },
   {
     link: "/reparations-electriques-a-domicile",
-    title: "reparations electriques a domicile",
+    title: "Maintenance électrique à domicile",
     description:
       "Nous intervenons rapidement pour réparer vos installations électriques à domicile, garantissant sécurité et conformité.",
     image: "/images/service/check.png?height=80&width=80",
@@ -33,7 +33,7 @@ const services = [
   },
   {
     link: "/reparations-de-l-eau-a-domicile",
-    title: "reparations de l'eau a domicile",
+    title: "Plomberie et canalisation a domicile",
     description:
       "Nous intervenons rapidement pour réparer vos installations de plomberie à domicile, assurant un service fiable et durable.",
     image: "/images/service/plombin.png?height=80&width=80",
