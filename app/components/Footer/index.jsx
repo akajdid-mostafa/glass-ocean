@@ -146,7 +146,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4">
-          <div className="space-y-2 lg:col-span-1">
+          <div className="space-y-2 lg:col-span-1 ">
             <div className="flex items-center mb-4 space-x-2">
               <Image
                 src="/images/Logo/ocean2.svg"
@@ -158,11 +158,12 @@ const Footer = () => {
             <p className="text-sm">{footerText.mainDescription}</p>
             <p className="text-sm">{footerText.detailedDescription}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:col-span-3">
-            <FooterLinkSection title={ourServicesTitle} links={ourServices} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:col-span-3 ml-10">
             <FooterLinkSection title={ourPageTitle} links={pageElements} />
-            <FooterLinkSection title={ourlangagueTitle} links={pagelangague} />
             <FooterLinkSection title={ourFormationTitle} links={ourFormation} />
+            <FooterLinkSection title={ourServicesTitle} links={ourServices} />
+            {/* <FooterLinkSection title={ourlangagueTitle} links={pagelangague} /> */}
+            
           </div>
         </div>
         <div className="mt-2">
