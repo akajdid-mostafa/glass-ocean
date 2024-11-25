@@ -1,7 +1,7 @@
 
 
 
-export const footerDataAr = {
+const footerDataAr = {
     "socialLinks": [ // Changed from array to object
         { "id": 1, "label": "Facebook", "to": "https://www.facebook.com/the.ocean.connecting/" },
         { "id": 2, "label": "Instagram", "to": "https://www.instagram.com/oceanconnecting.ma/" },

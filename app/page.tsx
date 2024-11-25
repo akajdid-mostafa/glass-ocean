@@ -9,7 +9,11 @@ import SectionMap from './components/Section-Map/map';
 import VideoPopup from './components/YouTube/index';
 import Contact from './components/Contact/index';
 
+
+
+
 export default function Home() {
+  
   return (
     <>
       <Hero />
