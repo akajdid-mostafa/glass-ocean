@@ -50,7 +50,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
     { name: t("home"), href: "/" },
     {
       name: t("services"),
-      href: "/#service",
+      href: `/${locale}/#service`,
       submenu: [
         { name: t("facade_cleaning"), href: `/${locale}/nettoyage-des-interfaces` },
         {
@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
     },
     { name: t("gallery"), href: `/${locale}/gallery` },
     { name: t("contact"), href:`/${locale}/contact` },
-    { name: t("about"), href: "/#about-section" },
+    { name: t("about"), href: `/${locale}/#about-section`  },
   ];
 
   return (
