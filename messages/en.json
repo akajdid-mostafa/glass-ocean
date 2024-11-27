@@ -1,0 +1,220 @@
+{
+"Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "facade_cleaning": "Facade Cleaning",
+    "solar_panel_cleaning": "Solar Panel Cleaning",
+    "home_electrical": "Home Electrical Maintenance",
+    "plumbing": "Plumbing and Home Drainage",
+    "pest_control": "Pest Control",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "about": "About",
+    "Demande_de_Devis": "Request a Quote"
+},
+"Hero": {
+    "title": "Innovative Cleaning, Exceptional Results",
+    "Description": "Enjoy advanced cleaning, designed to deliver exceptional results and meet your specific needs, in Agadir and throughout Morocco.",
+    "Demande": "Request a free quote",
+    "Contact": "Contact us"
+},
+"service": {
+      "title": "Our Modular Cleaning Services",
+      "h2": "A Customized Offer for You",
+      "span": "Enjoy a high-quality cleaning service,",
+      "paragraph": "tailored to your needs and budget. Our services are fully customizable to meet your specific requirements.",
+      "listItem1": "Cleaning techniques adapted to your premises.",
+      "listItem2": "Flexible contract duration.",
+      "listItem3": "Frequency of visits by our agents adjusted to your needs.",
+      "listItem4": "Guaranteed periodic quality checks.",
+      "listItem5": "Dedicated client area to track your services.",
+      "butttonDemande": "Request Your Cleaning Quote",
+      "butttonContact": "Contact Us",
+      "service1": {
+        "title": "Regular Cleaning Services",
+        "description": "Periodic cleaning, hygiene product supply, and waste management."
+      },
+      "service2": {
+        "title": "Disinfection of Your Premises",
+        "description": "Disinfection of contact surfaces and fogging disinfection."
+      },
+      "service3": {
+        "title": "Additional Cleaning Services",
+        "description": "Window cleaning, floor maintenance and restoration, façade cleaning, and more."
+      },
+      "service4": {
+        "title": "Restoration Services",
+        "description": "Interventions after construction work, disasters, or on-demand."
+      }
+},
+"service2": {
+  "firsttitle": "Our Services",
+  "title": "Most Popular Services",
+  "description": "We offer a wide range of cleaning services to keep your space spotless and comfortable. Choose from our most popular options below.",
+  "service1": {
+    "title": "Facade Cleaning",
+    "description": "We carry out thorough cleaning of facades to ensure perfect clarity and optimal functionality."
+  },
+  "service2": {
+    "title": "Solar Panel Cleaning",
+    "description": "We clean your solar panels to maximize their efficiency by removing dust and impurities."
+  },
+  "service3": {
+    "title": "Home Electrical Maintenance",
+    "description": "We respond quickly to repair your home electrical installations, ensuring safety and compliance."
+  },
+  "service4": {
+    "title": "Home Plumbing and Piping",
+    "description": "We respond quickly to repair your home plumbing installations, providing a reliable and long-lasting service."
+  },
+  "service5": {
+    "title": "Pest Control",
+    "description": "We effectively eliminate pests from your home, ensuring a healthy and secure environment."
+  },
+  "action": "Learn More"
+},
+"sectionmap": {
+    "title": "Find the Nearest Regional Office",
+    "description": "Your Cleaning Company Across Morocco",
+    "description1": "To meet your tailored cleaning needs, we accompany you wherever you are in Morocco. Thanks to our network, we cover the entire country, from Tangier to Dakhla, including Agadir, Marrakech, Casablanca, and Rabat.",
+    "button": "Discover the cities where we operate"
+},
+"Features":{
+    "title1":"The Benefits of Ocean-Glass Cleanliness",
+    "title2":"Tailored to Your Business Sector",
+    "description":"Specializing in cleaning and maintenance, including facades and high-rise buildings, we offer high-quality cleaning services for all your professional premises.",
+    "action":"Learn more",
+    "cardData1": {
+      "title": "Inclusion",
+      "description": "A respectful service for a harmonious environment."
+    },
+    "cardData2": {
+      "title": "Professionalism",
+      "description": "A qualified and certified team for superior quality service."
+    },
+    "cardData3": {
+      "title": "Adaptability",
+      "description": "Flexible schedules, tailored to your specific needs."
+    },
+    "cardData4": {
+      "title": "Continuity",
+      "description": "Consistent and reliable service for always impeccable spaces."
+    }
+},
+"youtube": {
+    "title1": "Introduction Video",
+    "title2": "Our Experts in Action",
+    "Description": "Discover our professional window and facade cleaning services in the video below. Watch the video!"
+  },
+"About": {
+    "title1": "About Us",
+    "title2": "Clean Your Facade",
+    "Description": "At Ocean Connecting, we are experts in facade cleaning. Using advanced techniques and eco-friendly products, we ensure a brilliant and lasting cleanliness. Our qualified team is trained to maintain all surfaces, whether commercial or residential buildings.",
+    "Description2": "Trust Ocean Connecting to restore your facade's original shine.",
+    "Demande": "Contact Us"
+},
+"Team": {
+    "title1": "Team Introduction",
+    "title2": "A Dedicated Team",
+    "Description": "Our team is made up of qualified and passionate professionals, ready to provide you with the highest quality cleaning services. Each member is trained to meet your specific needs with rigor and professionalism."
+},
+"Contactform": {
+    "title": "Contact Us Quickly",
+    "nom": "Your Name",
+    "num": "Phone Number",
+    "email": "Email Address",
+    "vmessage": "Your Message Here",
+    "select": {
+      "selected": "Select a Service",
+      "allService": "All Service",
+      "service1": "Facade Cleaning",
+      "service2": "Solar Panel Cleaning",
+      "service3": "Home Electrical Repairs",
+      "service4": "Home Water Repairs",
+      "service5": "Pest Control"
+    },
+    "button": "Send Your Message",
+    "message": "Thank you for contacting us! We have received your information and our team will get in touch with you soon. Thank you for your interest and see you soon!"
+},
+"Contact": {
+    "title1": "CONTACT US",
+    "title2": "Free Online Cleaning Quote",
+    "title3": "HOW CAN WE HELP YOU?",
+    "description": "Welcome to Ocean Connecting! We are pleased to offer you top-notch facade and solar panel cleaning services. Please fill out the contact form below to get in touch with us. We are here to ensure your property shines and operates optimally. Thank you for choosing us!",
+    "email": {
+      "title": "Email",
+      "description": "Contact us at",
+      "Text": "oceanconnecting.ma@gmail.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "description": "Contact Us by Phone",
+      "Text": "+212 704-309787"
+    },
+    "localisation": {
+      "title": "Location",
+      "description": "Find Us at Our Centers",
+      "Text": "Immeubles Coralia, 2nd Floor, ISLAN, Hay Mohammadi, AGADIR"
+    },
+    "Suivez-nous": "Follow Us:"
+},
+"simulation": {
+    "title1": "Prepare Cleaning Quotes in No Time",
+    "title2": "Free Online Cleaning Quote",
+    "title3": "ESTIMATE THE COST OF YOUR CLEANING SERVICES",
+    "title4": "Do you want to know the approximate cost of your cleaning service?",
+    "description1": "In just a few clicks, create the budget simulation for your cleaning service for your professional premises with our free online cleaning quote. Feel free to contact us if you have specific needs!",
+    "description2": "(Reminder: Although we would like to provide cleaning services for everyone, we only serve professionals)"
+},
+"formsimulation": {
+    "entreprise": "Your company or organization",
+    "etage": "Floor number",
+    "selected": "Select the area",
+    "surface": "Your surface measurements",
+    "ville": "City",
+    "nom": "Your name",
+    "email": "Your email",
+    "phone": "Your phone",
+    "adresse": "Address of the premises concerned",
+    "message1": "Your message",
+    "action": "Send a quote",
+    "title": "ONLINE CLEANING QUOTE",
+    "messag2": "Free cleaning quote request received. Our sales team will contact you soon.",
+    "accept": "Accept"
+},
+"contactInfo": {
+      "titleabout": "WE ARE PROFESSIONALS",
+      "Text": "Ocean Connecting offers glass facade cleaning, plumbing, electrical and pest extermination services, with an expert team to guarantee your satisfaction.",
+      "thanks": "Thank you for visiting and welcome to ",
+      "ocean": "Ocean Connecting",
+      "droit1": "Copyright © ",
+      "droit": ". All rights reserved.",
+      "part1": "Our Pages",
+      "part2": "Cleaning and Repair",
+      "part3": "Our Services",
+      "title1": "Address",
+      "content": "Immeubles Coralia, 2nd floor, ISLAN, Hay Mohammadi, AGADIR",
+      "title2": "Call Us",
+      "title3": "Send Us an Email",
+      "Devis": "Request a Quote",
+      "service": "Services",
+      "gallery": "Gallery",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "facade": "Facade Cleaning",
+      "solaire": "Solar Panel Cleaning",
+      "electrical": "Home Electrical Maintenance",
+      "plomberie": "Home Plumbing and Piping",
+      "insectes": "Pest Control",
+      "dev": "IT Development",
+      "langague": "Language Center",
+      "formation": "Training",
+      "nettoyage": "Cleaning and Repair",
+      "contract": "Recruitment"
+},
+"gallery": {
+    "title": "Welcome to our Gallery!",
+    "description": "Explore the creativity and dedication that drive our work through these images. Enjoy the visit!",
+    "message": "No albums available at the moment."
+}
+}

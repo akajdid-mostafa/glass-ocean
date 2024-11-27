@@ -1,0 +1,220 @@
+{
+"Navbar": {
+    "home": "Accueil",
+    "services": "Services",
+    "facade_cleaning": "Nettoyage des façades",
+    "solar_panel_cleaning": "Nettoyage des panneaux solaires",
+    "home_electrical": "Maintenance électrique à domicile",
+    "plumbing": "Plomberie et canalisation a domicile",
+    "pest_control": "Destruction des insectes nuisibles",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "about": "A propos",
+    "Demande_de_Devis": "Demande de Devis"
+},
+"Hero": {
+    "title": "Innovative Cleaning, Exceptional Results",
+    "Description": "Profitez d'un nettoyage avancé, conçu pour offrir des résultats exceptionnels et répondre à vos besoins spécifiques, à Agadir et partout au Maroc.",
+    "Demande": "Demande devis gratuit",
+    "Contact": "Contactez-nous"
+},
+"service": {
+    "title": "Nos Services de Nettoyage Modulables",
+    "h2": "Une Offre Personnalisée pour Vous",
+    "span": "Profitez d'un service de nettoyage de qualité,",
+    "paragraph": "sur mesure, adapté à vos besoins et à votre budget. Nos services sont entièrement personnalisables pour répondre à vos exigences spécifiques.",
+    "listItem1": "Techniques de nettoyage adaptées à vos locaux.",
+    "listItem2": "Durée flexible de votre contrat.",
+    "listItem3": "Fréquence des visites de nos agents ajustée à vos besoins.",
+    "listItem4": "Contrôles qualité périodiques garantis.",
+    "listItem5": "Espace client dédié pour suivre vos services.",
+    "butttonDemande": "Demandez votre Devis de Nettoyage",
+    "butttonContact": "Contactez-nous",
+    "service1": {
+      "title": "Services de Nettoyage Régulier",
+      "description": "Nettoyage périodique, fourniture de produits d'hygiène et gestion des déchets."
+    },
+    "service2": {
+      "title": "Désinfection de Vos Locaux",
+      "description": "Désinfection des surfaces de contact et désinfection par brumisation."
+    },
+    "service3": {
+      "title": "Services de Nettoyage Complémentaires",
+      "description": "Nettoyage des fenêtres, entretien et restauration des sols, nettoyage des façades, et plus encore."
+    },
+    "service4": {
+      "title": "Services de Restauration",
+      "description": "Interventions après des travaux de construction, après des sinistres, ou à la demande."
+    }
+},
+"service2":{
+    "firsttitle":"Nos Services",
+    "title":"Services les plus populaires",
+    "description":"Nous proposons une large gamme de services de nettoyage pour quevotre espace reste impeccable et confortable. Choisissez parmi nos options les plus populaires ci-dessous.",
+    "service1": {
+      "title": "Nettoyage des façades",
+      "description": "Nous réalisons un nettoyage soigné des interfaces pour assurer une clarté parfaite et un fonctionnement optimal."
+    },
+    "service2": {
+      "title": "Nettoyage des Panneaux Solaires",
+      "description": "Nous nettoyons vos panneaux solaires pour maximiser leur efficacité en éliminant poussière et impuretés."
+    },
+    "service3": {
+      "title": "Maintenance électrique à domicile",
+      "description": "Nous intervenons rapidement pour réparer vos installations électriques à domicile, garantissant sécurité et conformité."
+    },
+    "service4": {
+      "title": "Plomberie et canalisation a domicile",
+      "description": "Nous intervenons rapidement pour réparer vos installations de plomberie à domicile, assurant un service fiable et durable."
+    },
+    "service5": {
+      "title": "destruction des insectes nuisibles",
+      "description": "Nous éliminons efficacement les insectes nuisibles de votre domicile, garantissant un environnement sain et sécurisé."
+    },
+    "action":"En savoir plus"
+},
+"sectionmap":{
+    "title":"Trouver la Direction Régionale la Plus Proche",
+    "description":"Votre Société de Nettoyage Partout au Maroc",
+    "description1":"Pour répondre à vos besoins de propreté sur mesure, nous vous accompagnons où que vous soyez au Maroc. Grâce à notre réseau, nous couvrons tout le pays, de Tanger à Dakhla, en passant par Agadir, Marrakech, Casablanca, et Rabat.",
+    "button":"Découvrez les villes où nous intervenons"
+},
+"Features":{
+    "title1":"Les Avantages d'Ocean-Glass Propreté",
+    "title2":"Adaptés à Votre Secteur d'Activité",
+    "description":"Spécialisés dans le nettoyage et l&apos;entretien, y compris les façades et bâtiments de grande hauteur, nous offrons des services de propreté de haute qualité pour tous vos locaux professionnels.",
+    "action":"En savoir plus",
+    "cardData1": {
+      "title": "Inclusion",
+      "description": "Un service respectueux pour un environnement harmonieux."
+    },
+    "cardData2": {
+      "title": "Professionnels",
+      "description": "Une équipe qualifiée et certifiée pour un service de qualité supérieure."
+    },
+    "cardData3": {
+      "title": "Adaptabilité",
+      "description": "Des horaires flexibles, ajustés à vos besoins spécifiques."
+    },
+    "cardData4": {
+      "title": "Continuité",
+      "description": "Un service constant et fiable pour des espaces toujours impeccables."
+    }
+},
+"youtube": {
+    "title1": "Vidéo d'Introduction",
+    "title2": "Nos Experts en Action",
+    "Description": "Découvrez nos services professionnels de nettoyage de vitres et de façades dans la vidéo ci-dessous. Visionnez la vidéo !"
+},
+"About": {
+    "title1": "À propos de nous",
+    "title2": "Nettoyez votre façade",
+    "Description": "Chez Ocean Connecting, nous sommes experts dans le nettoyage de façades. Grâce à des techniques avancées et des produits écologiques, nous assurons une propreté éclatante et durable. Notre équipe qualifiée est formée pour entretenir toutes les surfaces, qu'il s'agisse de bâtiments commerciaux ou résidentiels.",
+    "Description2": "Faites confiance à Ocean Connecting pour redonner à votre façade son éclat d'origine.",
+    "Demande": "Contactez-nous"
+},
+"Team": {
+    "title1": "Présentation de l'Équipe",
+    "title2": "Une Équipe Dévouée",
+    "Description": "Notre équipe est composée de professionnels qualifiés et passionnés, prêts à vous offrir des services de nettoyage de la plus haute qualité. Chaque membre est formé pour répondre à vos besoins spécifiques avec rigueur et professionnalisme."
+},
+"Contactform": {
+    "title": "Nous contacter rapidement",
+    "nom": "Votre nom",
+    "num": "Numéro de téléphone",
+    "email": "Adresse email",
+    "vmessage": "Votre message ici",
+    "select": {
+      "selected":"Sélectionner un service",
+      "allService": "All Service",
+      "service1": "Nettoyage des façades",
+      "service2": "Nettoyage des Panneaux Solaires",
+      "service3": "Reparations electriques a domicile",
+      "service4": "Reparations de l'eau a domicile",
+      "service5": "Restruction des insectes nuisibles"
+    },
+    "button": "Envoyez votre message",
+    "message": "Merci de nous avoir contactés ! Nous avons reçu vos informations et notre équipe vous contactera bientôt. Merci pour votre intérêt et à très bientôt !"
+},
+"Contact": {
+    "title1": "CONTACTEZ-NOUS",
+    "title2": "Devis de nettoyage gratuit en ligne",
+    "title3": "COMMENT POUVONS-NOUS VOUS AIDER ?",
+    "description": "Bienvenue chez Ocean Connecting ! Nous sommes heureux de vous proposer des services de nettoyage de façades de bâtiments et de panneaux solaires de premier ordre. Veuillez remplir le formulaire de contact ci-dessous pour nous contacter. Nous sommes là pour veiller à ce que votre propriété brille et fonctionne de manière optimale. Merci de nous avoir choisis !",
+    "email": {
+      "title": "Email",
+      "description": "Contactez-nous à l'adresse suivante",
+      "Text": "oceanconnecting.ma@gmail.com"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "description": "Nous Contacter par Téléphone",
+      "Text": "+212 704-309787"
+    },
+    "localisation": {
+      "title": "Emplacement",
+      "description": "Nous Trouver dans Nos Centres",
+      "Text": "Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR"
+    },
+    "Suivez-nous": "Suivez-nous:"
+},
+"simulation": {
+    "title1": "Préparer des devis de nettoyage en un rien de temps",
+    "title2": "Devis de nettoyage gratuit en ligne",
+    "title3": "ESTIMEZ LE BUDGET DE VOS PRESTATIONS DE NETTOYAGE",
+    "title4": "Vous souhaitez connaître le montant approximatif de votre prestation de nettoyage ?",
+    "description1": "En quelques clics, réalisez la simulation budgétaire de votre service de nettoyage pour vos locaux professionnels grâce à notre devis en ligne de nettoyage gratuit. N’hésitez pas à nous contacter si vous avez des besoins spécifiques ! ",
+    "description2": "(Rappel : Même si nous aimerions réaliser des prestations de nettoyage pour tous, nous n’intervenons que chez les professionnels)"
+ },
+"formsimulation": {
+    "entreprise": "Votre entreprise ou organisation",
+    "etage": "N° d'étage",
+    "selected": "Sélectionnez la surface",
+    "surface": "Vos mesures de surface",
+    "ville": "Ville",
+    "nom": "Votre nom",
+    "email": "Votre E-mail",
+    "phone": "Votre téléphone",
+    "adresse": "Adresse des locaux concernés",
+    "message1": "Votre message",
+    "action": "Envoyer un devis",
+    "title": "DEVIS DE NETTOYAGE EN LIGNE",
+    "messag2": "Demande de devis de nettoyage gratuit bien reçue. Notre équipe commerciale vous contactera bientôt.",
+    "accept": "Accept"
+},
+"contactInfo": {
+      "titleabout": "NOUS SOMMES PROFESSIONNELS",
+      "Text": "Ocean Connecting offre des services de nettoyage de façades vitrées, plomberie, électricité et extermination des nuisibles, avec une équipe experte pour garantir votre satisfaction.",
+      "thanks": "Merci de votre visite et bienvenue à ",
+      "ocean": "Ocean Connecting",
+      "droit1": "Droit d'auteur © ",
+      "droit": ". Tous droits réservés.",
+      "part1": "Nos pages",
+      "part2": "Nettoyage et Réparation",
+      "part3": "Nos services",
+      "title1": "Adresse",
+      "content": "Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR",
+      "title2": "Appelez-nous",
+      "title3": "Envoyez-nous un e-mail",
+      "Devis": "Demande de Devis",
+      "service": "Services",
+      "gallery": "Gallery",
+      "about": "À propos de nous",
+      "contact": "Contactez-nous",
+      "facade": "Nettoyage des façades",
+      "solaire": "Nettoyage des panneaux solaires",
+      "electrical": "Maintenance électrique à domicile",
+      "plomberie": "Plomberie et canalisation a domicile",
+      "insectes": "Destruction des insectes nuisibles",
+      "dev": "Development Informatique",
+      "langague": "Language Center",
+      "formation": "Formation",
+      "nettoyage": "Nettoyage et Réparation",
+      "contract": "Recrutement"
+},
+"gallery": {
+    "title": "Bienvenue dans notre Galerie !",
+    "description": "Explorez la créativité et l'engagement qui animent notre travail à travers ces images. Profitez de la visite !",
+    "message": "Aucun album disponible pour le moment."
+}
+}

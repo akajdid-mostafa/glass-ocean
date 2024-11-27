@@ -24,6 +24,6 @@
     }
     
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Hero/index.js", "app/gallery/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/[locale]/components/Hero/index.js", "app/[locale]/gallery/page.jsx", "app/[locale]/nettoyage-des-interfaces/page.jsx", "app/[locale]/destruction-des-insectes-nuisibles/page.jsx", "app/[locale]/reparations-electriques-a-domicile/page.jsx", "app/[locale]/reparations-de-l-eau-a-domicile/page.jsx", "app/[locale]/nettoyage-des-panneaux-solaires/page.jsx", "app/[locale]/page.jsx"],
   "exclude": ["node_modules"]
 }
