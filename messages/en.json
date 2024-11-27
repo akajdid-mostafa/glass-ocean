@@ -217,6 +217,13 @@
     "description": "Explore the creativity and dedication that drive our work through these images. Enjoy the visit!",
     "message": "No albums available at the moment."
 },
+"faq": {
+    "title1": "Let Us Help You",
+    "title2": "Frequently Asked Questions",
+    "title3": "Confused?",
+    "description": "Can't find your answer here? Send us a message for assistance.",
+    "button": "Contact Us"
+  },
 "Electricity": {
     "mainHeading": "Pest Control",
     "title2": "Free Online Cleaning Quote",

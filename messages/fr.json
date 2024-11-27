@@ -217,6 +217,13 @@
     "description": "Explorez la créativité et l'engagement qui animent notre travail à travers ces images. Profitez de la visite !",
     "message": "Aucun album disponible pour le moment."
   },
+  "faq": {
+    "title1": "Laissez-nous vous aider",
+    "title2": "questions fréquemment posées",
+    "title3": "Confusion?",
+    "description": "Vous ne trouvez pas votre réponse ici ? Envoyez-nous un message pour obtenir de l&apos;aide.",
+    "button": "Contactez-nous"
+  },
   "Electricity": {
     "mainHeading": "destruction des insectes nuisibles",
     "title2": "Devis de nettoyage gratuit en ligne",

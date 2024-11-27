@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import { useTranslations } from "next-intl";
 
 const FAQItem = ({ question, answer, isOpen, onClick }) => {
   return (
@@ -41,11 +42,10 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
 };
 
 export default function FAQSection({ faqItems }) {
-  // Set the initial state to 0 (first question open by default)
-  const [openIndex, setOpenIndex] = useState(0); // Default first item open
+  const t = useTranslations("faq");
+  const [openIndex, setOpenIndex] = useState(0); 
 
   const handleClick = (index) => {
-    // Toggle open/close
     setOpenIndex(openIndex === index ? null : index);
   };
 
@@ -58,19 +58,18 @@ export default function FAQSection({ faqItems }) {
             <div className="space-y-4">
             <Fade direction="up" delay={400} triggerOnce={true}>
               <p className="text-sm font-medium uppercase tracking-wide text-blue500">
-              Laissez-nous vous aider
+             {t("title1")}
               </p>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent tracking-tight">
-              questions fréquemment posées
+              {t("title2")}
               </h1>
               <div className="space-y-2">
-                <h2 className="text-lg font-medium text-blue500">Confusion?</h2>
+                <h2 className="text-lg font-medium text-blue500"> {t("title3")}</h2>
                 <p className="text-gray700 pb-4">
-                  Vous ne trouvez pas votre réponse ici ? Envoyez-nous un
-                  message pour obtenir de l&apos;aide.
+                {t("description")}
                 </p>
                 <button className="mt-4 px-4 py-3 bg-gradient-to-r from-blue600 to-red600 font-bold text-white rounded-md transition-colors">
-                  Contactez-nous
+                {t("button")}
                 </button>
               </div>
               </Fade>
