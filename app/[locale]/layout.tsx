@@ -36,11 +36,13 @@ export default async function RootLayout({
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
+        {/* <div dir="rtl"> */}
           <div className="mb-20">
           <Navbar  locale={locale} />
           </div>
             {children}
           <Footer locale={locale} />
+          {/* </div> */}
         </NextIntlClientProvider>
       </body>
     </html>

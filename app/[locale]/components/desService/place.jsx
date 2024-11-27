@@ -27,7 +27,7 @@ export default function Place({
                 cards.map((card, index) => (
                   <Card
                     key={index}
-                    className="flex w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
+                    className="flex  w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
                   >
                     <Image
                       className="mr-4 w-12 sm:mr-0 rounded-2xl sm:h-32 sm:w-32"

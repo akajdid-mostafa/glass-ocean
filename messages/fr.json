@@ -1,5 +1,5 @@
 {
-"Navbar": {
+  "Navbar": {
     "home": "Accueil",
     "services": "Services",
     "facade_cleaning": "Nettoyage des façades",
@@ -11,14 +11,14 @@
     "contact": "Contact",
     "about": "A propos",
     "Demande_de_Devis": "Demande de Devis"
-},
-"Hero": {
+  },
+  "Hero": {
     "title": "Innovative Cleaning, Exceptional Results",
     "Description": "Profitez d'un nettoyage avancé, conçu pour offrir des résultats exceptionnels et répondre à vos besoins spécifiques, à Agadir et partout au Maroc.",
     "Demande": "Demande devis gratuit",
     "Contact": "Contactez-nous"
-},
-"service": {
+  },
+  "service": {
     "title": "Nos Services de Nettoyage Modulables",
     "h2": "Une Offre Personnalisée pour Vous",
     "span": "Profitez d'un service de nettoyage de qualité,",
@@ -46,11 +46,11 @@
       "title": "Services de Restauration",
       "description": "Interventions après des travaux de construction, après des sinistres, ou à la demande."
     }
-},
-"service2":{
-    "firsttitle":"Nos Services",
-    "title":"Services les plus populaires",
-    "description":"Nous proposons une large gamme de services de nettoyage pour quevotre espace reste impeccable et confortable. Choisissez parmi nos options les plus populaires ci-dessous.",
+  },
+  "service2": {
+    "firsttitle": "Nos Services",
+    "title": "Services les plus populaires",
+    "description": "Nous proposons une large gamme de services de nettoyage pour quevotre espace reste impeccable et confortable. Choisissez parmi nos options les plus populaires ci-dessous.",
     "service1": {
       "title": "Nettoyage des façades",
       "description": "Nous réalisons un nettoyage soigné des interfaces pour assurer une clarté parfaite et un fonctionnement optimal."
@@ -71,19 +71,19 @@
       "title": "destruction des insectes nuisibles",
       "description": "Nous éliminons efficacement les insectes nuisibles de votre domicile, garantissant un environnement sain et sécurisé."
     },
-    "action":"En savoir plus"
-},
-"sectionmap":{
-    "title":"Trouver la Direction Régionale la Plus Proche",
-    "description":"Votre Société de Nettoyage Partout au Maroc",
-    "description1":"Pour répondre à vos besoins de propreté sur mesure, nous vous accompagnons où que vous soyez au Maroc. Grâce à notre réseau, nous couvrons tout le pays, de Tanger à Dakhla, en passant par Agadir, Marrakech, Casablanca, et Rabat.",
-    "button":"Découvrez les villes où nous intervenons"
-},
-"Features":{
-    "title1":"Les Avantages d'Ocean-Glass Propreté",
-    "title2":"Adaptés à Votre Secteur d'Activité",
-    "description":"Spécialisés dans le nettoyage et l&apos;entretien, y compris les façades et bâtiments de grande hauteur, nous offrons des services de propreté de haute qualité pour tous vos locaux professionnels.",
-    "action":"En savoir plus",
+    "action": "En savoir plus"
+  },
+  "sectionmap": {
+    "title": "Trouver la Direction Régionale la Plus Proche",
+    "description": "Votre Société de Nettoyage Partout au Maroc",
+    "description1": "Pour répondre à vos besoins de propreté sur mesure, nous vous accompagnons où que vous soyez au Maroc. Grâce à notre réseau, nous couvrons tout le pays, de Tanger à Dakhla, en passant par Agadir, Marrakech, Casablanca, et Rabat.",
+    "button": "Découvrez les villes où nous intervenons"
+  },
+  "Features": {
+    "title1": "Les Avantages d'Ocean-Glass Propreté",
+    "title2": "Adaptés à Votre Secteur d'Activité",
+    "description": "Spécialisés dans le nettoyage et l&apos;entretien, y compris les façades et bâtiments de grande hauteur, nous offrons des services de propreté de haute qualité pour tous vos locaux professionnels.",
+    "action": "En savoir plus",
     "cardData1": {
       "title": "Inclusion",
       "description": "Un service respectueux pour un environnement harmonieux."
@@ -100,32 +100,32 @@
       "title": "Continuité",
       "description": "Un service constant et fiable pour des espaces toujours impeccables."
     }
-},
-"youtube": {
+  },
+  "youtube": {
     "title1": "Vidéo d'Introduction",
     "title2": "Nos Experts en Action",
     "Description": "Découvrez nos services professionnels de nettoyage de vitres et de façades dans la vidéo ci-dessous. Visionnez la vidéo !"
-},
-"About": {
+  },
+  "About": {
     "title1": "À propos de nous",
     "title2": "Nettoyez votre façade",
     "Description": "Chez Ocean Connecting, nous sommes experts dans le nettoyage de façades. Grâce à des techniques avancées et des produits écologiques, nous assurons une propreté éclatante et durable. Notre équipe qualifiée est formée pour entretenir toutes les surfaces, qu'il s'agisse de bâtiments commerciaux ou résidentiels.",
     "Description2": "Faites confiance à Ocean Connecting pour redonner à votre façade son éclat d'origine.",
     "Demande": "Contactez-nous"
-},
-"Team": {
+  },
+  "Team": {
     "title1": "Présentation de l'Équipe",
     "title2": "Une Équipe Dévouée",
     "Description": "Notre équipe est composée de professionnels qualifiés et passionnés, prêts à vous offrir des services de nettoyage de la plus haute qualité. Chaque membre est formé pour répondre à vos besoins spécifiques avec rigueur et professionnalisme."
-},
-"Contactform": {
+  },
+  "Contactform": {
     "title": "Nous contacter rapidement",
     "nom": "Votre nom",
     "num": "Numéro de téléphone",
     "email": "Adresse email",
     "vmessage": "Votre message ici",
     "select": {
-      "selected":"Sélectionner un service",
+      "selected": "Sélectionner un service",
       "allService": "All Service",
       "service1": "Nettoyage des façades",
       "service2": "Nettoyage des Panneaux Solaires",
@@ -135,8 +135,8 @@
     },
     "button": "Envoyez votre message",
     "message": "Merci de nous avoir contactés ! Nous avons reçu vos informations et notre équipe vous contactera bientôt. Merci pour votre intérêt et à très bientôt !"
-},
-"Contact": {
+  },
+  "Contact": {
     "title1": "CONTACTEZ-NOUS",
     "title2": "Devis de nettoyage gratuit en ligne",
     "title3": "COMMENT POUVONS-NOUS VOUS AIDER ?",
@@ -157,16 +157,16 @@
       "Text": "Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR"
     },
     "Suivez-nous": "Suivez-nous:"
-},
-"simulation": {
+  },
+  "simulation": {
     "title1": "Préparer des devis de nettoyage en un rien de temps",
     "title2": "Devis de nettoyage gratuit en ligne",
     "title3": "ESTIMEZ LE BUDGET DE VOS PRESTATIONS DE NETTOYAGE",
     "title4": "Vous souhaitez connaître le montant approximatif de votre prestation de nettoyage ?",
     "description1": "En quelques clics, réalisez la simulation budgétaire de votre service de nettoyage pour vos locaux professionnels grâce à notre devis en ligne de nettoyage gratuit. N’hésitez pas à nous contacter si vous avez des besoins spécifiques ! ",
     "description2": "(Rappel : Même si nous aimerions réaliser des prestations de nettoyage pour tous, nous n’intervenons que chez les professionnels)"
- },
-"formsimulation": {
+  },
+  "formsimulation": {
     "entreprise": "Votre entreprise ou organisation",
     "etage": "N° d'étage",
     "selected": "Sélectionnez la surface",
@@ -181,40 +181,104 @@
     "title": "DEVIS DE NETTOYAGE EN LIGNE",
     "messag2": "Demande de devis de nettoyage gratuit bien reçue. Notre équipe commerciale vous contactera bientôt.",
     "accept": "Accept"
-},
-"contactInfo": {
-      "titleabout": "NOUS SOMMES PROFESSIONNELS",
-      "Text": "Ocean Connecting offre des services de nettoyage de façades vitrées, plomberie, électricité et extermination des nuisibles, avec une équipe experte pour garantir votre satisfaction.",
-      "thanks": "Merci de votre visite et bienvenue à ",
-      "ocean": "Ocean Connecting",
-      "droit1": "Droit d'auteur © ",
-      "droit": ". Tous droits réservés.",
-      "part1": "Nos pages",
-      "part2": "Nettoyage et Réparation",
-      "part3": "Nos services",
-      "title1": "Adresse",
-      "content": "Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR",
-      "title2": "Appelez-nous",
-      "title3": "Envoyez-nous un e-mail",
-      "Devis": "Demande de Devis",
-      "service": "Services",
-      "gallery": "Gallery",
-      "about": "À propos de nous",
-      "contact": "Contactez-nous",
-      "facade": "Nettoyage des façades",
-      "solaire": "Nettoyage des panneaux solaires",
-      "electrical": "Maintenance électrique à domicile",
-      "plomberie": "Plomberie et canalisation a domicile",
-      "insectes": "Destruction des insectes nuisibles",
-      "dev": "Development Informatique",
-      "langague": "Language Center",
-      "formation": "Formation",
-      "nettoyage": "Nettoyage et Réparation",
-      "contract": "Recrutement"
-},
-"gallery": {
+  },
+  "contactInfo": {
+    "titleabout": "NOUS SOMMES PROFESSIONNELS",
+    "Text": "Ocean Connecting offre des services de nettoyage de façades vitrées, plomberie, électricité et extermination des nuisibles, avec une équipe experte pour garantir votre satisfaction.",
+    "thanks": "Merci de votre visite et bienvenue à ",
+    "ocean": "Ocean Connecting",
+    "droit1": "Droit d'auteur © ",
+    "droit": ". Tous droits réservés.",
+    "part1": "Nos pages",
+    "part2": "Nettoyage et Réparation",
+    "part3": "Nos services",
+    "title1": "Adresse",
+    "content": "Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR",
+    "title2": "Appelez-nous",
+    "title3": "Envoyez-nous un e-mail",
+    "Devis": "Demande de Devis",
+    "service": "Services",
+    "gallery": "Gallery",
+    "about": "À propos de nous",
+    "contact": "Contactez-nous",
+    "facade": "Nettoyage des façades",
+    "solaire": "Nettoyage des panneaux solaires",
+    "electrical": "Maintenance électrique à domicile",
+    "plomberie": "Plomberie et canalisation a domicile",
+    "insectes": "Destruction des insectes nuisibles",
+    "dev": "Development Informatique",
+    "langague": "Language Center",
+    "formation": "Formation",
+    "nettoyage": "Nettoyage et Réparation",
+    "contract": "Recrutement"
+  },
+  "gallery": {
     "title": "Bienvenue dans notre Galerie !",
     "description": "Explorez la créativité et l'engagement qui animent notre travail à travers ces images. Profitez de la visite !",
     "message": "Aucun album disponible pour le moment."
-}
+  },
+  "Electricity": {
+    "mainHeading": "destruction des insectes nuisibles",
+    "title2": "Devis de nettoyage gratuit en ligne",
+    "title3": "COMMENT POUVONS-NOUS VOUS AIDER ?",
+    "description": "Bienvenue chez Ocean Connecting ! Nous sommes heureux de vous proposer des services de nettoyage de façades de bâtiments et de panneaux solaires de premier ordre. Veuillez remplir le formulaire de contact ci-dessous pour nous contacter. Nous sommes là pour veiller à ce que votre propriété brille et fonctionne de manière optimale. Merci de nous avoir choisis !",
+    "Startpage1": {
+      "subHeading": "Les activités de notre entreprise",
+      "title": "Travaux d’Électricité à Agadir Bâtiment et Industrielle",
+      "description": "Spécialisés dans le domaine de l’électricité à AGADIR depuis plus de 10 ans, . Forts de notre collaboration de longue date avec des marques prestigieuses d’équipements électriques telles que Legrand, Schneider, Hager, INGELEC, nous offrons à nos clients des tarifs très avantageux pour leurs travaux de rénovation, leurs dépannages, et plus encore. Tous nos équipements électriques bénéficient des garanties constructeurs.:",
+      "listItems": {
+        "tist1": "Installation et réparation de prises électriques",
+        "tist2": "Réparation et dépannage électrique",
+        "tist3": "Mise aux normes électriques",
+        "tist4": "Intervention en moins de 30 minutes"
+      },
+      "firstbutton": "Demande de Devis",
+      "secondbutton": "Contacter-nous"
+    },
+    "Startpage2": {
+      "subHeading": "POURQUOI CHOISIR LA SOCIÉTÉ OCEAN SERVICE   ?",
+      "title": "VOTRE SOCIÉTÉ D’ÉLECTRICITÉ À AGADIR ET AUX ENVIRONS",
+      "description": "Choisir OCEAN CONNECTING, c'est bénéficier d'une expertise reconnue dans le domaine avec des installations conformes et sécurisées. Nous proposons une gamme complète de services, de l’installation à la maintenance, en utilisant des matériaux de qualité et des technologies innovantes. Notre équipe offre un service personnalisé, des tarifs transparents et des devis clairs. Nous garantissons la qualité de nos prestations avec une couverture sur tous nos produits et respect des délais, généralement en 3 à 5 jours. Optez pour OCEAN CONNECTING SERVICES pour un service fiable, rapide et de qualité.",
+      "listItems": {
+        "tist1": "Expertise et Expérience",
+        "tist2": "Services Complètes",
+        "tist3": "Qualité et Sécurité",
+        "tist4": "+212 704-309787"
+      }
+    },
+    "Startpage3": {
+      "subHeading": "Bon à savoir",
+      "title": "Quand faire appel à un électricien ?",
+      "description": "Coupure de courant, court-circuit, réparation d'une panne de moteur de volet ou résolution d'un souci d'éclairage ... Les raisons de solliciter un dépannage électrique sont nombreuses.",
+      "description1": "C'est pourquoi, Ocean Connecting vous propose un service rapide, avec des électriciens en mesure d'intervenir en urgence, ou sur rendez-vous. Triés sur le volet, ces professionnels qualifiés sont capables de répondre à diverses problématiques, de la plus simple, au chantier le plus complexe. Soucieux du travail bien fait, nos artisans savent exercer dans le strict respect des normes et des protocoles en vigueur, afin de conduire leurs travaux dans de bonnes conditions.",
+      "description2": "Vous pouvez donc contacter nos artisans dans les cas suivants :",
+      "listItems": {
+        "tist1": "Recherche de panne électrique.",
+        "tist2": "Rénovation complète de l’installation électrique d’un domicile.",
+        "tist3": "Pose ou réparation d’un point luminaire.",
+        "tist4": "Réparation d’une panne de tableau électrique.",
+        "tist5": "Fourniture et pose d’un tableau électrique.",
+        "tist6": "Fourniture et pose d'un radiateur électrique.",
+        "tist7": "Création ou réparation de prise électrique.",
+        "tist8": "Mise au norme d'un équipement électrique."
+      }
+    },
+    "Startpage4": {
+      "title": "Quelques précisions sur les interventions en électricité.",
+      "description": "Il est important de souligner que certains types de travaux nécessitent uniquement l’intervention d’un expert d’EDF ou de votre fournisseur d'électricité, plus particulièrement pour les interventions touchant le compteur électrique. C'est ce dernier qui assure l'interface entre votre logement et votre fournisseur d'énergie, lui permettant d'établir une facturation précise de votre consommation d'énergie.Bonne pratique : Les artisans MesDépanneurs.fr se déplacent pour établir un devis gratuitement. Quant aux tarifs des différentes prestations de nos experts, ils sont spécifiés sous forme de fourchettes indicatives, sur notre site web. Vous évitez ainsi les surprises et les prises de court !"
+    },
+    "contact": "Contactez-nous",
+    "faqItems": {
+      "question1": "1.⁠ ⁠Quels types de réparations électriques effectuez-vous ?",
+      "answer1": "Nous réparons les installations électriques défectueuses, les prises et interrupteurs défectueux, les courts-circuits, les pannes de lumière, ainsi que l'installation et la réparation des disjoncteurs et tableaux électriques.",
+      "question2": "2.⁠ ⁠Intervenez-vous en cas d’urgence électrique ?",
+      "answer2": "Oui, nous offrons un service d'urgence disponible 24h/24 et 7j/7 pour résoudre les pannes électriques critiques et garantir la sécurité de votre installation.",
+      "question3": "3.⁠ ⁠Fournissez-vous un devis avant l'intervention ?",
+      "answer3": "Oui, nous fournissons un devis gratuit et détaillé avant toute intervention, afin que vous sachiez exactement ce qui sera réparé et à quel coût.",
+      "question4": "4.⁠ ⁠Pouvez-vous intervenir sur des installations anciennes ?",
+      "answer4": "Oui, nous intervenons sur toutes les installations électriques, qu’elles soient récentes ou anciennes, et nous veillons à respecter les normes de sécurité en vigueur.",
+      "question5": "5.⁠ ⁠Combien de temps prend une réparation électrique ?",
+      "answer5": "La durée de l'intervention dépend de la nature du problème, mais en général, les réparations électriques sont réalisées en 1 à 2 heures."
+    }
+  }
 }

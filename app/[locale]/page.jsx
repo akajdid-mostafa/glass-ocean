@@ -18,6 +18,7 @@ export default async function Home({ params }) {
   return (
     <NextIntlClientProvider messages={messages}>
       <>
+      <div></div>
         <Hero locale={locale} />
         <ServicesSection locale={locale}  />
         <CleaningServicesLayout locale={locale} />

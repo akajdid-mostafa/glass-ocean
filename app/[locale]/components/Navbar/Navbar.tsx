@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
 
   // Define navigation links
   const navigation = [
-    { name: t("home"), href: "/" },
+    { name: t("home"), href: `/${locale}/#home-section` },
     {
       name: t("services"),
       href: `/${locale}/#service`,

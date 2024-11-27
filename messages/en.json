@@ -216,5 +216,70 @@
     "title": "Welcome to our Gallery!",
     "description": "Explore the creativity and dedication that drive our work through these images. Enjoy the visit!",
     "message": "No albums available at the moment."
+},
+"Electricity": {
+    "mainHeading": "Pest Control",
+    "title2": "Free Online Cleaning Quote",
+    "title3": "HOW CAN WE HELP YOU?",
+    "description": "Welcome to Ocean Connecting! We are pleased to offer you top-notch facade and solar panel cleaning services. Please fill out the contact form below to get in touch with us. We are here to ensure your property shines and operates optimally. Thank you for choosing us!",
+    "Startpage1": {
+      "subHeading": "Our Company's Activities",
+      "title": "Electrical Work in Agadir: Building and Industrial",
+      "description": "Specialized in the field of electricity in AGADIR for over 10 years, we boast long-term collaboration with prestigious electrical equipment brands such as Legrand, Schneider, Hager, INGELEC. We offer our clients very advantageous rates for their renovation works, troubleshooting, and more. All our electrical equipment comes with manufacturer warranties.",
+      "listItems": {
+        "tist1": "Installation and repair of electrical outlets",
+        "tist2": "Electrical repair and troubleshooting",
+        "tist3": "Electrical compliance",
+        "tist4": "Intervention in less than 30 minutes"
+      },
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Startpage2": {
+      "subHeading": "WHY CHOOSE OCEAN SERVICE COMPANY?",
+      "title": "YOUR ELECTRICAL COMPANY IN AGADIR AND SURROUNDINGS",
+      "description": "Choosing OCEAN CONNECTING means benefiting from recognized expertise in the field with compliant and secure installations. We offer a complete range of services, from installation to maintenance, using quality materials and innovative technologies. Our team offers personalized service, transparent rates, and clear quotes. We guarantee the quality of our services with coverage on all our products and respect of deadlines, usually in 3 to 5 days. Opt for OCEAN CONNECTING SERVICES for reliable, fast, and quality service.",
+      "listItems": {
+        "tist1": "Expertise and Experience",
+        "tist2": "Complete Services",
+        "tist3": "Quality and Safety",
+        "tist4": "+212 704-309787"
+      }
+    },
+    "Startpage3": {
+      "subHeading": "Good to Know",
+      "title": "When to Call an Electrician?",
+      "description": "Power outage, short circuit, repair of a roller shutter motor breakdown, or solving a lighting issue... The reasons for requesting electrical troubleshooting are numerous.",
+      "description1": "That's why Ocean Connecting offers you fast service, with electricians able to intervene urgently, or by appointment. Carefully selected, these qualified professionals can address various issues, from the simplest to the most complex projects. Committed to quality work, our artisans know how to operate in strict compliance with current standards and protocols, to conduct their work under good conditions.",
+      "description2": "You can contact our artisans in the following cases:",
+      "listItems": {
+        "tist1": "Searching for electrical faults.",
+        "tist2": "Complete renovation of a home's electrical system.",
+        "tist3": "Installation or repair of a light point.",
+        "tist4": "Repair of an electrical panel fault.",
+        "tist5": "Supply and installation of an electrical panel.",
+        "tist6": "Supply and installation of an electric heater.",
+        "tist7": "Creation or repair of an electrical outlet.",
+        "tist8": "Compliance of an electrical equipment."
+      }
+    },
+    "Startpage4": {
+      "title": "Some Clarifications on Electrical Work.",
+      "description": "It is important to note that certain types of work require only the intervention of an EDF expert or your electricity supplier, especially for interventions affecting the electrical meter. It ensures the interface between your home and your energy supplier, allowing precise billing of your energy consumption. Good practice: MesDépanneurs.fr artisans travel to provide a free quote. As for the rates of our experts' various services, they are specified in indicative ranges on our website. This way, you avoid surprises and unexpected costs!"
+    },
+    "contact": "Contact Us",
+    "faqItems": {
+      "question1": "1. What types of electrical repairs do you perform?",
+      "answer1": "We repair defective electrical installations, faulty outlets and switches, short circuits, light failures, as well as the installation and repair of circuit breakers and electrical panels.",
+      "question2": "2. Do you provide emergency electrical services?",
+      "answer2": "Yes, we offer a 24/7 emergency service to resolve critical electrical faults and ensure the safety of your installation.",
+      "question3": "3. Do you provide a quote before the intervention?",
+      "answer3": "Yes, we provide a free and detailed quote before any intervention, so you know exactly what will be repaired and at what cost.",
+      "question4": "4. Can you work on old installations?",
+      "answer4": "Yes, we work on all electrical installations, whether recent or old, and ensure compliance with current safety standards.",
+      "question5": "5. How long does an electrical repair take?",
+      "answer5": "The duration of the intervention depends on the nature of the problem, but in general, electrical repairs are completed within 1 to 2 hours."
+    }
+  }
 }
-}
+

@@ -1,69 +1,67 @@
 "use client";
 
 import Startpage from "./index";
-import Place from "./place";
 import Start from "./start";
 import Features from "../Work/index";
 import Contact from "../Contact/index";
-import SectionMap from "../Section-Map/map";
 import { Fade } from "react-awesome-reveal";
 import FAQSection from "./faq-section";
+import { useTranslations } from "next-intl";
 
-const faqItems = [
-  {
-    question: "1.⁠ ⁠Quels types de réparations électriques effectuez-vous ?",
-    answer:
-      "Nous réparons les installations électriques défectueuses, les prises et interrupteurs défectueux, les courts-circuits, les pannes de lumière, ainsi que l'installation et la réparation des disjoncteurs et tableaux électriques.",
-  },
 
-  {
-    question: "2.⁠ ⁠Intervenez-vous en cas d’urgence électrique ?",
-    answer:
-      "Oui, nous offrons un service d'urgence disponible 24h/24 et 7j/7 pour résoudre les pannes électriques critiques et garantir la sécurité de votre installation.",
-  },
 
-  {
-    question: "3.⁠ ⁠Fournissez-vous un devis avant l'intervention ?",
-    answer:
-      "Oui, nous fournissons un devis gratuit et détaillé avant toute intervention, afin que vous sachiez exactement ce qui sera réparé et à quel coût.",
-  },
+export default function Electrique({ locale })  {
+  const t = useTranslations("Electricity");
+  
+  const faqItems = [
+    {
+      question: t("faqItems.question1"),
+      answer:t("faqItems.answer1"),
+    },
+  
+    {
+      question: t("faqItems.question2"),
+      answer:t("faqItems.answer2"),
+    },
+  
+    {
+      question: t("faqItems.question3"),
+      answer:t("faqItems.answer3"),
+    },
+  
+    {
+      question: t("faqItems.question4"),
+      answer:t("faqItems.answer4"),
+    },
+  
+    {
+      question: t("faqItems.question5"),
+      answer:t("faqItems.answer5"),
+    },
+  ];
+  
+  const cardData = [
+    {
+      imageSrc: "/images/solair/so2.svg",
+      imageAlt: "Durabilité",
+      title: "Durabilité",
+      description: "Prolongez la durée de vie de votre système d'énergie solaire",
+    },
+    {
+      imageSrc: "/images/solair/so3.svg",
+      imageAlt: "Optimisation",
+      title: "Optimisation",
+      description: "Augmentation de 10% de votre production d’électricité ",
+    },
+    {
+      imageSrc: "/images/solair/so1.svg",
+      imageAlt: "Fiabilité",
+      title: "Fiabilité",
+      description:
+        "L'assurance d'un rendement des panneaux solaires à 100% garantie",
+    },
+  ];
 
-  {
-    question: "4.⁠ ⁠Pouvez-vous intervenir sur des installations anciennes ?",
-    answer:
-      "Oui, nous intervenons sur toutes les installations électriques, qu’elles soient récentes ou anciennes, et nous veillons à respecter les normes de sécurité en vigueur.",
-  },
-
-  {
-    question: "5.⁠ ⁠Combien de temps prend une réparation électrique ?",
-    answer:
-      "La durée de l'intervention dépend de la nature du problème, mais en général, les réparations électriques sont réalisées en 1 à 2 heures.",
-  },
-];
-
-const cardData = [
-  {
-    imageSrc: "/images/solair/so2.svg",
-    imageAlt: "Durabilité",
-    title: "Durabilité",
-    description: "Prolongez la durée de vie de votre système d'énergie solaire",
-  },
-  {
-    imageSrc: "/images/solair/so3.svg",
-    imageAlt: "Optimisation",
-    title: "Optimisation",
-    description: "Augmentation de 10% de votre production d’électricité ",
-  },
-  {
-    imageSrc: "/images/solair/so1.svg",
-    imageAlt: "Fiabilité",
-    title: "Fiabilité",
-    description:
-      "L'assurance d'un rendement des panneaux solaires à 100% garantie",
-  },
-];
-
-export default function electrique({ locale })  {
   return (
     <>
       <Start
@@ -82,28 +80,17 @@ export default function electrique({ locale })  {
           "Mise aux normes électriques",
           "Intervention en moins de 30 minutes",
         ]}
-        //description3="A l'issue de chaque intervention, nous vous fournissons des recommandations et des conseils et une documentation disponible à tout moment."
         firstbutton="Demande de Devis"
         firstbuttonLink="/Devis"
         secondbuttonLink="#Contact"
         secondbutton="Contacter-nous"
       />
-      {/* <Place
-        title="Les avantages du nettoyage de panneaux solaires"
-        description="Le nettoyage des panneaux solaires améliore leur efficacité, prolonge leur durée de vie et réduit les coûts de maintenance, assurant ainsi un meilleur rendement énergétique."
-        cards={cardData}
-        partibutton="Obtenez dès maintenant un devis gratuit et personnalisé pour le nettoyage de vos panneaux solaires."
-        buttonText="Demande de devis rapide et gratuit"
-        buttonLink="/Devis"
-      /> */}
       <Features />
       <Startpage
         image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FIMG_3301.avif?alt=media&token=0110c78a-8472-44d5-8cf3-a35840b5635d"
         subHeading="POURQUOI CHOISIR LA SOCIÉTÉ OCEAN SERVICE   ?"
         title="VOTRE SOCIÉTÉ D’ÉLECTRICITÉ À AGADIR ET AUX ENVIRONS"
         description="Choisir OCEAN CONNECTING, c'est bénéficier d'une expertise reconnue dans le domaine avec des installations conformes et sécurisées. Nous proposons une gamme complète de services, de l’installation à la maintenance, en utilisant des matériaux de qualité et des technologies innovantes. Notre équipe offre un service personnalisé, des tarifs transparents et des devis clairs. Nous garantissons la qualité de nos prestations avec une couverture sur tous nos produits et respect des délais, généralement en 3 à 5 jours. Optez pour OCEAN CONNECTING SERVICES pour un service fiable, rapide et de qualité."
-        //description1="Les rongeurs, en plus d'être des nuisibles, peuvent causer des dommages matériels et présenter des risques pour la santé humaine. La dératisation comprend une évaluation initiale pour identifier les zones infestées, suivie d'une mise en place de mesures adaptées pour éradiquer les rongeurs."
-        //description2="Une fois les rongeurs éliminés, des mesures préventives peuvent être mises en place pour éviter toute réinfestation future. Faites confiance à notre expertise en dératisation pour garantir un environnement sûr, sain et exempt de nuisibles."
         listItems={[
           "Expertise et Expérience",
           "Services Complètes",
@@ -139,10 +126,8 @@ export default function electrique({ locale })  {
       />
       <Startpage
         image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fcodifyformatter.jpg?alt=media&token=419b51b3-cd81-42f3-ae4a-40c594d9017a"
-        //subHeading="Une pré-visite essentielle de votre centrale solaire"
         title="Quelques précisions sur les interventions en électricité."
         description="Il est important de souligner que certains types de travaux nécessitent uniquement l’intervention d’un expert d’EDF ou de votre fournisseur d'électricité, plus particulièrement pour les interventions touchant le compteur électrique. C'est ce dernier qui assure l'interface entre votre logement et votre fournisseur d'énergie, lui permettant d'établir une facturation précise de votre consommation d'énergie.Bonne pratique : Les artisans MesDépanneurs.fr se déplacent pour établir un devis gratuitement. Quant aux tarifs des différentes prestations de nos experts, ils sont spécifiés sous forme de fourchettes indicatives, sur notre site web. Vous évitez ainsi les surprises et les prises de court !"
-        //description1="En faisant appel à nos services de désinfection, vous bénéficiez d'une approche personnalisée en fonction de vos besoins spécifiques. Notre équipe certifiée et expérimentée assure une une désinfection des cafards, des puces, des punaises de lit et de tout autre nuisibles, en se conformant aux normes de sécurité et aux réglementations en vigueur. Faites confiance à notre expertise pour créer un environnement propre et sain."
         imageFirst={false}
         firstbutton="Demande de Devis"
         firstbuttonLink="/Devis"
