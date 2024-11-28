@@ -29,21 +29,21 @@ const StartPage = ({
                 <div className="text-sm font-bold tracking-wider text-lightgrey uppercase">
                   {subHeading}
                 </div>
-                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold ">
+                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-start lg:mx-0 lg:max-w-full font-semibold ">
                   {title}
                 </h1>
                 {description && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description}
                   </p>
                 )}
                 {description1 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description1}
                   </p>
                 )}
                 {description2 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description2}
                   </p>
                 )}
@@ -63,7 +63,7 @@ const StartPage = ({
                   </ul>
                 )}
                 {description3 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description3}
                   </p>
                 )}
@@ -139,21 +139,21 @@ const StartPage = ({
                 <div className="text-sm font-bold tracking-wider text-lightgrey uppercase">
                   {subHeading}
                 </div>
-                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-left lg:mx-0 lg:max-w-full font-semibold ">
+                <h1 className="text-2xl md:text-4xl  md:max-w-xl md:mx-auto md:text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent lg:text-start lg:mx-0 lg:max-w-full font-semibold ">
                   {title}
                 </h1>
                 {description && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start">
                     {description}
                   </p>
                 )}
                 {description1 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description1}
                   </p>
                 )}
                 {description2 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start">
                     {description2}
                   </p>
                 )}
@@ -173,7 +173,7 @@ const StartPage = ({
                   </ul>
                 )}
                 {description3 && (
-                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-left ">
+                  <p className="text-sm md:max-w-xl md:mx-auto lg:mx-0 lg:max-w-full md:text-center lg:text-start ">
                     {description3}
                   </p>
                 )}

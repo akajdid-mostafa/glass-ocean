@@ -51,8 +51,8 @@ const Banner = ({locale} ) =>  {
               <p className="max-w-4xl text-white lg:text-lg font-normal mb-10 text-center">
               {t("Description")}
               </p>
-              <div className="md:flex align-middle justify-center">
-                <button className="text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 mr-6">
+              <div className="md:flex align-middle gap-6 justify-center">
+                <button className="text-xl w-full md:w-auto font-medium rounded-full text-white py-4 px-6 bg-gradient-to-r from-blue600 to-red600 lg:px-14 ">
                   <Link href={`/${locale}/Devis`}>{t("Demande")}</Link>
                 </button>
                 <button className="flex border w-full md:w-auto mt-5 md:mt-0 justify-center rounded-full text-xl font-medium items-center py-4 px-10 text-white hover:text-white hover:bg-gradient-to-r from-blue600 to-red600">

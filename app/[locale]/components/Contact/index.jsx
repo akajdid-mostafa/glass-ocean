@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className="grid w-full text-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                   <ContactCard
                     icon={
-                      <MdMarkEmailRead className="h-6 w-6 mr-2 text-blue600" />
+                      <MdMarkEmailRead className="h-6 w-6  text-blue600" />
                     }
                     title={t("email.title")}
                     description={t("email.description")}
@@ -122,9 +122,9 @@ const Contact = () => {
 
 const ContactCard = ({ icon, title, description, link, linkText }) => (
   <div className="flex flex-col items-center gap-3 px-6 py-8 bg-white rounded-3xl shadow-main">
-    <span className="flex items-center">
+    <span className="flex items-center gap-3">
       {icon}
-      <p className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent ml-2">
+      <p className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent ">
         {title}
       </p>
     </span>

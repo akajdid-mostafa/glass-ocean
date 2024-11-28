@@ -52,7 +52,7 @@ const CleaningServicesLayout = ({locale} ) => {
             </p>
             <ul className="space-y-2">
               {[1, 2, 3, 4, 5].map((index) => (
-                <li key={index} className="flex items-center space-x-2">
+                <li key={index} className="flex items-center gap-4">
                   <Image
                     src={"/Icon/svgrepo.svg"}
                     alt="phone-image"

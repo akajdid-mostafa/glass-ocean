@@ -83,7 +83,7 @@ export default function Plomberie({ locale })  {
         ]}
         description3={t("Startpage1.description3")}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -100,7 +100,7 @@ export default function Plomberie({ locale })  {
         ]}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -120,7 +120,7 @@ export default function Plomberie({ locale })  {
           t("Startpage3.listItems.tist6"),
         ]}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -131,7 +131,7 @@ export default function Plomberie({ locale })  {
         description1={t("Startpage4.description1")}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />

@@ -461,7 +461,71 @@
       "question5": "5. How long does an intervention take?",
       "answer5": "The duration varies depending on the problem, but most repairs are completed in less than 2 hours."
     }
+  },
+  "Insects": {
+    "mainHeading": "Pest Control",
+    "contact": "Contact Us",
+    "cardData": {
+      "title1": "Insect Control",
+      "description1": "Effectively eliminate harmful insects from your living space in Agadir.",
+      "title2": "Rodent Control",
+      "description2": "Protect your home against rodents with our expert solutions.",
+      "title3": "Disinfection",
+      "description3": "Ensure impeccable hygiene with our disinfection service."
+    },
+    "Place": {
+      "title": "Protecting You Against Pests",
+      "description": "Protecting your home against pests preserves your health, prevents damage, and guarantees a healthy environment.",
+      "partibutton": "Get your free and personalized quote for home pest protection now.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+   "Startpage1": {
+      "subHeading": "Expertise - Approach - Surveillance",
+      "title": "The Pest Control Difference",
+      "description": "Successful pest control requires science and experience, both of which are measurable and appreciable in the long term. This is why you need a recognized expert in this field.",
+      "listItems": {
+        "tist1": "Certified and trained experts",
+        "tist2": "Proven application methods",
+        "tist3": "Proactive monitoring and vigilance"
+      },
+      "description3" : "After each intervention, we provide you with recommendations, advice, and documentation available at any time.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Startpage2": {
+      "title": "What is Rodent Control?",
+      "description": "Rodent control is a professional process aimed at eliminating populations of rats and mice in a given environment.",
+      "description1" : "Rodents, in addition to being pests, can cause material damage and pose health risks to humans. Rodent control includes an initial assessment to identify infested areas, followed by the implementation of appropriate measures to eradicate the rodents.",
+      "description2" : "Once the rodents are eliminated, preventive measures can be put in place to avoid any future reinfestation. Trust our rodent control expertise to ensure a safe, healthy, and pest-free environment.",
+      "listItems": {
+        "tist1": "For an urgent rodent control intervention, discover our quick solutions."
+      }
+    },
+    "Startpage3": {
+      "title": "What is Insect Control?",
+      "description": "Insect control is an essential process to eliminate and control harmful insects such as cockroaches, ants, bedbugs, or fleas.",
+      "description1": "This method involves using targeted treatments to eradicate existing infestations and prevent any recurrence. Insect control is performed by trained professionals who identify the insect species, assess the extent of the infestation, and apply appropriate products to target the risk areas. It helps protect your environment from structural damage, diseases transmitted by insects, and daily nuisances.",
+      "description2": "Trust an insect control company and its expertise for a healthy and insect-free environment."
+    },
+    "Startpage4": {
+      "title": "What is Disinfection?",
+      "description": "Disinfection is an essential step to maintain a clean, safe, and healthy environment. Our professional disinfection service is designed to eliminate germs, bacteria, and viruses, providing maximum protection against diseases and infections.",
+      "description1": "By using our disinfection services, you benefit from a personalized approach based on your specific needs. Our certified and experienced team ensures the disinfection of cockroaches, fleas, bedbugs, and other pests, complying with safety standards and regulations. Trust our expertise to create a clean and healthy environment."
+    },
+    "faqItems": {
+      "question1":  "1. Can I stay in my house during the treatment?",
+      "answer1": "Yes, you can stay in your home during the treatment. We use harmless and odorless products in our rodent and insect control services in Agadir.",
+      "question2": "2. Are your treatments safe for children and pets?",
+      "answer2": "Yes, we use approved products and take strict precautions to ensure the safety of your family and pets with our pest control service in Agadir.",
+      "question3": "3. Are your treatments safe for children and pets?",
+      "answer3": "Yes, our treatments are designed to be safe and environmentally friendly. We take additional precautions to protect children and pets while ensuring effective pest control in Agadir.",
+      "question4": "4. Do you offer preventive services?",
+      "answer4": "Yes, we offer preventive services in Agadir to avoid future pest infestations. We can also advise you on preventive measures tailored to your situation for pest control in Agadir.",
+      "question5": "5. What is the typical duration of a treatment?",
+      "answer5": "Yes, our treatments are designed to be safe and environmentally friendly. We take additional precautions to protect children and pets while ensuring effective rodent control in Marrakech and insect control in Agadir."
+    }
   }
+
 
 
 

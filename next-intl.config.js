@@ -1,5 +1,5 @@
 module.exports = {
     locales: ["en", "fr","ar"], // Add all supported locales
-    defaultLocale: "en",  // Set the default locale
+    defaultLocale: "fr",  // Set the default locale
   };
   

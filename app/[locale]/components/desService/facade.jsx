@@ -78,7 +78,7 @@ const cardData = [
         title={t("Startpage1.title")}
         description={t("Startpage1.description")}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -88,7 +88,7 @@ const cardData = [
         cards={cardData}
         partibutton={t("Place.partibutton")}
         buttonText={t("Place.buttonText")}
-        buttonLink="/Devis"
+        buttonLink={`/${locale}/Devis`}
       />
       <Startpage
         image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FWhatsApp%20Image%202024-11-18%20at%2011.20.26.jpeg?alt=media&token=6741559d-e36f-41a2-b3b1-92ce2eca9027"
@@ -97,7 +97,7 @@ const cardData = [
         description={t("Startpage2.description")}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -108,7 +108,7 @@ const cardData = [
         description={t("Startpage3.description")}
         imageFirst={true}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -119,7 +119,7 @@ const cardData = [
         description={t("Startpage4.description")}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -128,7 +128,7 @@ const cardData = [
       <FAQSection faqItems={faqItems} />
       <Fade direction="up" delay={600} triggerOnce={true}>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-center bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent">
-          Contactez-nous
+        {t("contact")}
         </h1>
       </Fade>
       <Contact />

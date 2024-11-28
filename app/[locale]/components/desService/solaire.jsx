@@ -73,7 +73,7 @@ const cardData = [
         title= {t("Startpage1.title")}
         description= {t("Startpage1.description")}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -83,7 +83,7 @@ const cardData = [
         cards={cardData}
         partibutton={t("Place.partibutton")}
         buttonText={t("Place.buttonText")}
-        buttonLink="/Devis"
+        buttonLink={`/${locale}/Devis`}
       />
       <Features locale={locale}/>
       <Startpage
@@ -93,7 +93,7 @@ const cardData = [
         description1={t("Startpage2.description1")}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -109,7 +109,7 @@ const cardData = [
           t("Startpage3.listItems.tist3"),
         ]}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
@@ -121,7 +121,7 @@ const cardData = [
         description1={t("Startpage4.description1")}
         imageFirst={false}
         firstbutton={t("Startpage1.firstbutton")}
-        firstbuttonLink="/Devis"
+        firstbuttonLink={`/${locale}/Devis`}
         secondbuttonLink="#Contact"
         secondbutton={t("Startpage1.secondbutton")}
       />
