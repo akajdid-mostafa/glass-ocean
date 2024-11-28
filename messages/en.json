@@ -225,7 +225,7 @@
     "button": "Contact Us"
   },
 "Electricity": {
-    "mainHeading": "Pest Control",
+    "mainHeading": "Home electrical maintenance",
     "title2": "Free Online Cleaning Quote",
     "title3": "HOW CAN WE HELP YOU?",
     "description": "Welcome to Ocean Connecting! We are pleased to offer you top-notch facade and solar panel cleaning services. Please fill out the contact form below to get in touch with us. We are here to ensure your property shines and operates optimally. Thank you for choosing us!",
@@ -287,6 +287,183 @@
       "question5": "5. How long does an electrical repair take?",
       "answer5": "The duration of the intervention depends on the nature of the problem, but in general, electrical repairs are completed within 1 to 2 hours."
     }
+  },
+  "facade": {
+    "mainHeading": "Facade Cleaning for Professionals",
+    "contact": "Contact Us",
+    "Startpage1": {
+      "mainHeading": "Facade Cleaning for Professionals",
+      "subHeading": "Facade Cleaning",
+      "title": "Does your professional building need a facade cleaning?",
+      "description": "Exterior facades are exposed to dirt from weather and pollution. When visiting a place for work or an appointment, it is one of the first things one notices. Cleaning your facades is essential to enhance them and reduce the risk of deterioration. At OceanConnecting, our experts adapt to your needs to offer reliable and quality services.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Place": {
+      "title": "Facade Cleaning Tailored to Your Sector",
+      "description": "Offices, supermarkets, administrative buildings, condominiums, factories... Our versatile agents adapt to all your surfaces and put their expertise at your service. We offer you a 100% tailor-made offer for the exterior cleanliness of your premises.",
+      "partibutton": "Get your personalized facade cleaning quote immediately and for free.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+    "cardData": {
+      "title1": "Facade",
+      "description1": "Impeccable facade cleaning for all types of buildings.",
+      "title2": "Cladding",
+      "description2": "Impeccable cladding cleaning for all types of buildings.",
+      "title3": "Billboards",
+      "description3": "Impeccable billboard cleaning for all types."
+    },
+    "Startpage2": {
+      "subHeading": "Glass Facade Cleaning",
+      "title": "Glass Facade Cleaning: Aesthetics and Durability",
+      "description": "Cleaning glass facades is essential to maintain the appearance and durability of modern buildings. By using specialized techniques and suitable products, it is possible to effectively remove dirt, stains, and residues without damaging delicate surfaces. Regular maintenance not only ensures impeccable aesthetics but also better longevity of the materials."
+    },
+    "Startpage3": {
+      "subHeading": "Cleaning Cladding Interfaces",
+      "title": "Cleaning Cladding Interfaces: Preservation and Performance",
+      "description": "Cleaning cladding interfaces is essential to maintain the integrity and appearance of exterior facades. Regular maintenance removes dirt, moss, and other debris that can deteriorate materials. Using appropriate methods preserves the durability of the cladding while improving the thermal efficiency and aesthetics of the entire building."
+      },
+    "Startpage4": {
+      "subHeading":"Billboard Cleaning",
+      "title": "Billboard Cleaning: Clarity and Visibility",
+      "description": "Cleaning billboards is crucial for ensuring optimal visibility and neat presentation. By removing dust, stains, and other dirt, regular maintenance keeps the displayed information legible. This also extends the lifespan of the billboards while ensuring clear and professional communication."
+    },
+    "faqItems": {
+      "question1": "1. What are your services exactly?",
+      "answer1": "Facade, window, and surrounding surface cleaning.",
+      "question2": "2. How can I get a quote?",
+      "answer2": "Fill out our form or call us.",
+      "question3": "3. Which areas do you work in?",
+      "answer3": "We are available throughout Morocco.",
+      "question4": "4. How long does it take to clean a facade?",
+      "answer4": "It depends on the surface area and height.",
+      "question5": "5. Do you offer regular services?",
+      "answer5": "Yes, monthly, quarterly, and annual services.",
+      "question6": "6. How can I make an appointment?",
+      "answer6": "By phone or via our website."
+    }
+  },
+  "solaire": {
+    "mainHeading": "Solar Panel Cleaning",
+    "contact": "Contact Us",
+    "Startpage1": {
+      "subHeading": "Facade Cleaning for Professionals",
+      "title": "Clean your solar panels for optimal performance!",
+      "description": "Solar panels are subject to various external conditions, including dust, debris, and weather, which can reduce their efficiency over time. Regular cleaning is essential to maintain their optimal performance and maximize your energy production. At OceanConnecting, our experts use appropriate techniques and products to safely clean your solar panels without risk of damage, ensuring their longevity and efficiency.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Place": {
+      "title": "Benefits of Solar Panel Cleaning",
+      "description": "Cleaning solar panels improves their efficiency, prolongs their lifespan, and reduces maintenance costs, thus ensuring better energy yield.",
+      "partibutton": "Get your free personalized quote for solar panel cleaning now.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+    "cardData": {
+      "title1": "Durability",
+      "description1": "Extend the lifespan of your solar energy system",
+      "title2": "Optimization",
+      "description2": "Increase your electricity production by 10%",
+      "title3": "Reliability",
+      "description3": "Guaranteed 100% solar panel performance assurance"
+    },
+    "Startpage2": {
+      "title": "How to Clean Your Solar Panels?",
+      "description": "Our fully integrated team adheres to safety rules and guarantees the mechanical protection of your installation with dedicated equipment. We use cleaning robots and specific brushes with bristles adapted to photovoltaic panels to remove dirt without any scratches, and pure water to ensure an effective and optimal result.",
+       "description1" : "A cleaning intervention for your photovoltaic panels can be an opportunity to check your installation for any potential anomalies: loosening fasteners, cracked panels, burnt cells..."
+      },
+    "Startpage3": {
+      "title": "Pure Water: An Environmentally Friendly Cleaning Technique",
+      "description": "Cleaning solar panels with pure water stands out from traditional techniques due to its ecological aspect. Thanks to an effective filtration system, it allows us to remove various dirt deposits from your photovoltaic installations while limiting the environmental impact.",
+      "description1" : "Respecting the environment, pure water is an optimal cleaning method for photovoltaic solar panels because:",
+      "listItems": {
+        "tist1": "It results in less adhesion of new dirt",
+        "tist2": "It provides a final result without any traces or residues",
+        "tist3": "It keeps your panels clean for longer"
+      }
+      },
+    "Startpage4": {
+      "subHeading":"An Essential Pre-Visit for Your Solar Plant",
+      "title": "A Technical Pre-Visit Essential for Safe Solar Panel Cleaning",
+      "description": "Before cleaning your solar panels, Net'Toi conducts an essential pre-visit of your photovoltaic installation. This technical visit is crucial as it allows Net'Toi to identify the work to be done and thus adapt the maintenance of your installation optimally.",
+      "description1" : "For the company Net'Toi, this visit ensures the best conditions and safe performance of the service."
+    },
+    "faqItems": {
+      "question1": "1. Why clean solar panels?",
+      "answer1": "Dirt reduces their efficiency by 2% to 7%. Regular cleaning maximizes their effectiveness and lifespan.",
+      "question2": "2. What dirties the panels?",
+      "answer2": "Panels can get dirty depending on their environment. In the city, pollution and fine particles accumulate on their surface. In the countryside, it's mainly dust and pollen. By the sea, salt and sand are the main dirt agents. In windy areas, sand is carried by the wind and settles on the panels.",
+      "question3": "3. How do you clean the panels?",
+      "answer3": "With demineralized water, telescopic brushes, and no chemicals to avoid damage.",
+      "question4": "4. When should they be cleaned?",
+      "answer4":  "Twice a year (spring and autumn) and preferably in the morning to avoid heat.",
+      "question5": "5. Why choose our service?",
+      "answer5":  "Choosing our service means opting for safety and efficiency. We use eco-friendly methods to respect the environment while ensuring quality cleaning. Additionally, we offer a service specifically adapted for high installations, ensuring optimal maintenance in all situations."
+    }
+  },
+  "Plumbing": {
+    "mainHeading": "Plumbing and Piping at Home",
+    "contact": "Contact Us",
+   "Startpage1": {
+      "subHeading": "Our Company Activities",
+      "title": "Plumbing in Agadir – Repairs and Installation",
+      "description": "Specialized in plumbing in Agadir for 10 years, we offer renovation, repair, and installation services with quality equipment at competitive prices, guaranteed and compliant with standards.",
+      "description1" : "Our services include:",
+      "listItems": {
+        "tist1": "Installation and repair of sanitary fixtures",
+        "tist2": "Leak and pipe repairs",
+        "tist3": "Renovation of plumbing systems",
+        "tist4": "Fast intervention, usually within 30 minutes"
+      },
+      "description3" : "Trust our team of professionals for all your plumbing needs in Agadir.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Startpage2": {
+      "title": "Some details about plumbing work.",
+      "description": "Thanks to MesDépanneurs.fr, you can find a quick and efficient plumber for a service at the best price. A price range system allows you to know the prices before clicking 'order'. This way, you avoid any surprises! The quote is provided before any intervention, and you only pay after signing it.",
+      "description1" : "Good practice: At MesDépanneurs.fr, the craftsman or sanitary installer comes to provide a quote for free.",
+      "listItems": {
+        "tist1": "Expertise and Experience",
+        "tist2": "Complete Services",
+        "tist3": "Quality and Safety"
+      }
+    },
+    "Startpage3": {
+      "subHeading": "Good to know",
+      "title": "When to Call a Plumber?",
+      "description": "You can seek the help of a craftsman in the following cases:",
+      "description1": "That's why Ocean Connecting offers you fast service, with electricians able to intervene urgently, or by appointment. Carefully selected, these qualified professionals can address various issues, from the simplest to the most complex projects. Committed to quality work, our craftsmen know how to operate in strict compliance with current standards and protocols, to carry out their work under good conditions.",
+      "description2": "You can contact our craftsmen in the following cases:",
+      "listItems": {
+        "tist1": "Water leak repair.",
+        "tist2": "Unclogging toilets or pipes.",
+        "tist3": "Issues with your sanitary fixtures.",
+        "tist4": "Replacement of parts: heating system, flush, seals...",
+        "tist5": "For the installation of a fixture in the bathroom or kitchen, such as: sink, washbasin, shower, bathtub, toilet...",
+        "tist6": "In case of emergencies (water damage, major blockage...)."
+      }
+    },
+    "Startpage4": {
+      "title": "What is the process and duration of a professional intervention?",
+      "description": "Once your order is placed, a professional plumber contacts you immediately to confirm the time of his visit. Your trusted platform MesDépanneurs.fr specializes in emergency repairs, however for plumbing services, you can schedule an appointment based on your needs and availability, and especially according to the situation. Rest assured, our heating plumbers are available 7 days a week all year round with no extra charges!",
+      "description1": "The time of interventions varies for each case, whether it is an emergency intervention, a leak detection, an unclogging of toilets, or a joint repair, for example. The duration of interventions is communicated before placing the order, and you can also see it at the end of the diagnostic questionnaire for your problem, to organize yourself accordingly."
+    },    
+    "faqItems": {
+      "question1":  "1. What problems do you fix?",
+      "answer1": "We handle water leaks, broken faucets, clogged pipes, defective water heaters, and other plumbing-related issues.",
+      "question2": "2. Do you intervene in emergencies?",
+      "answer2": "Yes, we offer a 24/7 emergency service for major leaks or critical breakdowns.",
+      "question3": "3. Do you provide a quote before repair?",
+      "answer3": "Yes, a detailed and transparent quote is provided before each intervention.",
+      "question4": "4. Do you work on all types of installations?",
+      "answer4": "We work on modern and old installations, whether kitchens, bathrooms, or outdoor networks.",
+      "question5": "5. How long does an intervention take?",
+      "answer5": "The duration varies depending on the problem, but most repairs are completed in less than 2 hours."
+    }
   }
+
+
+
 }
 
