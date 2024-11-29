@@ -139,7 +139,9 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
             </div>
 
             {/* Custom Dropdown for Language Switcher */}
-            <div className="relative" ref={dropdownRef}>
+            
+          </div>
+          <div className="relative mx-4" ref={dropdownRef}>
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 className="rounded-xl px-2 gap-2 py-2 bg-gray300 hover:outline-none focus:outline-none flex items-center"
@@ -200,7 +202,6 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
                 </div>
               )}
             </div>
-          </div>
           <div className="block lg:hidden">
             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
           </div>
