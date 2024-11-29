@@ -144,7 +144,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
           <div className="relative mx-4" ref={dropdownRef}>
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="rounded-xl px-2 gap-2 py-2 bg-gray300 hover:outline-none focus:outline-none flex items-center"
+                className="rounded-xl px-2 gap-2 py-2 bg-gray200 hover:outline-none focus:outline-none flex items-center"
               >
                 <Image
                   src={`/images/flag/${locale}.png`}

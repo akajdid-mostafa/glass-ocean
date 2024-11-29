@@ -17,6 +17,7 @@ module.exports = {
       lightpink: '#F8F7F7',
       pink: '#DF6751',
       gray50: '#f9fafb',
+      gray200: '#e5e7eb',
       gray300: '#d1d5db',
       gray700: '#374151',
       gray800: '#1e293b',
