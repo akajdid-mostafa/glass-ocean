@@ -22,7 +22,7 @@ const Start = ({
           className="relative bg-opacity-70"
           style={{ background: "rgba(0, 0, 0, 0.4)" }}
         >
-          <div className="mx-auto max-w-7xl pt-10 sm:pt-20 sm:pb-24 px-6 h-[10px] flex justify-center items-center">
+          <div className="mx-auto max-w-7xl pt-10 sm:pt-20 sm:pb-24 px-6 h-[30px] flex justify-center items-center">
             <div className="col-span-6 flex flex-col justify-center">
               <h1 className="text-2xl lg:text-5xl font-semibold text-white text-center">
                 {mainHeading}
