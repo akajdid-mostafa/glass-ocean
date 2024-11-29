@@ -69,38 +69,38 @@ const StartPage = ({
                 )}
                 <div className="flex gap-x-5 flex-col gap-y-2.5 lg:flex-row">
                   {firstbutton && firstbuttonLink ? (
-                    <a
+                    <Link
                       href={firstbuttonLink || "#"}
                       className="flex w-full lg:w-fit items-center text-white justify-center rounded-lg bg-gradient-to-r from-blue600 to-red600 px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
                     >
                       <span>{firstbutton || "Default First Button"}</span>
-                    </a>
+                    </Link>
                   ) : (
                     firstbutton && (
-                      <a
+                      <Link
                         href="#"
                         className="flex w-full lg:w-fit items-center text-white justify-center rounded-lg bg-gradient-to-r from-blue600 to-red600 px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
                       >
                         <span>{firstbutton}</span>
-                      </a>
+                      </Link>
                     )
                   )}
 
                   {secondbutton && secondbuttonLink ? (
-                    <a
+                    <Link
                       href={secondbuttonLink || "#"}
                       className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10   "
                     >
                       <span>{secondbutton || "Default Second Button"}</span>
-                    </a>
+                    </Link>
                   ) : (
                     secondbutton && (
-                      <a
+                      <Link
                         href="#"
                         className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                       >
                         <span>{secondbutton}</span>
-                      </a>
+                      </Link>
                     )
                   )}
                 </div>
@@ -179,38 +179,38 @@ const StartPage = ({
                 )}
                 <div className="flex gap-x-5 flex-col gap-y-2.5 lg:flex-row">
                   {firstbutton && firstbuttonLink ? (
-                    <a
+                    <Link
                       href={firstbuttonLink || "#"}
                       className="flex w-full lg:w-fit items-center text-white justify-center rounded-lg bg-gradient-to-r from-blue600 to-red600 px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
                     >
                       <span>{firstbutton || "Default First Button"}</span>
-                    </a>
+                    </Link>
                   ) : (
                     firstbutton && (
-                      <a
+                      <Link
                         href="#"
                         className="flex w-full lg:w-fit items-center text-white justify-center rounded-lg bg-gradient-to-r from-blue600 to-red600 px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
                       >
                         <span>{firstbutton}</span>
-                      </a>
+                      </Link>
                     )
                   )}
 
                   {secondbutton && secondbuttonLink ? (
-                    <a
+                    <Link
                       href={secondbuttonLink || "#"}
                       className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                     >
                       <span>{secondbutton || "Default Second Button"}</span>
-                    </a>
+                    </Link>
                   ) : (
                     secondbutton && (
-                      <a
+                      <Link
                         href="#"
                         className="flex w-full lg:w-fit items-center text-[#1053F3] justify-center rounded-lg border border-[#6A65FF] px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200 bg-[#5138EE]/10 "
                       >
                         <span>{secondbutton}</span>
-                      </a>
+                      </Link>
                     )
                   )}
                 </div>

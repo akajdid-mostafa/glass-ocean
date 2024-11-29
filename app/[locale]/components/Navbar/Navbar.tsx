@@ -132,7 +132,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
             </div>
             <div className="gap-6 hidden lg:flex">
               <Link href={`/${locale}/Devis`}>
-                <button className="flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white py-3 px-4 lg:px-10 navbutton space-links">
+                <button className="flex justify-center text-base w-full font-bold rounded-xl bg-gradient-to-r from-blue600 to-red600 text-white py-2 px-4 lg:px-4 navbutton space-links">
                   {t("Demande_de_Devis")}
                 </button>
               </Link>
@@ -142,7 +142,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="rounded-md px-2 gap-2 py-2 bg-gray300 hover:outline-none focus:outline-none flex items-center"
+                className="rounded-xl px-2 gap-2 py-2 bg-gray300 hover:outline-none focus:outline-none flex items-center"
               >
                 <Image
                   src={`/images/flag/${locale}.png`}
@@ -205,7 +205,7 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
           </div>
           <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-            <Drawerdata />
+            <Drawerdata locale={locale} />
           </Drawer>
         </div>
       </div>
