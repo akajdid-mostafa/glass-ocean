@@ -4,6 +4,7 @@
     "services": "Services",
     "facade_cleaning": "Nettoyage des façades",
     "solar_panel_cleaning": "Nettoyage des panneaux solaires",
+    "fauteuils-et-matelas": "Nettoyages des Fauteuils et Matelas",
     "home_electrical": "Maintenance électrique à domicile",
     "plumbing": "Plomberie et canalisation a domicile",
     "pest_control": "Destruction des insectes nuisibles",
@@ -60,14 +61,18 @@
       "description": "Nous nettoyons vos panneaux solaires pour maximiser leur efficacité en éliminant poussière et impuretés."
     },
     "service3": {
+      "title": "Nettoyage des Fauteuils et des Matelas",
+      "description": "Nous nettoyons vos fauteuils et matelas pour maximiser leur propreté en éliminant poussière et impuretés."
+    },
+    "service4": {
       "title": "Maintenance électrique à domicile",
       "description": "Nous intervenons rapidement pour réparer vos installations électriques à domicile, garantissant sécurité et conformité."
     },
-    "service4": {
+    "service5": {
       "title": "Plomberie et canalisation a domicile",
       "description": "Nous intervenons rapidement pour réparer vos installations de plomberie à domicile, assurant un service fiable et durable."
     },
-    "service5": {
+    "service6": {
       "title": "destruction des insectes nuisibles",
       "description": "Nous éliminons efficacement les insectes nuisibles de votre domicile, garantissant un environnement sain et sécurisé."
     },
@@ -382,6 +387,77 @@
         "tist3": "Il laisse vos panneaux propres plus longtemps"
       }
       },
+    "Startpage4": {
+      "subHeading":"Une pré-visite essentielle de votre centrale solaire",
+      "title": "Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité",
+      "description": "Préalablement au nettoyage de vos panneaux solaires, Net’Toi procède à une pré-visite indispensable de votre installation photovoltaïque. Cette visite technique est essentielle, car elle permet à Net'Toi d'identifier les travaux à effectuer et ainsi d'adapter l'entretien de votre installation de manière optimale.",
+      "description1" : "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
+    },
+    "faqItems": {
+      "question1": "1. Pourquoi nettoyer les panneaux solaires ?",
+      "answer1": "La saleté réduit leur rendement de 2 % à 7 %. Un nettoyage régulier maximise leur efficacité et leur durée de vie.",
+      "question2": "2. Qu'est-ce qui salit les panneaux ?",
+      "answer2": "Les panneaux peuvent se salir en fonction de leur environnement. En ville, la pollution et les particules fines s'accumulent sur leur surface. À la campagne, ce sont principalement la poussière et les pollens qui les recouvrent. En bord de mer, le sel et le sable sont les principaux agents de salissure. Enfin, dans les zones ventées, le sable est transporté par le vent et se dépose sur les panneaux.",
+      "question3": "3. Comment nettoyez-vous les panneaux ?",
+      "answer3": "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
+      "question4": "4. Quand faut-il les nettoyer ?",
+      "answer4":  "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
+      "question5": "5. Pourquoi choisir notre service ?",
+      "answer5":  "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
+    }
+  },
+  "matelas": {
+    "mainHeading": "Nettoyage des Fauteuils et des Matelas", 
+    "contact": "Contactez-nous", 
+    "Startpage1": { 
+      "subHeading": "Nettoyage des tissus d'ameublement", 
+      "title": "comment préserver longtemps la beauté des canapés, des sièges auto et des matelas?", 
+      "description": "Une soirée décontractée sur le canapé avec chips et boissons, des enfants en grande forme ou des animaux domestiques dans le salon: avant même que vous ne vous en rendiez compte, miettes et taches envahissent les tissus d'ameublement. Même pendant les trajets en voiture, les sièges sont vite exposés aux salissures. Retrouvez la propreté des tissus d'ameublement grâce aux conseils et outils suivants.", 
+      "firstbutton": "Demande de Devis", 
+      "secondbutton": "Contacter-nous" 
+    },
+    "Place": {
+      "title": "Nettoyage Canapé et autres textiles à domicile.",
+      "description": "Nous offrons des services professionnels pour nettoyer vos canapés et textiles à domicile. Nos experts éliminent la saleté, les taches et les allergènes, assurant une propreté impeccable et prolongeant la durée de vie de vos textiles.",
+      "partibutton": "Obtenez dès maintenant un devis gratuit et personnalisé pour le nettoyage de vos canapés et textiles à domicile.",
+      "buttonText": "Demande de devis rapide et gratuit"
+    },
+    "cardData": {
+      "title1": "Canapé",
+      "description1": "Nettoyage en profondeur par injection - extraction",
+      "title2": "Matelas",
+      "description2": "Nettoyage en profondeur de matelas Recto/Verso",
+      "title3": "Fauteuil | Chaise",
+      "description3": "Nettoyage en profondeur de chaises et fauteuils",
+      "title4": "Moquette",
+      "description4": "Nettoyage et shampouinage de moquette"
+    },
+    "Startpage3": {
+      "title": "Pourquoi faut-il nettoyer régulièrement les meubles recouverts de tissu?",
+      "description": "Les canapés et fauteuils de relaxation, qui font le confort du salon au quotidien, y occupent une place importante. Ils sont cependant souvent exposés aux taches. Afin d'en profiter longtemps, un nettoyage et un entretien réguliers des tissus d'ameublement sont de mise. ",
+      "description1" : "Les objectifs en sont multiples:",
+      "listItems": {
+        "tist1": "Éliminer la saleté en profondeur.",
+        "tist2": "Faire disparaître les taches disgracieuses.",
+        "tist3": "Éliminer poils d'animaux et les acariens.",
+        "tist4": "Préserver l'aspect des tissus d'ameublement et prolonger leur durée de vie."
+      },
+      "description3" : "Des arguments valables d'ailleurs aussi pour les matelas et les sièges auto, qui nécessitent également un nettoyage régulier."
+      },
+    "Startpage2": {
+      "title": "Avantages du Nettoyage à Sec",
+      "description": "Le nettoyage à sec est une méthode efficace pour maintenir la propreté et l'hygiène de vos textiles sans utiliser d'eau. Cette technique utilise des solvants spéciaux pour éliminer la saleté, les taches et autres contaminants, tout en préservant l'intégrité des tissus. ",
+      "description1" : "Le nettoyage à sec élimine les problèmes tels que :",
+      "listItems": {
+        "tist1": "Élimination des allergènes",
+        "tist2": "Élimination des odeurs",
+        "tist3": "Tuer les tiques",
+        "tist4": "Prévention de la re-pollution",
+        "tist5": "Restauration de la luminosité de la couleur du tissu",
+        "tist6": "Traitement antibactérien"
+      }
+    },
+    
     "Startpage4": {
       "subHeading":"Une pré-visite essentielle de votre centrale solaire",
       "title": "Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité",

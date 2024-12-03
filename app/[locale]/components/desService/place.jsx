@@ -21,13 +21,13 @@ export default function Place({
           <p className="text-lg max-w-4xl mx-auto">{description}</p>
         </Fade>
         <div className="mx-auto max-w-7xl text-center p-6 ">
-          <div className="mx-auto max-w-4xl items-stretch space-y-4 text-left sm:flex sm:space-y-0 sm:gap-x-8 sm:text-center">
-            <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
+        <div className="mx-auto max-w-6xl items-stretch space-y-4 text-left sm:flex sm:flex-wrap sm:justify-center sm:space-y-0 sm:gap-x-8 sm:gap-y-8 sm:text-center">
+        <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
               {cards &&
                 cards.map((card, index) => (
                   <Card
                     key={index}
-                    className="flex   w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
+                    className="flex w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
                   >
                     <Image
                       className="mx-4  w-12 sm:mr-0 rounded-2xl sm:h-32 sm:w-32"
@@ -61,11 +61,14 @@ export default function Place({
 }
 function Card({ className, children }) {
   return (
-    <div className={` shadow-lg rounded-lg ${className}`}>
+    <div
+      className={`w-full sm:w-[250px] shadow-lg rounded-lg ${className}`} // Set consistent width
+    >
       {children}
     </div>
   );
 }
+
 
 function CardContent({ className, children }) {
   return <div className={`p-6 ${className}`}>{children}</div>;

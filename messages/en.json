@@ -1,9 +1,10 @@
 {
-"Navbar": {
+  "Navbar": {
     "home": "Home",
     "services": "Services",
     "facade_cleaning": "Facade Cleaning",
     "solar_panel_cleaning": "Solar Panel Cleaning",
+    "fauteuils-et-matelas": "Armchair and mattress cleaning",
     "home_electrical": "Home Electrical Maintenance",
     "plumbing": "Plumbing and Home Drainage",
     "pest_control": "Pest Control",
@@ -11,79 +12,83 @@
     "contact": "Contact",
     "about": "About",
     "Demande_de_Devis": "Request a Quote"
-},
-"Hero": {
+  },
+  "Hero": {
     "title": "Innovative Cleaning, Exceptional Results",
     "Description": "Enjoy advanced cleaning, designed to deliver exceptional results and meet your specific needs, in Agadir and throughout Morocco.",
     "Demande": "Request a free quote",
     "Contact": "Contact us"
-},
-"service": {
-      "title": "Our Modular Cleaning Services",
-      "h2": "A Customized Offer for You",
-      "span": "Enjoy a high-quality cleaning service,",
-      "paragraph": "tailored to your needs and budget. Our services are fully customizable to meet your specific requirements.",
-      "listItem1": "Cleaning techniques adapted to your premises.",
-      "listItem2": "Flexible contract duration.",
-      "listItem3": "Frequency of visits by our agents adjusted to your needs.",
-      "listItem4": "Guaranteed periodic quality checks.",
-      "listItem5": "Dedicated client area to track your services.",
-      "butttonDemande": "Request Your Cleaning Quote",
-      "butttonContact": "Contact Us",
-      "service1": {
-        "title": "Regular Cleaning Services",
-        "description": "Periodic cleaning, hygiene product supply, and waste management."
-      },
-      "service2": {
-        "title": "Disinfection of Your Premises",
-        "description": "Disinfection of contact surfaces and fogging disinfection."
-      },
-      "service3": {
-        "title": "Additional Cleaning Services",
-        "description": "Window cleaning, floor maintenance and restoration, façade cleaning, and more."
-      },
-      "service4": {
-        "title": "Restoration Services",
-        "description": "Interventions after construction work, disasters, or on-demand."
-      }
-},
-"service2": {
-  "firsttitle": "Our Services",
-  "title": "Most Popular Services",
-  "description": "We offer a wide range of cleaning services to keep your space spotless and comfortable. Choose from our most popular options below.",
-  "service1": {
-    "title": "Facade Cleaning",
-    "description": "We carry out thorough cleaning of facades to ensure perfect clarity and optimal functionality."
+  },
+  "service": {
+    "title": "Our Modular Cleaning Services",
+    "h2": "A Customized Offer for You",
+    "span": "Enjoy a high-quality cleaning service,",
+    "paragraph": "tailored to your needs and budget. Our services are fully customizable to meet your specific requirements.",
+    "listItem1": "Cleaning techniques adapted to your premises.",
+    "listItem2": "Flexible contract duration.",
+    "listItem3": "Frequency of visits by our agents adjusted to your needs.",
+    "listItem4": "Guaranteed periodic quality checks.",
+    "listItem5": "Dedicated client area to track your services.",
+    "butttonDemande": "Request Your Cleaning Quote",
+    "butttonContact": "Contact Us",
+    "service1": {
+      "title": "Regular Cleaning Services",
+      "description": "Periodic cleaning, hygiene product supply, and waste management."
+    },
+    "service2": {
+      "title": "Disinfection of Your Premises",
+      "description": "Disinfection of contact surfaces and fogging disinfection."
+    },
+    "service3": {
+      "title": "Additional Cleaning Services",
+      "description": "Window cleaning, floor maintenance and restoration, façade cleaning, and more."
+    },
+    "service4": {
+      "title": "Restoration Services",
+      "description": "Interventions after construction work, disasters, or on-demand."
+    }
   },
   "service2": {
-    "title": "Solar Panel Cleaning",
-    "description": "We clean your solar panels to maximize their efficiency by removing dust and impurities."
+    "firsttitle": "Our Services",
+    "title": "Most Popular Services",
+    "description": "We offer a wide range of cleaning services to keep your space spotless and comfortable. Choose from our most popular options below.",
+    "service1": {
+      "title": "Facade Cleaning",
+      "description": "We carry out thorough cleaning of facades to ensure perfect clarity and optimal functionality."
+    },
+    "service2": {
+      "title": "Solar Panel Cleaning",
+      "description": "We clean your solar panels to maximize their efficiency by removing dust and impurities."
+    },
+    "service3": {
+      "title": "Chair and Mattress Cleaning",
+      "description": "We clean your chairs and mattresses to maximize their cleanliness by removing dust and impurities."
+    },
+    "service4": {
+      "title": "Home Electrical Maintenance",
+      "description": "We respond quickly to repair your home electrical installations, ensuring safety and compliance."
+    },
+    "service5": {
+      "title": "Home Plumbing and Piping",
+      "description": "We respond quickly to repair your home plumbing installations, providing a reliable and long-lasting service."
+    },
+    "service6": {
+      "title": "Pest Control",
+      "description": "We effectively eliminate pests from your home, ensuring a healthy and secure environment."
+    },
+    "action": "Learn More"
   },
-  "service3": {
-    "title": "Home Electrical Maintenance",
-    "description": "We respond quickly to repair your home electrical installations, ensuring safety and compliance."
-  },
-  "service4": {
-    "title": "Home Plumbing and Piping",
-    "description": "We respond quickly to repair your home plumbing installations, providing a reliable and long-lasting service."
-  },
-  "service5": {
-    "title": "Pest Control",
-    "description": "We effectively eliminate pests from your home, ensuring a healthy and secure environment."
-  },
-  "action": "Learn More"
-},
-"sectionmap": {
+  "sectionmap": {
     "title": "Find the Nearest Regional Office",
     "description": "Your Cleaning Company Across Morocco",
     "description1": "To meet your tailored cleaning needs, we accompany you wherever you are in Morocco. Thanks to our network, we cover the entire country, from Tangier to Dakhla, including Agadir, Marrakech, Casablanca, and Rabat.",
     "button": "Discover the cities where we operate"
-},
-"Features":{
-    "title1":"The Benefits of Ocean-Glass Cleanliness",
-    "title2":"Tailored to Your Business Sector",
-    "description":"Specializing in cleaning and maintenance, including facades and high-rise buildings, we offer high-quality cleaning services for all your professional premises.",
-    "action":"Learn more",
+  },
+  "Features": {
+    "title1": "The Benefits of Ocean-Glass Cleanliness",
+    "title2": "Tailored to Your Business Sector",
+    "description": "Specializing in cleaning and maintenance, including facades and high-rise buildings, we offer high-quality cleaning services for all your professional premises.",
+    "action": "Learn more",
     "cardData1": {
       "title": "Inclusion",
       "description": "A respectful service for a harmonious environment."
@@ -100,25 +105,25 @@
       "title": "Continuity",
       "description": "Consistent and reliable service for always impeccable spaces."
     }
-},
-"youtube": {
+  },
+  "youtube": {
     "title1": "Introduction Video",
     "title2": "Our Experts in Action",
     "Description": "Discover our professional window and facade cleaning services in the video below. Watch the video!"
   },
-"About": {
+  "About": {
     "title1": "About Us",
     "title2": "Clean Your Facade",
     "Description": "At Ocean Connecting, we are experts in facade cleaning. Using advanced techniques and eco-friendly products, we ensure a brilliant and lasting cleanliness. Our qualified team is trained to maintain all surfaces, whether commercial or residential buildings.",
     "Description2": "Trust Ocean Connecting to restore your facade's original shine.",
     "Demande": "Contact Us"
-},
-"Team": {
+  },
+  "Team": {
     "title1": "Team Introduction",
     "title2": "A Dedicated Team",
     "Description": "Our team is made up of qualified and passionate professionals, ready to provide you with the highest quality cleaning services. Each member is trained to meet your specific needs with rigor and professionalism."
-},
-"Contactform": {
+  },
+  "Contactform": {
     "title": "Contact Us Quickly",
     "nom": "Your Name",
     "num": "Phone Number",
@@ -135,8 +140,8 @@
     },
     "button": "Send Your Message",
     "message": "Thank you for contacting us! We have received your information and our team will get in touch with you soon. Thank you for your interest and see you soon!"
-},
-"Contact": {
+  },
+  "Contact": {
     "title1": "CONTACT US",
     "title2": "Free Online Cleaning Quote",
     "title3": "HOW CAN WE HELP YOU?",
@@ -157,16 +162,16 @@
       "Text": "Immeubles Coralia, 2nd Floor, ISLAN, Hay Mohammadi, AGADIR"
     },
     "Suivez-nous": "Follow Us:"
-},
-"simulation": {
+  },
+  "simulation": {
     "title1": "Prepare Cleaning Quotes in No Time",
     "title2": "Free Online Cleaning Quote",
     "title3": "ESTIMATE THE COST OF YOUR CLEANING SERVICES",
     "title4": "Do you want to know the approximate cost of your cleaning service?",
     "description1": "In just a few clicks, create the budget simulation for your cleaning service for your professional premises with our free online cleaning quote. Feel free to contact us if you have specific needs!",
     "description2": "(Reminder: Although we would like to provide cleaning services for everyone, we only serve professionals)"
-},
-"formsimulation": {
+  },
+  "formsimulation": {
     "entreprise": "Your company or organization",
     "etage": "Floor number",
     "selected": "Select the area",
@@ -181,50 +186,50 @@
     "title": "ONLINE CLEANING QUOTE",
     "messag2": "Free cleaning quote request received. Our sales team will contact you soon.",
     "accept": "Accept"
-},
-"contactInfo": {
-      "titleabout": "WE ARE PROFESSIONALS",
-      "Text": "Ocean Connecting offers glass facade cleaning, plumbing, electrical and pest extermination services, with an expert team to guarantee your satisfaction.",
-      "thanks": "Thank you for visiting and welcome to ",
-      "ocean": "Ocean Connecting",
-      "droit1": "Copyright © ",
-      "droit": ". All rights reserved.",
-      "part1": "Our Pages",
-      "part2": "Cleaning and Repair",
-      "part3": "Our Services",
-      "title1": "Address",
-      "content": "Immeubles Coralia, 2nd floor, ISLAN, Hay Mohammadi, AGADIR",
-      "title2": "Call Us",
-      "title3": "Send Us an Email",
-      "Devis": "Request a Quote",
-      "service": "Services",
-      "gallery": "Gallery",
-      "about": "About Us",
-      "contact": "Contact Us",
-      "facade": "Facade Cleaning",
-      "solaire": "Solar Panel Cleaning",
-      "electrical": "Home Electrical Maintenance",
-      "plomberie": "Home Plumbing and Piping",
-      "insectes": "Pest Control",
-      "dev": "IT Development",
-      "langague": "Language Center",
-      "formation": "Training",
-      "nettoyage": "Cleaning and Repair",
-      "contract": "Recruitment"
-},
-"gallery": {
+  },
+  "contactInfo": {
+    "titleabout": "WE ARE PROFESSIONALS",
+    "Text": "Ocean Connecting offers glass facade cleaning, plumbing, electrical and pest extermination services, with an expert team to guarantee your satisfaction.",
+    "thanks": "Thank you for visiting and welcome to ",
+    "ocean": "Ocean Connecting",
+    "droit1": "Copyright © ",
+    "droit": ". All rights reserved.",
+    "part1": "Our Pages",
+    "part2": "Cleaning and Repair",
+    "part3": "Our Services",
+    "title1": "Address",
+    "content": "Immeubles Coralia, 2nd floor, ISLAN, Hay Mohammadi, AGADIR",
+    "title2": "Call Us",
+    "title3": "Send Us an Email",
+    "Devis": "Request a Quote",
+    "service": "Services",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "facade": "Facade Cleaning",
+    "solaire": "Solar Panel Cleaning",
+    "electrical": "Home Electrical Maintenance",
+    "plomberie": "Home Plumbing and Piping",
+    "insectes": "Pest Control",
+    "dev": "IT Development",
+    "langague": "Language Center",
+    "formation": "Training",
+    "nettoyage": "Cleaning and Repair",
+    "contract": "Recruitment"
+  },
+  "gallery": {
     "title": "Welcome to our Gallery!",
     "description": "Explore the creativity and dedication that drive our work through these images. Enjoy the visit!",
     "message": "No albums available at the moment."
-},
-"faq": {
+  },
+  "faq": {
     "title1": "Let Us Help You",
     "title2": "Frequently Asked Questions",
     "title3": "Confused?",
     "description": "Can't find your answer here? Send us a message for assistance.",
     "button": "Contact Us"
   },
-"Electricity": {
+  "Electricity": {
     "mainHeading": "Home electrical maintenance",
     "title2": "Free Online Cleaning Quote",
     "title3": "HOW CAN WE HELP YOU?",
@@ -322,9 +327,9 @@
       "subHeading": "Cleaning Cladding Interfaces",
       "title": "Cleaning Cladding Interfaces: Preservation and Performance",
       "description": "Cleaning cladding interfaces is essential to maintain the integrity and appearance of exterior facades. Regular maintenance removes dirt, moss, and other debris that can deteriorate materials. Using appropriate methods preserves the durability of the cladding while improving the thermal efficiency and aesthetics of the entire building."
-      },
+    },
     "Startpage4": {
-      "subHeading":"Billboard Cleaning",
+      "subHeading": "Billboard Cleaning",
       "title": "Billboard Cleaning: Clarity and Visibility",
       "description": "Cleaning billboards is crucial for ensuring optimal visibility and neat presentation. By removing dust, stains, and other dirt, regular maintenance keeps the displayed information legible. This also extends the lifespan of the billboards while ensuring clear and professional communication."
     },
@@ -370,23 +375,23 @@
     "Startpage2": {
       "title": "How to Clean Your Solar Panels?",
       "description": "Our fully integrated team adheres to safety rules and guarantees the mechanical protection of your installation with dedicated equipment. We use cleaning robots and specific brushes with bristles adapted to photovoltaic panels to remove dirt without any scratches, and pure water to ensure an effective and optimal result.",
-       "description1" : "A cleaning intervention for your photovoltaic panels can be an opportunity to check your installation for any potential anomalies: loosening fasteners, cracked panels, burnt cells..."
-      },
+      "description1": "A cleaning intervention for your photovoltaic panels can be an opportunity to check your installation for any potential anomalies: loosening fasteners, cracked panels, burnt cells..."
+    },
     "Startpage3": {
       "title": "Pure Water: An Environmentally Friendly Cleaning Technique",
       "description": "Cleaning solar panels with pure water stands out from traditional techniques due to its ecological aspect. Thanks to an effective filtration system, it allows us to remove various dirt deposits from your photovoltaic installations while limiting the environmental impact.",
-      "description1" : "Respecting the environment, pure water is an optimal cleaning method for photovoltaic solar panels because:",
+      "description1": "Respecting the environment, pure water is an optimal cleaning method for photovoltaic solar panels because:",
       "listItems": {
         "tist1": "It results in less adhesion of new dirt",
         "tist2": "It provides a final result without any traces or residues",
         "tist3": "It keeps your panels clean for longer"
       }
-      },
+    },
     "Startpage4": {
-      "subHeading":"An Essential Pre-Visit for Your Solar Plant",
+      "subHeading": "An Essential Pre-Visit for Your Solar Plant",
       "title": "A Technical Pre-Visit Essential for Safe Solar Panel Cleaning",
       "description": "Before cleaning your solar panels, Net'Toi conducts an essential pre-visit of your photovoltaic installation. This technical visit is crucial as it allows Net'Toi to identify the work to be done and thus adapt the maintenance of your installation optimally.",
-      "description1" : "For the company Net'Toi, this visit ensures the best conditions and safe performance of the service."
+      "description1": "For the company Net'Toi, this visit ensures the best conditions and safe performance of the service."
     },
     "faqItems": {
       "question1": "1. Why clean solar panels?",
@@ -396,33 +401,104 @@
       "question3": "3. How do you clean the panels?",
       "answer3": "With demineralized water, telescopic brushes, and no chemicals to avoid damage.",
       "question4": "4. When should they be cleaned?",
-      "answer4":  "Twice a year (spring and autumn) and preferably in the morning to avoid heat.",
+      "answer4": "Twice a year (spring and autumn) and preferably in the morning to avoid heat.",
       "question5": "5. Why choose our service?",
-      "answer5":  "Choosing our service means opting for safety and efficiency. We use eco-friendly methods to respect the environment while ensuring quality cleaning. Additionally, we offer a service specifically adapted for high installations, ensuring optimal maintenance in all situations."
+      "answer5": "Choosing our service means opting for safety and efficiency. We use eco-friendly methods to respect the environment while ensuring quality cleaning. Additionally, we offer a service specifically adapted for high installations, ensuring optimal maintenance in all situations."
+    }
+  },
+  "matelas": {
+    "mainHeading": "Cleaning of Armchairs and Mattresses",
+    "contact": "Contact Us",
+    "Startpage1": {
+      "subHeading": "Upholstery Cleaning",
+      "title": "How to maintain the beauty of sofas, car seats, and mattresses for a long time?",
+      "description": "A relaxed evening on the couch with chips and drinks, energetic children, or pets in the living room: before you know it, crumbs and stains cover the upholstery. Even during car trips, seats quickly get dirty. Restore the cleanliness of your upholstery with the following tips and tools.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Place": {
+      "title": "Sofa and other textiles cleaning at home.",
+      "description": "We offer professional services to clean your sofas and textiles at home. Our experts eliminate dirt, stains, and allergens, ensuring impeccable cleanliness and extending the lifespan of your textiles.",
+      "partibutton": "Get a free and personalized quote for cleaning your sofas and textiles at home now.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+    "cardData": {
+      "title1": "Sofa",
+      "description1": "Deep cleaning through injection-extraction",
+      "title2": "Mattress",
+      "description2": "Deep cleaning of mattresses (both sides)",
+      "title3": "Armchair | Chair",
+      "description3": "Deep cleaning of chairs and armchairs",
+      "title4": "Carpet",
+      "description4": "Carpet cleaning and shampooing"
+    },
+    "Startpage3": {
+      "title": "Why should upholstered furniture be cleaned regularly?",
+      "description": "Sofas and recliners, which make the living room comfortable on a daily basis, occupy an important place. However, they are often exposed to stains. To enjoy them for a long time, regular cleaning and maintenance of upholstery fabrics are essential.",
+      "description1": "The objectives are multiple:",
+      "listItems": {
+        "tist1": "Deep cleaning to remove dirt.",
+        "tist2": "Removing unsightly stains.",
+        "tist3": "Eliminating pet hair and dust mites.",
+        "tist4": "Preserving the appearance of upholstery fabrics and prolonging their lifespan."
+      },
+      "description3": "These arguments are also valid for mattresses and car seats, which also require regular cleaning."
+    },
+    "Startpage2": {
+      "title": "Advantages of Dry Cleaning",
+      "description": "Dry cleaning is an effective method to maintain the cleanliness and hygiene of your textiles without using water. This technique uses special solvents to remove dirt, stains, and other contaminants while preserving the integrity of the fabrics.",
+      "description1": "Dry cleaning eliminates issues such as:",
+      "listItems": {
+        "tist1": "Elimination of allergens",
+        "tist2": "Elimination of odors",
+        "tist3": "Killing ticks",
+        "tist4": "Prevention of re-pollution",
+        "tist5": "Restoring the brightness of the fabric color",
+        "tist6": "Antibacterial treatment"
+      }
+    },
+
+    "Startpage4": {
+      "subHeading": "Une pré-visite essentielle de votre centrale solaire",
+      "title": "Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité",
+      "description": "Préalablement au nettoyage de vos panneaux solaires, Net’Toi procède à une pré-visite indispensable de votre installation photovoltaïque. Cette visite technique est essentielle, car elle permet à Net'Toi d'identifier les travaux à effectuer et ainsi d'adapter l'entretien de votre installation de manière optimale.",
+      "description1": "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
+    },
+    "faqItems": {
+      "question1": "1. Pourquoi nettoyer les panneaux solaires ?",
+      "answer1": "La saleté réduit leur rendement de 2 % à 7 %. Un nettoyage régulier maximise leur efficacité et leur durée de vie.",
+      "question2": "2. Qu'est-ce qui salit les panneaux ?",
+      "answer2": "Les panneaux peuvent se salir en fonction de leur environnement. En ville, la pollution et les particules fines s'accumulent sur leur surface. À la campagne, ce sont principalement la poussière et les pollens qui les recouvrent. En bord de mer, le sel et le sable sont les principaux agents de salissure. Enfin, dans les zones ventées, le sable est transporté par le vent et se dépose sur les panneaux.",
+      "question3": "3. Comment nettoyez-vous les panneaux ?",
+      "answer3": "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
+      "question4": "4. Quand faut-il les nettoyer ?",
+      "answer4": "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
+      "question5": "5. Pourquoi choisir notre service ?",
+      "answer5": "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
     }
   },
   "Plumbing": {
     "mainHeading": "Plumbing and Piping at Home",
     "contact": "Contact Us",
-   "Startpage1": {
+    "Startpage1": {
       "subHeading": "Our Company Activities",
       "title": "Plumbing in Agadir – Repairs and Installation",
       "description": "Specialized in plumbing in Agadir for 10 years, we offer renovation, repair, and installation services with quality equipment at competitive prices, guaranteed and compliant with standards.",
-      "description1" : "Our services include:",
+      "description1": "Our services include:",
       "listItems": {
         "tist1": "Installation and repair of sanitary fixtures",
         "tist2": "Leak and pipe repairs",
         "tist3": "Renovation of plumbing systems",
         "tist4": "Fast intervention, usually within 30 minutes"
       },
-      "description3" : "Trust our team of professionals for all your plumbing needs in Agadir.",
+      "description3": "Trust our team of professionals for all your plumbing needs in Agadir.",
       "firstbutton": "Request a Quote",
       "secondbutton": "Contact Us"
     },
     "Startpage2": {
       "title": "Some details about plumbing work.",
       "description": "Thanks to MesDépanneurs.fr, you can find a quick and efficient plumber for a service at the best price. A price range system allows you to know the prices before clicking 'order'. This way, you avoid any surprises! The quote is provided before any intervention, and you only pay after signing it.",
-      "description1" : "Good practice: At MesDépanneurs.fr, the craftsman or sanitary installer comes to provide a quote for free.",
+      "description1": "Good practice: At MesDépanneurs.fr, the craftsman or sanitary installer comes to provide a quote for free.",
       "listItems": {
         "tist1": "Expertise and Experience",
         "tist2": "Complete Services",
@@ -448,9 +524,9 @@
       "title": "What is the process and duration of a professional intervention?",
       "description": "Once your order is placed, a professional plumber contacts you immediately to confirm the time of his visit. Your trusted platform MesDépanneurs.fr specializes in emergency repairs, however for plumbing services, you can schedule an appointment based on your needs and availability, and especially according to the situation. Rest assured, our heating plumbers are available 7 days a week all year round with no extra charges!",
       "description1": "The time of interventions varies for each case, whether it is an emergency intervention, a leak detection, an unclogging of toilets, or a joint repair, for example. The duration of interventions is communicated before placing the order, and you can also see it at the end of the diagnostic questionnaire for your problem, to organize yourself accordingly."
-    },    
+    },
     "faqItems": {
-      "question1":  "1. What problems do you fix?",
+      "question1": "1. What problems do you fix?",
       "answer1": "We handle water leaks, broken faucets, clogged pipes, defective water heaters, and other plumbing-related issues.",
       "question2": "2. Do you intervene in emergencies?",
       "answer2": "Yes, we offer a 24/7 emergency service for major leaks or critical breakdowns.",
@@ -479,7 +555,7 @@
       "partibutton": "Get your free and personalized quote for home pest protection now.",
       "buttonText": "Quick and Free Quote Request"
     },
-   "Startpage1": {
+    "Startpage1": {
       "subHeading": "Expertise - Approach - Surveillance",
       "title": "The Pest Control Difference",
       "description": "Successful pest control requires science and experience, both of which are measurable and appreciable in the long term. This is why you need a recognized expert in this field.",
@@ -488,15 +564,15 @@
         "tist2": "Proven application methods",
         "tist3": "Proactive monitoring and vigilance"
       },
-      "description3" : "After each intervention, we provide you with recommendations, advice, and documentation available at any time.",
+      "description3": "After each intervention, we provide you with recommendations, advice, and documentation available at any time.",
       "firstbutton": "Request a Quote",
       "secondbutton": "Contact Us"
     },
     "Startpage2": {
       "title": "What is Rodent Control?",
       "description": "Rodent control is a professional process aimed at eliminating populations of rats and mice in a given environment.",
-      "description1" : "Rodents, in addition to being pests, can cause material damage and pose health risks to humans. Rodent control includes an initial assessment to identify infested areas, followed by the implementation of appropriate measures to eradicate the rodents.",
-      "description2" : "Once the rodents are eliminated, preventive measures can be put in place to avoid any future reinfestation. Trust our rodent control expertise to ensure a safe, healthy, and pest-free environment.",
+      "description1": "Rodents, in addition to being pests, can cause material damage and pose health risks to humans. Rodent control includes an initial assessment to identify infested areas, followed by the implementation of appropriate measures to eradicate the rodents.",
+      "description2": "Once the rodents are eliminated, preventive measures can be put in place to avoid any future reinfestation. Trust our rodent control expertise to ensure a safe, healthy, and pest-free environment.",
       "listItems": {
         "tist1": "For an urgent rodent control intervention, discover our quick solutions."
       }
@@ -513,7 +589,7 @@
       "description1": "By using our disinfection services, you benefit from a personalized approach based on your specific needs. Our certified and experienced team ensures the disinfection of cockroaches, fleas, bedbugs, and other pests, complying with safety standards and regulations. Trust our expertise to create a clean and healthy environment."
     },
     "faqItems": {
-      "question1":  "1. Can I stay in my house during the treatment?",
+      "question1": "1. Can I stay in my house during the treatment?",
       "answer1": "Yes, you can stay in your home during the treatment. We use harmless and odorless products in our rodent and insect control services in Agadir.",
       "question2": "2. Are your treatments safe for children and pets?",
       "answer2": "Yes, we use approved products and take strict precautions to ensure the safety of your family and pets with our pest control service in Agadir.",
@@ -525,9 +601,4 @@
       "answer5": "Yes, our treatments are designed to be safe and environmentally friendly. We take additional precautions to protect children and pets while ensuring effective rodent control in Marrakech and insect control in Agadir."
     }
   }
-
-
-
-
 }
-

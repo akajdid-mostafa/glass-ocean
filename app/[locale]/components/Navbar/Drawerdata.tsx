@@ -33,6 +33,7 @@ const Data: React.FC<NavbarProps> = ({locale} ) => {
       submenu: [
         { name: t("facade_cleaning"), href: `/${locale}/nettoyage-des-interfaces` },
         { name: t("solar_panel_cleaning"), href: `/${locale}/nettoyage-des-panneaux-solaires` },
+        { name: t("fauteuils-et-matelas"), href: `/${locale}/nettoyages-des-fauteuils-et-matelas` },
         { name: t("home_electrical"), href: `/${locale}/reparations-electriques-a-domicile` },
         { name: t("plumbing"), href: `/${locale}/reparations-de-l-eau-a-domicile` },
         { name: t("pest_control"), href: `/${locale}/destruction-des-insectes-nuisibles` },
