@@ -463,16 +463,16 @@
       "description1": "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
     },
     "faqItems": {
-      "question1": "1. Pourquoi nettoyer les panneaux solaires ?",
-      "answer1": "La saleté réduit leur rendement de 2 % à 7 %. Un nettoyage régulier maximise leur efficacité et leur durée de vie.",
-      "question2": "2. Qu'est-ce qui salit les panneaux ?",
-      "answer2": "Les panneaux peuvent se salir en fonction de leur environnement. En ville, la pollution et les particules fines s'accumulent sur leur surface. À la campagne, ce sont principalement la poussière et les pollens qui les recouvrent. En bord de mer, le sel et le sable sont les principaux agents de salissure. Enfin, dans les zones ventées, le sable est transporté par le vent et se dépose sur les panneaux.",
-      "question3": "3. Comment nettoyez-vous les panneaux ?",
-      "answer3": "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
-      "question4": "4. Quand faut-il les nettoyer ?",
-      "answer4": "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
-      "question5": "5. Pourquoi choisir notre service ?",
-      "answer5": "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
+      "question1": "1. هل يمكنني تنظيف الأريكة أو المراتب في الأيام الباردة أو الممطرة؟",
+      "answer1": "نعم، يمكنك تنظيف وتعقيم الأريكة في الأيام الممطرة أو الباردة دون أي مشكلة. قد تتساءل عما إذا كانت الأريكة ستجف بسرعة أو إذا كانت ستنبعث منها رائحة كريهة. لا تقلق، الأريكة لن تنبعث منها رائحة كريهة وستجف بشكل طبيعي في حوالي 6 ساعات لأننا نستخدم كمية قليلة من الماء في عملية التنظيف.",
+      "question2": "2. كم مرة يجب تنظيف الأريكة؟",
+      "answer2": "تعتمد التردد على الاستخدام، ولكن بشكل عام، يفضل تنظيفها كل 6 أشهر للتأكد من بقاء التنجيد نظيفًا ومعقمًا، خاليًا من الفطريات والبكتيريا وعث الغبار.",
+      "question3": "3. هل منتجات التنظيف مضرة بالصحة؟",
+      "answer3": "لا، جميع منتجاتنا قد تم اختبارها بدقة ولا يوجد منها ما هو ضار بالصحة. جميعها قابلة للتحلل الحيوي بنسبة 100%.",
+      "question4": "4. ما الفرق بين التنظيف والتعقيم؟",
+      "answer4": "التنظيف، المعروف أيضًا بالغسيل، يستخدم الماء مع أو بدون المنظفات لإزالة الأوساخ والغبار من الأسطح والأشياء. أما التعقيم، فهو عملية تستخدم منتجات للقضاء على الكائنات الدقيقة مثل عث الغبار والبكتيريا الموجودة في التنجيد، بما في ذلك المراتب والوسائد. تهدف عملية التنظيف والتعقيم لدينا إلى إزالة الأوساخ المرئية وكذلك عث الغبار والبكتيريا، مما يترك التنجيد خاليًا من هذه المشاكل الصحية. يمكن أن يحتوي جرام واحد من الغبار على بين 2,000 و 10,000 من عث الغبار! نحن ملتزمون بتقديم خدمة تنظيف وتعقيم تتجاوز التوقعات وتضمن راحتك وسلامتك.",
+      "question5": "5. متى وكيف يجب علي دفع مقابل الخدمة؟",
+      "answer5": "يتم الدفع في نهاية خدمة التنظيف. بالنسبة لاستئجار المعدات، يتم الدفع عند استلام المعدات. نحن نقبل الدفع نقدًا وشيكات."
     }
   },
   "Plumbing": {

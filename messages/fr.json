@@ -327,9 +327,9 @@
       "subHeading": "Nettoyer les interfaces de bardage",
       "title": "Nettoyer les Interfaces de Bardage : Préservation et Performance",
       "description": "Le nettoyage des interfaces de bardage est essentiel pour maintenir l'intégrité et l'apparence des façades extérieures. Un entretien régulier permet d'éliminer la saleté, les mousses et autres débris qui peuvent détériorer les matériaux. Utiliser des méthodes appropriées préserve la durabilité du bardage tout en améliorant l'efficacité thermique et l'esthétique de l'ensemble du bâtiment."
-      },
+    },
     "Startpage4": {
-      "subHeading":"Nettoyage des panneaux d'affichage",
+      "subHeading": "Nettoyage des panneaux d'affichage",
       "title": "Nettoyage des Panneaux d'Affichage : Clarté et Visibilité",
       "description": "Le nettoyage des panneaux d'affichage est crucial pour garantir une visibilité optimale et une présentation soignée. En éliminant les poussières, taches et autres salissures, un entretien régulier permet de maintenir la lisibilité des informations affichées. Cela prolonge également la durée de vie des panneaux, tout en assurant une communication claire et professionnelle."
     },
@@ -375,23 +375,23 @@
     "Startpage2": {
       "title": "Comment réaliser le nettoyage de ses panneaux solaires ?",
       "description": "Notre équipe 100 % intégrée respecte les règles de sécurité et garantit la protection mécanique de votre installation avec du matériel dédié. Nous utilisons des robots de nettoyage et des brosses spécifiques munis de poils adaptés aux panneaux photovoltaïques permettant d’enlever les salissures sans aucune rayure, et de l’eau pure pour vous assurer un résultat efficace et optimal.",
-       "description1" : "Une intervention de nettoyage de vos panneaux photovoltaïques peut être l’occasion d’effectuer une vérification de votre installation pour détecter d’éventuelles anomalies qui peuvent survenir sur votre installation : fixation qui se desserre, panneau fissuré, cellule brûlée…"
-      },
+      "description1": "Une intervention de nettoyage de vos panneaux photovoltaïques peut être l’occasion d’effectuer une vérification de votre installation pour détecter d’éventuelles anomalies qui peuvent survenir sur votre installation : fixation qui se desserre, panneau fissuré, cellule brûlée…"
+    },
     "Startpage3": {
       "title": "L’eau pure : une technique de nettoyage respectueuse de l’environnement",
       "description": "Le nettoyage des panneaux solaires à l'eau pure se distingue des techniques classiques appliquées par son aspect écologique. En effet, grâce à un système de filtration efficace, elle nous permet de vous débarrasser des divers dépôts de saletés présents sur vos installations photovoltaïques tout en limitant l’impact sur l’environnement.",
-      "description1" : "Respectant l’environnement, l'eau pure est un nettoyage optimal pour le panneau solaire photovoltaïque car :",
+      "description1": "Respectant l’environnement, l'eau pure est un nettoyage optimal pour le panneau solaire photovoltaïque car :",
       "listItems": {
         "tist1": "Il entraîne une moindre adhésion de nouvelles salissures",
         "tist2": "Il permet un rendu final sans aucune trace ni résidus",
         "tist3": "Il laisse vos panneaux propres plus longtemps"
       }
-      },
+    },
     "Startpage4": {
-      "subHeading":"Une pré-visite essentielle de votre centrale solaire",
+      "subHeading": "Une pré-visite essentielle de votre centrale solaire",
       "title": "Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité",
       "description": "Préalablement au nettoyage de vos panneaux solaires, Net’Toi procède à une pré-visite indispensable de votre installation photovoltaïque. Cette visite technique est essentielle, car elle permet à Net'Toi d'identifier les travaux à effectuer et ainsi d'adapter l'entretien de votre installation de manière optimale.",
-      "description1" : "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
+      "description1": "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
     },
     "faqItems": {
       "question1": "1. Pourquoi nettoyer les panneaux solaires ?",
@@ -401,20 +401,20 @@
       "question3": "3. Comment nettoyez-vous les panneaux ?",
       "answer3": "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
       "question4": "4. Quand faut-il les nettoyer ?",
-      "answer4":  "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
+      "answer4": "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
       "question5": "5. Pourquoi choisir notre service ?",
-      "answer5":  "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
+      "answer5": "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
     }
   },
   "matelas": {
-    "mainHeading": "Nettoyage des Fauteuils et des Matelas", 
-    "contact": "Contactez-nous", 
-    "Startpage1": { 
-      "subHeading": "Nettoyage des tissus d'ameublement", 
-      "title": "comment préserver longtemps la beauté des canapés, des sièges auto et des matelas?", 
-      "description": "Une soirée décontractée sur le canapé avec chips et boissons, des enfants en grande forme ou des animaux domestiques dans le salon: avant même que vous ne vous en rendiez compte, miettes et taches envahissent les tissus d'ameublement. Même pendant les trajets en voiture, les sièges sont vite exposés aux salissures. Retrouvez la propreté des tissus d'ameublement grâce aux conseils et outils suivants.", 
-      "firstbutton": "Demande de Devis", 
-      "secondbutton": "Contacter-nous" 
+    "mainHeading": "Nettoyage des Fauteuils et des Matelas",
+    "contact": "Contactez-nous",
+    "Startpage1": {
+      "subHeading": "Nettoyage des tissus d'ameublement",
+      "title": "comment préserver longtemps la beauté des canapés, des sièges auto et des matelas?",
+      "description": "Une soirée décontractée sur le canapé avec chips et boissons, des enfants en grande forme ou des animaux domestiques dans le salon: avant même que vous ne vous en rendiez compte, miettes et taches envahissent les tissus d'ameublement. Même pendant les trajets en voiture, les sièges sont vite exposés aux salissures. Retrouvez la propreté des tissus d'ameublement grâce aux conseils et outils suivants.",
+      "firstbutton": "Demande de Devis",
+      "secondbutton": "Contacter-nous"
     },
     "Place": {
       "title": "Nettoyage Canapé et autres textiles à domicile.",
@@ -435,19 +435,19 @@
     "Startpage3": {
       "title": "Pourquoi faut-il nettoyer régulièrement les meubles recouverts de tissu?",
       "description": "Les canapés et fauteuils de relaxation, qui font le confort du salon au quotidien, y occupent une place importante. Ils sont cependant souvent exposés aux taches. Afin d'en profiter longtemps, un nettoyage et un entretien réguliers des tissus d'ameublement sont de mise. ",
-      "description1" : "Les objectifs en sont multiples:",
+      "description1": "Les objectifs en sont multiples:",
       "listItems": {
         "tist1": "Éliminer la saleté en profondeur.",
         "tist2": "Faire disparaître les taches disgracieuses.",
         "tist3": "Éliminer poils d'animaux et les acariens.",
         "tist4": "Préserver l'aspect des tissus d'ameublement et prolonger leur durée de vie."
       },
-      "description3" : "Des arguments valables d'ailleurs aussi pour les matelas et les sièges auto, qui nécessitent également un nettoyage régulier."
-      },
+      "description3": "Des arguments valables d'ailleurs aussi pour les matelas et les sièges auto, qui nécessitent également un nettoyage régulier."
+    },
     "Startpage2": {
       "title": "Avantages du Nettoyage à Sec",
       "description": "Le nettoyage à sec est une méthode efficace pour maintenir la propreté et l'hygiène de vos textiles sans utiliser d'eau. Cette technique utilise des solvants spéciaux pour éliminer la saleté, les taches et autres contaminants, tout en préservant l'intégrité des tissus. ",
-      "description1" : "Le nettoyage à sec élimine les problèmes tels que :",
+      "description1": "Le nettoyage à sec élimine les problèmes tels que :",
       "listItems": {
         "tist1": "Élimination des allergènes",
         "tist2": "Élimination des odeurs",
@@ -457,48 +457,48 @@
         "tist6": "Traitement antibactérien"
       }
     },
-    
+
     "Startpage4": {
-      "subHeading":"Une pré-visite essentielle de votre centrale solaire",
+      "subHeading": "Une pré-visite essentielle de votre centrale solaire",
       "title": "Une pré-visite technique indispensable pour un nettoyage de panneaux solaires en toute sécurité",
       "description": "Préalablement au nettoyage de vos panneaux solaires, Net’Toi procède à une pré-visite indispensable de votre installation photovoltaïque. Cette visite technique est essentielle, car elle permet à Net'Toi d'identifier les travaux à effectuer et ainsi d'adapter l'entretien de votre installation de manière optimale.",
-      "description1" : "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
+      "description1": "Pour l'entreprise Net'Toi, cette visite est l'assurance de pouvoir réaliser la prestation dans les meilleures conditions et de manière sécurisée."
     },
     "faqItems": {
-      "question1": "1. Pourquoi nettoyer les panneaux solaires ?",
-      "answer1": "La saleté réduit leur rendement de 2 % à 7 %. Un nettoyage régulier maximise leur efficacité et leur durée de vie.",
-      "question2": "2. Qu'est-ce qui salit les panneaux ?",
-      "answer2": "Les panneaux peuvent se salir en fonction de leur environnement. En ville, la pollution et les particules fines s'accumulent sur leur surface. À la campagne, ce sont principalement la poussière et les pollens qui les recouvrent. En bord de mer, le sel et le sable sont les principaux agents de salissure. Enfin, dans les zones ventées, le sable est transporté par le vent et se dépose sur les panneaux.",
-      "question3": "3. Comment nettoyez-vous les panneaux ?",
-      "answer3": "Avec de l’eau déminéralisée, des brosses télescopiques et sans produits chimiques pour éviter tout dommage.",
-      "question4": "4. Quand faut-il les nettoyer ?",
-      "answer4":  "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
-      "question5": "5. Pourquoi choisir notre service ?",
-      "answer5":  "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
+      "question1": "1. Puis-je nettoyer mon canapé ou matelas par temps froid ou pluvieux ?",
+      "answer1": "Oui, vous pouvez nettoyer et désinfecter votre canapé par temps de pluie ou de froid sans aucun problème. Vous pourriez vous demander si votre canapé va sécher rapidement ou s'il va sentir mauvais. Rassurez-vous, votre canapé ne sentira pas mauvais et sèchera naturellement en environ 6 heures car nous utilisons une quantité minimale d'eau dans le processus de nettoyage.",
+      "question2": "2. À quelle fréquence dois-je nettoyer mon canapé ?",
+      "answer2": "La fréquence de nettoyage dépend de l'utilisation, mais en général, un nettoyage tous les 6 mois est idéal pour s'assurer que le rembourrage reste propre et aseptisé, exempt de champignons, de bactéries et d'acariens.",
+      "question3": "3. Les produits d'entretien que vous utilisez sont-ils nocifs pour la santé ?",
+      "answer3": "Non, tous nos produits sont rigoureusement testés et aucun d'eux n'est nocif pour la santé. Ils sont tous 100% biodégradables.",
+      "question4": "4. Quelle est la différence entre nettoyer et désinfecter ?",
+      "answer4": "Le nettoyage, également appelé lavage, utilise de l'eau avec ou sans détergents pour enlever la saleté et la poussière des surfaces et des objets. La désinfection est un processus qui utilise des produits pour éliminer les micro-organismes tels que les acariens et les bactéries présents dans les tissus d'ameublement, y compris les matelas et les oreillers. Notre processus de nettoyage et de désinfection vise à éliminer la saleté visible ainsi que les acariens et bactéries, laissant vos tissus d'ameublement exempts de ces problèmes de santé. Un gramme de poussière peut contenir de 2 000 à 10 000 acariens ! Nous nous engageons à offrir un service de nettoyage et de désinfection qui dépasse les attentes et assure votre confort et votre sécurité.",
+      "question5": "5. Quand et comment dois-je payer pour le service ?",
+      "answer5": "Le paiement est effectué à la fin de la prestation de nettoyage. Pour la location de matériel, le paiement est dû lors de la récupération du matériel. Nous acceptons les paiements en espèces et par chèque."
     }
   },
   "Plumbing": {
     "mainHeading": "Plomberie et canalisation a domicile",
     "contact": "Contactez-nous",
-   "Startpage1": {
+    "Startpage1": {
       "subHeading": "Les activités de notre entreprise",
       "title": "Plomberie à Agadir – Dépannage et Installation",
       "description": "Spécialisés en plomberie à Agadir depuis 10 ans, nous offrons des services de rénovation, dépannage et installation, avec des équipements de qualité à des prix compétitifs, garantis et conformes aux normes.",
-      "description1" : "Nos services incluent : ",
+      "description1": "Nos services incluent : ",
       "listItems": {
         "tist1": "Installation et réparation de sanitaires",
         "tist2": "Dépannage de fuites et canalisations",
         "tist3": "Rénovation de systèmes de plomberie",
         "tist4": "Intervention rapide, généralement en moins de 30 minutes"
       },
-      "description3" : "Faites confiance à notre équipe de professionnels pour tous vos besoins en plomberie à Agadir.",
+      "description3": "Faites confiance à notre équipe de professionnels pour tous vos besoins en plomberie à Agadir.",
       "firstbutton": "Demande de Devis",
       "secondbutton": "Contacter-nous"
     },
     "Startpage2": {
       "title": "Quelques précisions sur les travaux de plomberie.",
       "description": "Grâce à MesDépanneurs.fr vous trouvez un plombier rapide et efficace pour une prestation au meilleur prix. Un système des fourchettes tarifaires vous permet de prendre connaissance des tarifs avant de cliquer sur “commander”. Vous évitez ainsi les mauvaises surprises ! Le devis vous est proposé avant toute intervention, et vous ne réglerez qu'après l'avoir signé.",
-      "description1" : "Bonne pratique : Chez MesDépanneurs.fr, l’artisan ou l'installateur sanitaire se déplace pour établir un devis gratuitement.",
+      "description1": "Bonne pratique : Chez MesDépanneurs.fr, l’artisan ou l'installateur sanitaire se déplace pour établir un devis gratuitement.",
       "listItems": {
         "tist1": "Expertise et Expérience",
         "tist2": "Services Complètes",
@@ -524,9 +524,9 @@
       "title": "Quel est le déroulement et la durée de l’intervention d’un professionnel ?",
       "description": "Une fois votre commande effectuée, un artisan plombier professionnel vous contacte immédiatement, afin de confirmer l’heure de son passage. Votre plateforme de confiance MesDépanneurs.fr est spécialisée dans le dépannage d’urgence, cependant pour les prestations en plomberie, vous avez la possibilité de fixer un rendez-vous en fonction de vos besoins et disponibilités, et surtout en fonction de la situation. Soyez sans crainte, nos pombiers chauffagistes sont à votre disposition 7j/7 toute l’année et sans aucune majoration !",
       "description1": "Le temps des interventions est différent pour chaque cas, qu’il s’agisse d’une intervention urgente, d'une recherche de fuite, d’un débouchage de WC ou de la réparation d’un joint, par exemple. Sachez que la durée des interventions est communiquée avant la prise de commande, vous pourrez également la consulter à la fin du questionnaire de diagnostic de votre problème, afin de vous organiser en conséquence."
-    },    
+    },
     "faqItems": {
-      "question1":  "1.⁠ ⁠Quels problèmes réparez-vous ?",
+      "question1": "1.⁠ ⁠Quels problèmes réparez-vous ?",
       "answer1": "Nous traitons les fuites d’eau, robinets cassés, canalisations bouchées, chauffe-eau défectueux, et autres soucis liés à la plomberie.",
       "question2": "2.⁠ ⁠Intervenez-vous en cas d’urgence ?",
       "answer2": "Oui, nous offrons un service d’urgence 24h/24 et 7j/7 pour les fuites importantes ou pannes critiques.",
@@ -555,7 +555,7 @@
       "partibutton": "Obtenez dès maintenant un devis gratuit et personnalisé pour la protection contre les nuisibles de votre domicile.",
       "buttonText": "Demande de devis rapide et gratuit"
     },
-   "Startpage1": {
+    "Startpage1": {
       "subHeading": "Expertise - Approche - Surveillance",
       "title": "La différence LES DÉRATISEURS",
       "description": "Les succès de contrôle d'une lutte anti nuisibles requièrent science et expérience, tous deux quantifiables et appréciables à long terme. C'est la raison pour laquelle vous avez besoin d'un expert reconnu dans ce domaine.",
@@ -564,15 +564,15 @@
         "tist2": "Méthodes d'application éprouvés",
         "tist3": "Surveillance et vigilance proactive"
       },
-      "description3" : "A l'issue de chaque intervention, nous vous fournissons des recommandations et des conseils et une documentation disponible à tout moment.",
+      "description3": "A l'issue de chaque intervention, nous vous fournissons des recommandations et des conseils et une documentation disponible à tout moment.",
       "firstbutton": "Demande de Devis",
       "secondbutton": "Contacter-nous"
     },
     "Startpage2": {
       "title": "Qu'est ce que la Dératisation ?",
       "description": "La dératisation est un processus professionnel visant à éliminer les populations de rats et de souris dans un environnement donné.",
-      "description1" : "Les rongeurs, en plus d'être des nuisibles, peuvent causer des dommages matériels et présenter des risques pour la santé humaine. La dératisation comprend une évaluation initiale pour identifier les zones infestées, suivie d'une mise en place de mesures adaptées pour éradiquer les rongeurs.",
-      "description2" : "Une fois les rongeurs éliminés, des mesures préventives peuvent être mises en place pour éviter toute réinfestation future. Faites confiance à notre expertise en dératisation pour garantir un environnement sûr, sain et exempt de nuisibles.",
+      "description1": "Les rongeurs, en plus d'être des nuisibles, peuvent causer des dommages matériels et présenter des risques pour la santé humaine. La dératisation comprend une évaluation initiale pour identifier les zones infestées, suivie d'une mise en place de mesures adaptées pour éradiquer les rongeurs.",
+      "description2": "Une fois les rongeurs éliminés, des mesures préventives peuvent être mises en place pour éviter toute réinfestation future. Faites confiance à notre expertise en dératisation pour garantir un environnement sûr, sain et exempt de nuisibles.",
       "listItems": {
         "tist1": "Pour une intervention de dératisation en urgence, découvrez nos solutions rapides."
       }
@@ -589,7 +589,7 @@
       "description1": "En faisant appel à nos services de désinfection, vous bénéficiez d'une approche personnalisée en fonction de vos besoins spécifiques. Notre équipe certifiée et expérimentée assure une une désinfection des cafards, des puces, des punaises de lit et de tout autre nuisibles, en se conformant aux normes de sécurité et aux réglementations en vigueur. Faites confiance à notre expertise pour créer un environnement propre et sain."
     },
     "faqItems": {
-      "question1":  "1.⁠ Puis-je rester dans ma maison pendant le traitement?",
+      "question1": "1.⁠ Puis-je rester dans ma maison pendant le traitement?",
       "answer1": "Oui, vous pouvez rester chez vous pendant le traitement. Nous utilisons des produits inoffensifs et inodores dans nos services de dératisation et de désinsectisation à Agadir.",
       "question2": "2.⁠ Est-ce que vos traitements sont sécuritaires pour les enfants et les animaux domestiques ?",
       "answer2": "Oui, nous utilisons des produits approuvés et prenons des précautions strictes pour assurer la sécurité de votre famille et de vos animaux de compagnie avec notre service de contrôle des nuisibles à Agadir.",
