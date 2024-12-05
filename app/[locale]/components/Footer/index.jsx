@@ -43,7 +43,7 @@ const contactInfo = [
   }
 ];
 const pageElements = [
-    { "id": 1, "label": t("Home"), "link": `/${locale}/contact`},
+    { "id": 1, "label": t("Home"), "link": `/${locale}/#home-section`},
     { "id": 2, "label": t("Devis"), "link": `/${locale}/Devis`},
     { "id": 3, "label": t("service"), "link": "/#service" },
     { "id": 4, "label": t("gallery"), "link": `/${locale}/gallery` },
