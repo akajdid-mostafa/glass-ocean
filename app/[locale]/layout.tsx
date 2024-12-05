@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/index';
+import { notFound } from "next/navigation";
 
 export const metadata = {
   title: 'Ocean connecting Nettoyage',
@@ -18,9 +19,9 @@ export default async function RootLayout({
 }>) {
   const messages = await getMessages();
 
-  const validLocales = ["en", "fr", "ar"];
+  const validLocales = ["fr","en", "ar"];
   if (!validLocales.includes(locale)) {
-    throw new Error("Invalid locale");
+    notFound();
   }
 
   const direction = locale === "ar" ? "rtl" : "ltr";

@@ -60,5 +60,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  darkMode: false, // Disable dark mode
+  darkMode: false,
 };

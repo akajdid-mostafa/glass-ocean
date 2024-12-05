@@ -43,20 +43,23 @@ const contactInfo = [
   }
 ];
 const pageElements = [
+    { "id": 1, "label": t("Home"), "link": `/${locale}/contact`},
+    { "id": 2, "label": t("Devis"), "link": `/${locale}/Devis`},
+    { "id": 3, "label": t("service"), "link": "/#service" },
+    { "id": 4, "label": t("gallery"), "link": `/${locale}/gallery` },
+    { "id": 5, "label": t("about"), "link": "/#about-section" },
+    { "id": 6, "label": t("contact"), "link": `/${locale}/contact`}
     
-    { "id": 1, "label": t("Devis"), "link": `/${locale}/Devis`},
-    { "id": 2, "label": t("service"), "link": "/#service" },
-    { "id": 3, "label": t("gallery"), "link": `/${locale}/gallery` },
-    { "id": 4, "label": t("about"), "link": "/#about-section" },
-    { "id": 5, "label": t("contact"), "link": `/${locale}/contact`}
       
 ];
 const ourFormation = [
     { "id": 1, "label": t("facade"), "link": `/${locale}/nettoyage-des-interfaces` },
       { "id": 2, "label": t("solaire"), "link": `/${locale}/nettoyage-des-panneaux-solaires` },
-      { "id": 3, "label": t("electrical"), "link": `/${locale}/reparations-electriques-a-domicile` },
-      { "id": 4, "label": t("plomberie"), "link": `/${locale}/reparations-de-l-eauA-a-domicile` },
-      { "id": 5, "label": t("insectes"), "link": `/${locale}/destruction-des-insectes-nuisibles` }
+      { "id": 3, "label": t("matelas"), "link": `/${locale}/nettoyages-des-fauteuils-et-matelas` },
+      { "id": 4, "label": t("electrical"), "link": `/${locale}/reparations-electriques-a-domicile` },
+      { "id": 5, "label": t("plomberie"), "link": `/${locale}/reparations-de-l-eau-a-domicile` },
+      { "id": 6, "label": t("insectes"), "link": `/${locale}/destruction-des-insectes-nuisibles` }
+      
 ];
 const ourServices = [
   { "id": 1, "label": t("dev"), "link": "https://www.oceanconnecting.dev/" },
@@ -147,12 +150,12 @@ const ourServices = [
             ))}
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-6">
+        <div className="grid grid-cols-1n  gap-6 lg:grid-cols-5">
           <div className="space-y-2 lg:col-span-2 mr-6 ">
             <div className="flex items-center mb-4 space-x-2">
               <Image
                 src="/images/Logo/ocean2.svg"
-                alt="RAKAR Logo"
+                alt="Ocean Logo"
                 width={240}
                 height={50}
               />
@@ -160,7 +163,7 @@ const ourServices = [
             <p className="text-sm">{t("titleabout")} </p>
             <p className="text-sm">{t("Text")} </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:col-span-4  ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:col-span-3  ">
             <FooterLinkSection
               title={t("part1")} 
               links={pageElements}
@@ -171,11 +174,7 @@ const ourServices = [
               links={ourFormation}
               className="items-center"
             />
-            <FooterLinkSection
-              title={t("part3")} 
-              links={ourServices}
-              className="items-center"
-            />
+            
           </div>
         </div>
         <div className="mt-2">
