@@ -48,7 +48,7 @@ const Contactus = () => {
 
   const sendEmail = async (data) => {
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("/fr/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
