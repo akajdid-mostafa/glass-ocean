@@ -89,7 +89,7 @@ export default function Gallery() {
                       <h2 className="text-2xl font-bold mb-2 drop-shadow-md">{album.title}</h2>
                       <p className="text-sm flex items-center drop-shadow-md">
                         <ImageIcon className="w-4 h-4 mr-2" />
-                        {album.numberimage}
+                        {album.numberimage} Image
                       </p>
                     </div>
                   </div>
