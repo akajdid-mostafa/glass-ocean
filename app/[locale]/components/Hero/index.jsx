@@ -45,7 +45,7 @@ const Banner = ({locale} ) =>  {
         <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 h-[680px] flex justify-center items-center">
           <div className="col-span-6 flex flex-col justify-center">
             <Fade direction="up" delay={400} triggerOnce={true}>
-              <h1 className="text-2xl lg:text-4xl font-semibold mb-5 mt-20 text-white text-center">
+              <h1 className="text-2xl lg:text-4xl font-semibold tajawal mb-5 mt-20 text-white text-center">
               {t("title")}
               </h1>
               <p className="max-w-4xl text-white lg:text-lg font-normal mb-10 text-center">

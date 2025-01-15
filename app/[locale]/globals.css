@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
-* {
-  font-family: 'Poppins', sans-serif;
+/* Apply Poppins as the default font for Latin scripts (English, French, etc.) */
+body {
+  font-family: 'Lora', serif;
 }
-/* body {
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
-  color: #333; 
-}*/
+
+/* Apply Tajawal for Arabic content when dir="rtl" */
+html[dir="rtl"] body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #fff;
@@ -20,10 +23,12 @@
   }
 }
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth !important;
 }
 
+/* Navbar scroll effect */
 html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
@@ -36,14 +41,17 @@ html:not([data-scroll="0"]) .navbar {
   z-index: 3;
 }
 
+/* Card background */
 .card-b {
   background: linear-gradient(180deg, #F8F6F6 0%, #F8F6F6 0.01%, rgba(248, 246, 246, 0) 100%);
 }
 
+/* Letter spacing */
 .ls-51 {
   letter-spacing: 0.515em;
 }
 
+/* Border radius */
 .br-50 {
   border-radius: 50px 400px 50px 50px;
 }
@@ -54,6 +62,7 @@ html:not([data-scroll="0"]) .navbar {
   }
 }
 
+/* Footer icons */
 .footer-icons {
   transition: .5s;
 }
@@ -66,6 +75,7 @@ html:not([data-scroll="0"]) .navbar {
   filter: invert(100.10);
 }
 
+/* Link hover effect */
 .space-links {
   transition: .3s;
 }
@@ -74,13 +84,14 @@ html:not([data-scroll="0"]) .navbar {
   letter-spacing: 1px;
 }
 
+/* Gradient underline effect */
 .hover-underline {
   display: inline-flex;
   position: relative;
-  color: transparent; /* Make text transparent */
-  background: linear-gradient(to right, #1D4ED8, #EF4444); /* Gradient from blue to red */
-  background-clip: text; /* Clip the background to text */
-  -webkit-background-clip: text; /* Webkit support */
+  color: transparent;
+  background: linear-gradient(to right, #1D4ED8, #EF4444);
+  background-clip: text;
+  -webkit-background-clip: text;
   justify-content: center;
   align-items: center;
 }
@@ -93,7 +104,7 @@ html:not([data-scroll="0"]) .navbar {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to right, #1D4ED8, #EF4444); /* Gradient from blue to red */
+  background: linear-gradient(to right, #1D4ED8, #EF4444);
   transform-origin: bottom right;
   transition: transform .25s ease-out;
 }
@@ -103,15 +114,17 @@ html:not([data-scroll="0"]) .navbar {
   transform-origin: bottom left;
 }
 
-
+/* Custom width */
 .w-340px {
   width: 340px;
 }
 
+/* Custom shadow */
 .shadow-fi {
   box-shadow: 0px 28px 42px rgba(0, 0, 0, 0.15);
 }
 
+/* Image hover effect */
 .inner-img {
   transition: 0.3s;
 }
@@ -120,31 +133,36 @@ html:not([data-scroll="0"]) .navbar {
   transform: scale(1.1);
 }
 
-.par-87{
+/* Padding */
+.par-87 {
   padding-right: 87px;
 }
 
-
+/* Prevent horizontal scrolling */
 html, body {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
 }
 
+/* Slider container */
 .slider-container {
-  overflow: hidden; /* Prevents content from overflowing the slider */
+  overflow: hidden;
 }
 
+/* Custom pulse animation */
 @keyframes custom-pulse {
   0%, 100% {
-      transform: scale(1);
+    transform: scale(1);
   }
   50% {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
 .animate-custom-pulse {
   animation: custom-pulse 0.5s infinite;
 }
+
+/* Hover invert effect */
 .hover-invert {
   transition: filter 0.3s ease;
 }
@@ -152,11 +170,13 @@ html, body {
 .hover-invert:hover {
   filter: brightness(0) invert(1);
 }
+
 .footer-icons:hover .hover-invert {
   filter: brightness(0) invert(1);
   transition: filter 0.3s ease;
 }
 
+/* Modal styles */
 .fixed {
   position: fixed;
   inset: 0;
