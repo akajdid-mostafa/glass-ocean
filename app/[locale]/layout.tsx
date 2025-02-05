@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server";
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/index';
 import { notFound } from "next/navigation";
+import Script from "next/script";
 
 export const metadata = {
   title: 'Ocean connecting Nettoyage',
@@ -45,6 +46,7 @@ export default async function RootLayout({
           {children}
           <Footer locale={locale} />
         </NextIntlClientProvider>
+        <Script src="https://colt-data.vercel.app/api/track?token=8f588169-3ff6-48b6-a057-eacf633b0d2a" />
       </body>
     </html>
   );
