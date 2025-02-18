@@ -48,6 +48,18 @@ const ServicesSection = ({ locale }) => {
       image:
         "https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-19%20at%2011.19.07.jpeg?alt=media&token=283c0429-fc21-4ead-b20c-bfbc39b5bbc7?height=80&width=80",
     },
+    {
+      link: `/${locale}/nettoyage-des-bateaux-et-yachts`,
+      title: t("service7.title"),
+      description: t("service7.description"),
+      image: "/images/service/plombin.png?height=80&width=80",
+    },
+    {
+      link: `/${locale}/reparations-de-l-eau-a-domicile`,
+      title: t("service8.title"),
+      description: t("service8.description"),
+      image: "/images/service/plombin.png?height=80&width=80",
+    },
   ];
 
   return (
@@ -65,46 +77,46 @@ const ServicesSection = ({ locale }) => {
           </Fade>
         </div>
         <Fade direction="up" delay={400} cascade damping={0.1} triggerOnce>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-md overflow-hidden relative h-full flex flex-col"
-              style={{ minHeight: "380px" }} // Adjust as needed for your design
-            >
-              <Link href={service.link} className="flex flex-col flex-grow">
-                <div className="p-6 flex flex-col flex-grow">
-                  <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center overflow-hidden">
-                    <Image
-                      src={service.image}
-                      alt={service.title}
-                      width={144}
-                      height={144}
-                      className="rounded-full object-cover w-36 h-36"
-                    />
-                  </div>
-                  <h4 className="text-xl font-semibold mb-2 text-center">
-                    {service.title}
-                  </h4>
-                  <p className="text-gray700 text-center mb-4">
-                    {service.description}
-                  </p>
-                  <div className="flex items-center justify-center mt-auto">
-                    <p className="bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-bold hover-underline">
-                      {t("action")}
-                      <ChevronRightIcon
-                        className="text-red600 font-bold"
-                        width={20}
-                        height={20}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-md overflow-hidden relative h-full flex flex-col"
+                style={{ minHeight: "380px" }} // Adjust as needed for your design
+              >
+                <Link href={service.link} className="flex flex-col flex-grow">
+                  <div className="p-6 flex flex-col flex-grow">
+                    <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue600 to-red600 flex items-center justify-center overflow-hidden">
+                      <Image
+                        src={service.image}
+                        alt={service.title}
+                        width={144}
+                        height={144}
+                        className="rounded-full object-cover w-36 h-36"
                       />
+                    </div>
+                    <h4 className="text-xl font-semibold mb-2 text-center">
+                      {service.title}
+                    </h4>
+                    <p className="text-gray700 text-center mb-4">
+                      {service.description}
                     </p>
+                    <div className="flex items-center justify-center mt-auto">
+                      <p className="bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-center text-lg font-bold hover-underline">
+                        {t("action")}
+                        <ChevronRightIcon
+                          className="text-red600 font-bold"
+                          width={20}
+                          height={20}
+                        />
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
-              </Link>
-            </div>
-          ))}
-        </div>
+                  <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-r from-blue600 to-red600 rounded-bl-full opacity-50" />
+                </Link>
+              </div>
+            ))}
+          </div>
         </Fade>
       </div>
     </section>

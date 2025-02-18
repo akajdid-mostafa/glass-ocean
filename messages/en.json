@@ -8,6 +8,8 @@
     "home_electrical": "Home Electrical Maintenance",
     "plumbing": "Plumbing and Home Drainage",
     "pest_control": "Pest Control",
+    "boat_cleaning": "Boat and Yacht Cleaning",
+    "hull_underwater": "Hull Cleaning Underwater",
     "gallery": "Gallery",
     "contact": "Contact",
     "about": "About",
@@ -75,6 +77,14 @@
     "service6": {
       "title": "Pest Control",
       "description": "We effectively eliminate pests from your home, ensuring a healthy and secure environment."
+    },
+    "service7": {
+      "title": "Boat and Yacht Cleaning",
+      "description": "We provide thorough cleaning services for boats and yachts, ensuring they remain in pristine condition."
+    },
+    "service8": {
+      "title": "Hull Cleaning Underwater",
+      "description": "We specialize in underwater hull cleaning to maintain your vessel’s performance and efficiency."
     },
     "action": "Learn More"
   },
@@ -406,6 +416,64 @@
       "answer4": "Twice a year (spring and autumn) and preferably in the morning to avoid heat.",
       "question5": "5. Why choose our service?",
       "answer5": "Choosing our service means opting for safety and efficiency. We use eco-friendly methods to respect the environment while ensuring quality cleaning. Additionally, we offer a service specifically adapted for high installations, ensuring optimal maintenance in all situations."
+    }
+  },
+  "boatCleaning": {
+    "mainHeading": "Boat & Yacht Cleaning Services",
+    "contact": "Contact Us",
+    "Startpage1": {
+      "subHeading": "Professional Boat & Yacht Cleaning",
+      "title": "Keep Your Boat & Yacht Spotless and Well-Maintained!",
+      "description": "Boats and yachts are exposed to harsh marine conditions, including salt, algae, and weather elements, which can lead to buildup and deterioration over time. Regular cleaning is essential to maintain their appearance and longevity. At OceanConnecting, our experts use specialized techniques and products to safely clean your vessel, ensuring its durability and peak performance on the water.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Place": {
+      "title": "Why Regular Boat & Yacht Cleaning Matters",
+      "description": "Regular boat and yacht cleaning preserves their appearance, prevents damage, and extends their lifespan, ensuring a smooth and safe sailing experience.",
+      "partibutton": "Get your free personalized quote for boat and yacht cleaning now.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+    "cardData": {
+      "title1": "Durability",
+      "description1": "Protect your boat or yacht from corrosion and wear",
+      "title2": "Optimization",
+      "description2": "Improve fuel efficiency by reducing drag",
+      "title3": "Reliability",
+      "description3": "Ensure your boat or yacht remains in top condition year-round"
+    },
+    "Startpage2": {
+      "title": "Our Expert Boat & Yacht Cleaning Process",
+      "description": "Our highly skilled team follows safety protocols and uses dedicated equipment to ensure thorough cleaning without damage. We utilize pressure washers, eco-friendly detergents, and soft-bristle brushes to remove grime, algae, and salt deposits, leaving your boat or yacht in pristine condition.",
+      "description1": "A boat or yacht cleaning session is also an opportunity to inspect your vessel for potential issues such as hull damage, clogged filters, or rust buildup."
+    },
+    "Startpage3": {
+      "title": "Eco-Friendly Methods for Keeping Your Boat & Yacht Clean",
+      "description": "Using biodegradable, marine-safe cleaning solutions, we minimize environmental impact while ensuring an effective cleaning process. Our techniques help preserve both your vessel and the surrounding marine ecosystem.",
+      "description1": "Eco-friendly boat and yacht cleaning offers several advantages:",
+      "listItems": {
+        "tist1": "Reduces harmful chemical runoff into the water",
+        "tist2": "Leaves no residue or streaks on surfaces",
+        "tist3": "Keeps your boat or yacht cleaner for longer periods"
+      }
+    },
+    "Startpage4": {
+      "subHeading": "Pre-Cleaning Inspection for Your Boat & Yacht",
+      "title": "Comprehensive Inspection Before Boat & Yacht Cleaning",
+      "description": "Before cleaning your boat or yacht, Net'Toi conducts a preliminary inspection to assess its condition and determine the best cleaning approach. This step ensures effective and safe maintenance tailored to your vessel's needs.",
+      "description1": "This inspection helps us deliver high-quality service while identifying any areas that may require additional care."
+    },
+    "faqItems": {
+      "question1": "1. Why is boat & yacht cleaning important?",
+      "answer1": "Marine buildup can lead to decreased efficiency, potential damage, and costly repairs. Regular cleaning helps maintain your vessel’s aesthetics and functionality.",
+      "question2": "2. What causes dirt and buildup on boats & yachts?",
+      "answer2": "Boats and yachts accumulate dirt due to salt, algae, bird droppings, and fuel residues. These elements can cause corrosion and affect performance.",
+      "question3": "3. What methods do you use for boat & yacht cleaning?",
+      "answer3": "We use biodegradable soaps, soft brushes, and low-pressure washers to protect the vessel’s surface while effectively removing grime.",
+      "question4": "4. How often should a boat or yacht be cleaned?",
+      "answer4": "At least once a month for vessels in saltwater, and every two to three months for freshwater vessels. Regular maintenance is key to longevity.",
+      "question5": "5. Why choose our service?",
+      "answer5": "We prioritize quality, safety, and eco-friendliness. Our team is equipped with the right tools and expertise to ensure thorough, damage-free cleaning for all types of boats and yachts."
     }
   },
   "matelas": {

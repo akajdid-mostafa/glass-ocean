@@ -8,6 +8,8 @@
     "home_electrical": "Maintenance électrique à domicile",
     "plumbing": "Plomberie et canalisation a domicile",
     "pest_control": "Destruction des insectes nuisibles",
+    "boat_cleaning": "Nettoyage de bateaux et yachts",
+    "hull_underwater": "Nettoyage de coque sous l'eau",
     "gallery": "Galerie",
     "contact": "Contact",
     "about": "A propos",
@@ -75,6 +77,14 @@
     "service6": {
       "title": "destruction des insectes nuisibles",
       "description": "Nous éliminons efficacement les insectes nuisibles de votre domicile, garantissant un environnement sain et sécurisé."
+    },
+    "service7": {
+      "title": "Nettoyage des Bateaux et Yachts",
+      "description": "Nous offrons des services de nettoyage approfondi pour les bateaux et yachts, garantissant leur état impeccable."
+    },
+    "service8": {
+      "title": "Nettoyage de Coque Sous l'Eau",
+      "description": "Nous sommes spécialisés dans le nettoyage sous-marin des coques pour maintenir la performance et l'efficacité de votre navire."
     },
     "action": "En savoir plus"
   },
@@ -406,6 +416,64 @@
       "answer4": "Deux fois par an (printemps et automne) et de préférence le matin pour éviter la chaleur.",
       "question5": "5. Pourquoi choisir notre service ?",
       "answer5": "Choisir notre service, c'est opter pour la sécurité et l'efficacité. Nous utilisons des méthodes écologiques pour respecter l'environnement tout en garantissant un nettoyage de qualité. De plus, nous offrons un service spécialement adapté aux installations en hauteur, assurant un entretien optimal dans toutes les situations."
+    }
+  },
+  "boatCleaning": {
+    "mainHeading": "Services de nettoyage de bateaux et yachts",
+    "contact": "Contactez-nous",
+    "Startpage1": {
+      "subHeading": "Nettoyage professionnel de bateaux et yachts",
+      "title": "Gardez votre bateau ou yacht propre et bien entretenu !",
+      "description": "Les bateaux et yachts sont exposés à des conditions marines difficiles, notamment le sel, les algues et les éléments climatiques, ce qui peut entraîner une accumulation de saletés et une détérioration au fil du temps. Un nettoyage régulier est essentiel pour préserver leur apparence et leur longévité. Chez OceanConnecting, nos experts utilisent des techniques et des produits spécialisés pour nettoyer votre bateau ou yacht en toute sécurité, garantissant sa durabilité et ses performances optimales sur l’eau.",
+      "firstbutton": "Demander un devis",
+      "secondbutton": "Contactez-nous"
+    },
+    "Place": {
+      "title": "Pourquoi le nettoyage régulier des bateaux et yachts est important",
+      "description": "Un nettoyage régulier des bateaux et yachts préserve leur apparence, prévient les dommages et prolonge leur durée de vie, garantissant une expérience de navigation fluide et sécurisée.",
+      "partibutton": "Obtenez dès maintenant un devis gratuit et personnalisé pour le nettoyage de votre bateau ou yacht.",
+      "buttonText": "Demande de devis rapide et gratuit"
+    },
+    "cardData": {
+      "title1": "Durabilité",
+      "description1": "Protégez votre bateau ou yacht contre la corrosion et l’usure",
+      "title2": "Optimisation",
+      "description2": "Améliorez l’efficacité du carburant en réduisant la traînée",
+      "title3": "Fiabilité",
+      "description3": "Assurez-vous que votre bateau ou yacht reste en parfait état toute l’année"
+    },
+    "Startpage2": {
+      "title": "Notre processus expert de nettoyage de bateaux et yachts",
+      "description": "Notre équipe hautement qualifiée suit des protocoles de sécurité stricts et utilise des équipements spécialisés pour garantir un nettoyage en profondeur sans endommager votre bateau ou yacht. Nous utilisons des nettoyeurs haute pression, des détergents écologiques et des brosses à poils doux pour éliminer la saleté, les algues et les dépôts de sel, laissant votre bateau ou yacht dans un état impeccable.",
+      "description1": "Une séance de nettoyage est aussi l’occasion d’inspecter votre bateau ou yacht pour détecter d’éventuels problèmes tels que des dommages à la coque, des filtres obstrués ou de la rouille."
+    },
+    "Startpage3": {
+      "title": "Méthodes écologiques pour garder votre bateau ou yacht propre",
+      "description": "En utilisant des solutions de nettoyage biodégradables et respectueuses de l’environnement marin, nous minimisons notre impact écologique tout en garantissant un nettoyage efficace. Nos techniques permettent de préserver à la fois votre bateau et l’écosystème marin environnant.",
+      "description1": "Le nettoyage écologique des bateaux et yachts présente plusieurs avantages :",
+      "listItems": {
+        "tist1": "Réduction du rejet de produits chimiques nocifs dans l’eau",
+        "tist2": "Ne laisse aucun résidu ni trace sur les surfaces",
+        "tist3": "Permet à votre bateau ou yacht de rester propre plus longtemps"
+      }
+    },
+    "Startpage4": {
+      "subHeading": "Inspection pré-nettoyage de votre bateau ou yacht",
+      "title": "Inspection complète avant le nettoyage des bateaux et yachts",
+      "description": "Avant de nettoyer votre bateau ou yacht, Net'Toi effectue une inspection préliminaire pour évaluer son état et déterminer la meilleure approche de nettoyage. Cette étape garantit un entretien efficace et sécurisé, adapté aux besoins de votre bateau ou yacht.",
+      "description1": "Cette inspection nous permet d’offrir un service de haute qualité tout en identifiant les zones nécessitant un soin particulier."
+    },
+    "faqItems": {
+      "question1": "1. Pourquoi le nettoyage des bateaux et yachts est-il important ?",
+      "answer1": "L’accumulation de saletés marines peut entraîner une baisse d’efficacité, des dommages potentiels et des réparations coûteuses. Un nettoyage régulier permet de maintenir l’esthétique et le bon fonctionnement de votre bateau ou yacht.",
+      "question2": "2. Quelles sont les causes de l’encrassement des bateaux et yachts ?",
+      "answer2": "Les bateaux et yachts accumulent des saletés à cause du sel, des algues, des déjections d’oiseaux et des résidus de carburant. Ces éléments peuvent provoquer de la corrosion et altérer la performance.",
+      "question3": "3. Quelles méthodes utilisez-vous pour nettoyer les bateaux et yachts ?",
+      "answer3": "Nous utilisons des savons biodégradables, des brosses douces et des nettoyeurs basse pression pour protéger la surface du bateau tout en éliminant efficacement les impuretés.",
+      "question4": "4. À quelle fréquence un bateau ou yacht doit-il être nettoyé ?",
+      "answer4": "Au moins une fois par mois pour les bateaux en eau salée et tous les deux à trois mois pour ceux en eau douce. Un entretien régulier est essentiel pour assurer leur longévité.",
+      "question5": "5. Pourquoi choisir notre service ?",
+      "answer5": "Nous privilégions la qualité, la sécurité et le respect de l’environnement. Notre équipe est équipée des outils et de l’expertise nécessaires pour garantir un nettoyage en profondeur et sans risque pour tous types de bateaux et yachts."
     }
   },
   "matelas": {
