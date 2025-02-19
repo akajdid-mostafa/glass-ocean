@@ -34,7 +34,10 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsDropdownOpen(false);
       }
     };
@@ -64,13 +67,38 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
       name: t("services"),
       href: `/${locale}/#service`,
       submenu: [
-        { name: t("facade_cleaning"), href: `/${locale}/nettoyage-des-interfaces` },
-        { name: t("solar_panel_cleaning"), href: `/${locale}/nettoyage-des-panneaux-solaires` },
-        { name: t("fauteuils-et-matelas"), href: `/${locale}/nettoyages-des-fauteuils-et-matelas` },
-        { name: t("home_electrical"), href: `/${locale}/reparations-electriques-a-domicile` },
-        { name: t("plumbing"), href: `/${locale}/reparations-de-l-eau-a-domicile` },
-        { name: t("pest_control"), href: `/${locale}/destruction-des-insectes-nuisibles` },
-        
+        {
+          name: t("facade_cleaning"),
+          href: `/${locale}/nettoyage-des-interfaces`,
+        },
+        {
+          name: t("solar_panel_cleaning"),
+          href: `/${locale}/nettoyage-des-panneaux-solaires`,
+        },
+        {
+          name: t("fauteuils-et-matelas"),
+          href: `/${locale}/nettoyages-des-fauteuils-et-matelas`,
+        },
+        {
+          name: t("home_electrical"),
+          href: `/${locale}/reparations-electriques-a-domicile`,
+        },
+        {
+          name: t("plumbing"),
+          href: `/${locale}/reparations-de-l-eau-a-domicile`,
+        },
+        {
+          name: t("pest_control"),
+          href: `/${locale}/destruction-des-insectes-nuisibles`,
+        },
+        {
+          name: t("boat_cleaning"),
+          href: `/${locale}/destruction-des-insectes-nuisibles`,
+        },
+        {
+          name: t("hull_underwater"),
+          href: `/${locale}/destruction-des-insectes-nuisibles`,
+        },
       ],
     },
     { name: t("gallery"), href: `/${locale}/gallery` },
@@ -95,13 +123,20 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
               <div className="flex justify-end space-x-4">
                 {navigation.map((item) => {
                   const [baseHref, hash] = item.href.split("#");
-                  const isActive = pathname === baseHref && (!hash || `#${hash}` === activeHash);
+                  const isActive =
+                    pathname === baseHref &&
+                    (!hash || `#${hash}` === activeHash);
 
                   return item.submenu ? (
-                    <div key={item.name} className="relative group flex items-center">
+                    <div
+                      key={item.name}
+                      className="relative group flex items-center"
+                    >
                       <Link
                         href={item.href}
-                        className={`px-3 py-2 text-lg flex items-center ${isActive ? "text-blue500" : "opacity-50"} hover:text-blue600 hover:opacity-100 space-links`}
+                        className={`px-3 py-2 text-lg flex items-center ${
+                          isActive ? "text-blue500" : "opacity-50"
+                        } hover:text-blue600 hover:opacity-100 space-links`}
                       >
                         {item.name}
                         <MdNavigateNext className="ml-1" />
@@ -123,7 +158,11 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`px-3 py-2 rounded-md text-lg font-normal ${isActive ? "font-bold text-blue500" : "opacity-50 hover:text-blue600 font-bold hover:opacity-100"} space-links`}
+                      className={`px-3 py-2 rounded-md text-lg font-normal ${
+                        isActive
+                          ? "font-bold text-blue500"
+                          : "opacity-50 hover:text-blue600 font-bold hover:opacity-100"
+                      } space-links`}
                       aria-current={isActive ? "page" : undefined}
                     >
                       {item.name}
@@ -141,71 +180,77 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
             </div>
 
             {/* Custom Dropdown for Language Switcher */}
-            
           </div>
           <div className="relative mx-4" ref={dropdownRef}>
-              <button
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="rounded-xl px-2 gap-2 py-2 bg-gray200 hover:outline-none focus:outline-none flex items-center"
-              >
-                <Image
-                  src={`/images/flag/${locale}.png`}
-                  alt={locale}
-                  width={24}
-                  height={24}
-                />
+            <button
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              className="rounded-xl px-2 gap-2 py-2 bg-gray200 hover:outline-none focus:outline-none flex items-center"
+            >
+              <Image
+                src={`/images/flag/${locale}.png`}
+                alt={locale}
+                width={24}
+                height={24}
+              />
 
-                {locale === 'en' ? 'English' : 
-                 locale === 'fr' ? 'Français' : 
-                 locale === 'ar' ? 'العربية' : locale.toUpperCase()}
-              </button>
-              {isDropdownOpen && (
-                <div className="absolute right-0 mt-2  bg-white shadow-lg rounded-lg w-40 z-50">
-                  
-                  <button
-                    onClick={() => handleLanguageChange("fr")}
-                    className="w-full flex items-center px-4 py-2 hover:bg-gray300"
-                  >
-                    <Image
-                      src="/images/flag/fr.png"
-                      alt="Français"
-                      width={16}
-                      height={16}
-                      className="mr-2 ml-2"
-                    />
-                    Français
-                  </button>
-                  <button
-                    onClick={() => handleLanguageChange("ar")}
-                    className="w-full flex items-center px-4 py-2 hover:bg-gray300"
-                  >
-                    <Image
-                      src="/images/flag/ar.png"
-                      alt="العربية"
-                      width={16}
-                      height={16}
-                      className="mr-2 ml-2"
-                    />
-                    العربية
-                  </button>
-                  <button
-                    onClick={() => handleLanguageChange("en")}
-                    className="w-full flex items-center px-4 py-2 hover:bg-gray300"
-                  >
-                    <Image
-                      src="/images/flag/en.png"
-                      alt="English"
-                      width={16}
-                      height={16}
-                      className="mr-2 ml-2"
-                    />
-                    English
-                  </button>
-                </div>
-              )}
-            </div>
+              {locale === "en"
+                ? "English"
+                : locale === "fr"
+                ? "Français"
+                : locale === "ar"
+                ? "العربية"
+                : locale.toUpperCase()}
+            </button>
+            {isDropdownOpen && (
+              <div className="absolute right-0 mt-2  bg-white shadow-lg rounded-lg w-40 z-50">
+                <button
+                  onClick={() => handleLanguageChange("fr")}
+                  className="w-full flex items-center px-4 py-2 hover:bg-gray300"
+                >
+                  <Image
+                    src="/images/flag/fr.png"
+                    alt="Français"
+                    width={16}
+                    height={16}
+                    className="mr-2 ml-2"
+                  />
+                  Français
+                </button>
+                <button
+                  onClick={() => handleLanguageChange("ar")}
+                  className="w-full flex items-center px-4 py-2 hover:bg-gray300"
+                >
+                  <Image
+                    src="/images/flag/ar.png"
+                    alt="العربية"
+                    width={16}
+                    height={16}
+                    className="mr-2 ml-2"
+                  />
+                  العربية
+                </button>
+                <button
+                  onClick={() => handleLanguageChange("en")}
+                  className="w-full flex items-center px-4 py-2 hover:bg-gray300"
+                >
+                  <Image
+                    src="/images/flag/en.png"
+                    alt="English"
+                    width={16}
+                    height={16}
+                    className="mr-2 ml-2"
+                  />
+                  English
+                </button>
+              </div>
+            )}
+          </div>
           <div className="block lg:hidden">
-            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+            <Bars3Icon
+              className="block h-6 w-6"
+              aria-hidden="true"
+              onClick={() => setIsOpen(true)}
+            />
           </div>
           <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
             <Drawerdata locale={locale} />

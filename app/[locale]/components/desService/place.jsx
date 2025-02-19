@@ -21,8 +21,8 @@ export default function Place({
           <p className="text-lg max-w-4xl mx-auto">{description}</p>
         </Fade>
         <div className="mx-auto max-w-7xl text-center p-6 ">
-        <div className="mx-auto max-w-6xl items-stretch space-y-4 text-left sm:flex sm:flex-wrap sm:justify-center sm:space-y-0 sm:gap-x-8 sm:gap-y-8 sm:text-center">
-        <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
+          <div className="mx-auto max-w-6xl items-stretch space-y-4 text-left sm:flex sm:flex-wrap sm:justify-center sm:space-y-0 sm:gap-x-8 sm:gap-y-8 sm:text-center">
+            <Fade direction="up" delay={1000} cascade damping={0.1} triggerOnce>
               {cards &&
                 cards.map((card, index) => (
                   <Card
@@ -30,14 +30,14 @@ export default function Place({
                     className="flex w-full items-center rounded-xl border border-black border-opacity-10 px-4 py-6 text-black duration-200 hover:border-opacity-0 hover:no-underline hover:shadow-lg   sm:flex-col sm:hover:shadow-2xl"
                   >
                     <Image
-                      className="mx-4  w-12 sm:mr-0 rounded-2xl sm:h-32 sm:w-32"
+                      className="mx-4  w-12 sm:mr-0 rounded-full sm:h-32 sm:w-32"
                       src={card.imageSrc}
                       alt={card.imageAlt}
-                      width={48}
-                      height={48}
+                      width={200}
+                      height={200}
                     />
                     <div>
-                      <div className="font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-black dark:text-white text-start sm:text-center sm:mt-4  sm:mb-2">
+                      <div className="font-bold bg-gradient-to-r from-blue600 to-red600 bg-clip-text text-transparent text-start sm:text-center sm:mt-4  sm:mb-2">
                         {card.title}
                       </div>
                       <div className="text-sm text-start sm:text-center opacity-75">
@@ -68,7 +68,6 @@ function Card({ className, children }) {
     </div>
   );
 }
-
 
 function CardContent({ className, children }) {
   return <div className={`p-6 ${className}`}>{children}</div>;

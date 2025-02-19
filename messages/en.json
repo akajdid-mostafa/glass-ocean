@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Ocean connecting Nettoyage",
+    "description": "We specialize in cleaning and maintenance",
+    "keywords": "Cleaning services Morocco, Professional cleaning Agadir, Commercial cleaning Morocco, Residential cleaning services, Eco-friendly cleaning solutions, Deep cleaning services, Facade cleaning Morocco, Solar panel cleaning services, Upholstery and mattress cleaning, Home electrical maintenance, Plumbing and drainage services, Pest control Morocco, Boat and yacht cleaning, Underwater hull cleaning, Cleaning services in Agadir, Best cleaning company in Morocco, Casablanca professional cleaning, Marrakech cleaning experts, Rabat cleaning and maintenance, Commercial cleaning contracts, Industrial cleaning solutions, High-rise building cleaning, Certified cleaning professionals."
+  },
   "Navbar": {
     "home": "Home",
     "services": "Services",
@@ -8,6 +13,8 @@
     "home_electrical": "Home Electrical Maintenance",
     "plumbing": "Plumbing and Home Drainage",
     "pest_control": "Pest Control",
+    "boat_cleaning": "Boat and Yacht Cleaning",
+    "hull_underwater": "Hull Cleaning Underwater",
     "gallery": "Gallery",
     "contact": "Contact",
     "about": "About",
@@ -75,6 +82,14 @@
     "service6": {
       "title": "Pest Control",
       "description": "We effectively eliminate pests from your home, ensuring a healthy and secure environment."
+    },
+    "service7": {
+      "title": "Boat and Yacht Cleaning",
+      "description": "We provide thorough cleaning services for boats and yachts, ensuring they remain in pristine condition."
+    },
+    "service8": {
+      "title": "Hull Cleaning Underwater",
+      "description": "We specialize in underwater hull cleaning to maintain your vessel’s performance and efficiency."
     },
     "action": "Learn More"
   },
@@ -230,6 +245,70 @@
     "title3": "Confused?",
     "description": "Can't find your answer here? Send us a message for assistance.",
     "button": "Contact Us"
+  },
+  "UnderWaterHull": {
+    "mainHeading": "Underwater Hull Cleaning Services",
+    "title2": "Free Online Cleaning Quote",
+    "title3": "HOW CAN WE HELP YOU?",
+    "description": "Welcome to Ocean Connecting! We are pleased to offer you professional underwater hull cleaning services. Please fill out the contact form below to get in touch with us. We are here to ensure your vessel remains in optimal condition, improving efficiency and longevity. Thank you for choosing us!",
+    "Startpage1": {
+      "subHeading": "Our Company's Activities",
+      "title": "Professional Hull Cleaning in Agadir and Surroundings",
+      "description": "With over 10 years of experience in underwater hull cleaning, we provide high-quality services for both commercial and private vessels. Our team is trained in advanced cleaning techniques, ensuring minimal impact on marine ecosystems. We work with industry-leading brands for cleaning equipment, ensuring efficiency and safety.",
+      "listItems": {
+        "tist1": "Removal of marine growth and barnacles",
+        "tist2": "Improving vessel fuel efficiency",
+        "tist3": "Inspection of hull condition",
+        "tist4": "Quick service within 30 minutes"
+      },
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Startpage2": {
+      "subHeading": "WHY CHOOSE OCEAN SERVICE COMPANY?",
+      "title": "EXPERT UNDERWATER HULL CLEANING SERVICES",
+      "description": "Choosing OCEAN CONNECTING means benefiting from expert underwater cleaning with eco-friendly and effective techniques. We ensure your hull remains clean, preventing unnecessary drag and increasing your vessel's performance. Our team offers personalized service, transparent rates, and quick turnaround times (usually within 3 to 5 days). Opt for OCEAN CONNECTING SERVICES for reliable, fast, and high-quality service.",
+      "listItems": {
+        "tist1": "Expertise and Experience",
+        "tist2": "Eco-friendly cleaning techniques",
+        "tist3": "Quality and Safety",
+        "tist4": "+212 704-309787"
+      }
+    },
+    "Startpage3": {
+      "subHeading": "Good to Know",
+      "title": "When to Schedule a Hull Cleaning?",
+      "description": "Increased fuel consumption, reduced speed, or excessive marine growth are key signs that your hull needs cleaning. Regular maintenance can prevent costly repairs and improve your vessel’s efficiency.",
+      "description1": "Ocean Connecting provides fast and reliable underwater hull cleaning, available for emergency services or by appointment. Our team consists of highly trained professionals who adhere to the latest safety and environmental standards.",
+      "description2": "You should schedule a hull cleaning if you notice:",
+      "listItems": {
+        "tist1": "Increased fuel consumption.",
+        "tist2": "Marine growth affecting speed and efficiency.",
+        "tist3": "Biofouling leading to corrosion.",
+        "tist4": "Reduced maneuverability.",
+        "tist5": "Prolonged docking periods.",
+        "tist6": "Frequent overheating of engine.",
+        "tist7": "Vibrations due to hull resistance.",
+        "tist8": "Compliance with marine regulations."
+      }
+    },
+    "Startpage4": {
+      "title": "Important Information About Hull Cleaning",
+      "description": "Certain hull cleaning procedures require specialized expertise to ensure the safety of the vessel and compliance with marine regulations. Our divers use professional-grade equipment and adhere to environmental guidelines to minimize ecological impact. We provide free estimates and clear pricing ranges on our website, so you always know what to expect with no hidden costs!"
+    },
+    "contact": "Contact Us",
+    "faqItems": {
+      "question1": "1. What types of hull cleaning services do you offer?",
+      "answer1": "We offer complete hull cleaning, biofouling removal, propeller polishing, and underwater inspections to ensure optimal vessel performance.",
+      "question2": "2. Do you provide emergency hull cleaning services?",
+      "answer2": "Yes, we offer 24/7 emergency hull cleaning to prevent excessive drag and damage to your vessel.",
+      "question3": "3. Do you provide a quote before the service?",
+      "answer3": "Yes, we provide a free and detailed quote before any cleaning, so you know exactly what will be done and at what cost.",
+      "question4": "4. Can you clean heavily fouled hulls?",
+      "answer4": "Yes, we handle all levels of marine growth and biofouling, ensuring compliance with safety and environmental standards.",
+      "question5": "5. How long does a hull cleaning take?",
+      "answer5": "The duration depends on the level of fouling, but most cleaning services are completed within a few hours."
+    }
   },
   "Electricity": {
     "mainHeading": "Home electrical maintenance",
@@ -406,6 +485,64 @@
       "answer4": "Twice a year (spring and autumn) and preferably in the morning to avoid heat.",
       "question5": "5. Why choose our service?",
       "answer5": "Choosing our service means opting for safety and efficiency. We use eco-friendly methods to respect the environment while ensuring quality cleaning. Additionally, we offer a service specifically adapted for high installations, ensuring optimal maintenance in all situations."
+    }
+  },
+  "boatCleaning": {
+    "mainHeading": "Boat & Yacht Cleaning Services",
+    "contact": "Contact Us",
+    "Startpage1": {
+      "subHeading": "Professional Boat & Yacht Cleaning",
+      "title": "Keep Your Boat & Yacht Spotless and Well-Maintained!",
+      "description": "Boats and yachts are exposed to harsh marine conditions, including salt, algae, and weather elements, which can lead to buildup and deterioration over time. Regular cleaning is essential to maintain their appearance and longevity. At OceanConnecting, our experts use specialized techniques and products to safely clean your vessel, ensuring its durability and peak performance on the water.",
+      "firstbutton": "Request a Quote",
+      "secondbutton": "Contact Us"
+    },
+    "Place": {
+      "title": "Why Regular Boat & Yacht Cleaning Matters",
+      "description": "Regular boat and yacht cleaning preserves their appearance, prevents damage, and extends their lifespan, ensuring a smooth and safe sailing experience.",
+      "partibutton": "Get your free personalized quote for boat and yacht cleaning now.",
+      "buttonText": "Quick and Free Quote Request"
+    },
+    "cardData": {
+      "title1": "Durability",
+      "description1": "Protect your boat or yacht from corrosion and wear",
+      "title2": "Optimization",
+      "description2": "Improve fuel efficiency by reducing drag",
+      "title3": "Reliability",
+      "description3": "Ensure your boat or yacht remains in top condition year-round"
+    },
+    "Startpage2": {
+      "title": "Our Expert Boat & Yacht Cleaning Process",
+      "description": "Our highly skilled team follows safety protocols and uses dedicated equipment to ensure thorough cleaning without damage. We utilize pressure washers, eco-friendly detergents, and soft-bristle brushes to remove grime, algae, and salt deposits, leaving your boat or yacht in pristine condition.",
+      "description1": "A boat or yacht cleaning session is also an opportunity to inspect your vessel for potential issues such as hull damage, clogged filters, or rust buildup."
+    },
+    "Startpage3": {
+      "title": "Eco-Friendly Methods for Keeping Your Boat & Yacht Clean",
+      "description": "Using biodegradable, marine-safe cleaning solutions, we minimize environmental impact while ensuring an effective cleaning process. Our techniques help preserve both your vessel and the surrounding marine ecosystem.",
+      "description1": "Eco-friendly boat and yacht cleaning offers several advantages:",
+      "listItems": {
+        "tist1": "Reduces harmful chemical runoff into the water",
+        "tist2": "Leaves no residue or streaks on surfaces",
+        "tist3": "Keeps your boat or yacht cleaner for longer periods"
+      }
+    },
+    "Startpage4": {
+      "subHeading": "Pre-Cleaning Inspection for Your Boat & Yacht",
+      "title": "Comprehensive Inspection Before Boat & Yacht Cleaning",
+      "description": "Before cleaning your boat or yacht, Net'Toi conducts a preliminary inspection to assess its condition and determine the best cleaning approach. This step ensures effective and safe maintenance tailored to your vessel's needs.",
+      "description1": "This inspection helps us deliver high-quality service while identifying any areas that may require additional care."
+    },
+    "faqItems": {
+      "question1": "1. Why is boat & yacht cleaning important?",
+      "answer1": "Marine buildup can lead to decreased efficiency, potential damage, and costly repairs. Regular cleaning helps maintain your vessel’s aesthetics and functionality.",
+      "question2": "2. What causes dirt and buildup on boats & yachts?",
+      "answer2": "Boats and yachts accumulate dirt due to salt, algae, bird droppings, and fuel residues. These elements can cause corrosion and affect performance.",
+      "question3": "3. What methods do you use for boat & yacht cleaning?",
+      "answer3": "We use biodegradable soaps, soft brushes, and low-pressure washers to protect the vessel’s surface while effectively removing grime.",
+      "question4": "4. How often should a boat or yacht be cleaned?",
+      "answer4": "At least once a month for vessels in saltwater, and every two to three months for freshwater vessels. Regular maintenance is key to longevity.",
+      "question5": "5. Why choose our service?",
+      "answer5": "We prioritize quality, safety, and eco-friendliness. Our team is equipped with the right tools and expertise to ensure thorough, damage-free cleaning for all types of boats and yachts."
     }
   },
   "matelas": {
