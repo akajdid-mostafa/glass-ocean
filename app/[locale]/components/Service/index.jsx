@@ -52,13 +52,13 @@ const ServicesSection = ({ locale }) => {
       link: `/${locale}/nettoyage-des-bateaux-et-yachts`,
       title: t("service7.title"),
       description: t("service7.description"),
-      image: "/images/service/plombin.png?height=80&width=80",
+      image: "/images/boatcleaning/boatclean1.jpg",
     },
     {
-      link: `/${locale}/reparations-de-l-eau-a-domicile`,
+      link: `/${locale}/underwater-hull-cleaning`,
       title: t("service8.title"),
       description: t("service8.description"),
-      image: "/images/service/plombin.png?height=80&width=80",
+      image: "/images/underwaterhull/underwaterhull1.jpg",
     },
   ];
 

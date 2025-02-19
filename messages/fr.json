@@ -241,6 +241,70 @@
     "description": "Vous ne trouvez pas votre réponse ici ? Envoyez-nous un message pour obtenir de l&apos;aide.",
     "button": "Contactez-nous"
   },
+  "UnderWaterHull": {
+    "mainHeading": "Services de nettoyage de coque sous-marine",
+    "title2": "Obtenez un devis de nettoyage en ligne gratuit",
+    "title3": "COMMENT POUVONS-NOUS VOUS AIDER ?",
+    "description": "Bienvenue chez Ocean Connecting ! Nous sommes ravis de vous offrir des services professionnels de nettoyage de coque sous-marine. Veuillez remplir le formulaire de contact ci-dessous pour nous contacter. Nous sommes là pour garantir que votre navire reste en parfait état, améliorant ainsi son efficacité et sa longévité. Merci de nous avoir choisis !",
+    "Startpage1": {
+      "subHeading": "Les activités de notre entreprise",
+      "title": "Nettoyage professionnel de coque à Agadir et ses environs",
+      "description": "Avec plus de 10 ans d'expérience dans le nettoyage des coques sous-marines, nous offrons des services de haute qualité pour les navires commerciaux et privés. Notre équipe est formée aux dernières techniques de nettoyage, garantissant un impact minimal sur les écosystèmes marins. Nous travaillons avec les meilleures marques d'équipements de nettoyage pour assurer efficacité et sécurité.",
+      "listItems": {
+        "tist1": "Élimination des algues et des dépôts marins",
+        "tist2": "Amélioration de l'efficacité énergétique du navire",
+        "tist3": "Inspection de l'état de la coque",
+        "tist4": "Service rapide en moins de 30 minutes"
+      },
+      "firstbutton": "Demander un devis",
+      "secondbutton": "Contactez-nous"
+    },
+    "Startpage2": {
+      "subHeading": "Pourquoi choisir OCEAN SERVICE ?",
+      "title": "Services experts de nettoyage de coque sous-marine",
+      "description": "Choisir OCEAN CONNECTING, c'est bénéficier d'un nettoyage professionnel utilisant des techniques écologiques et efficaces. Nous garantissons un entretien optimal de votre coque, évitant ainsi la traînée excessive et améliorant la performance du navire. Notre équipe offre un service personnalisé, des tarifs transparents et des délais de réalisation rapides (généralement sous 3 à 5 jours). Optez pour les services de OCEAN CONNECTING pour une prestation fiable, rapide et de haute qualité.",
+      "listItems": {
+        "tist1": "Expertise et expérience",
+        "tist2": "Techniques de nettoyage écologiques",
+        "tist3": "Qualité et sécurité",
+        "tist4": "+212 704-309787"
+      }
+    },
+    "Startpage3": {
+      "subHeading": "Informations utiles",
+      "title": "Quand planifier un nettoyage de coque ?",
+      "description": "Une augmentation de la consommation de carburant, une diminution de la vitesse ou une accumulation d'algues marines sont des signes indiquant que votre coque a besoin d'un nettoyage. Un entretien régulier peut prévenir des réparations coûteuses et améliorer l'efficacité de votre navire.",
+      "description1": "Ocean Connecting propose des services de nettoyage de coque sous-marine rapides et fiables, disponibles en urgence ou sur rendez-vous. Notre équipe est composée de professionnels hautement qualifiés respectant les dernières normes de sécurité et environnementales.",
+      "description2": "Vous devriez programmer un nettoyage de coque si vous observez :",
+      "listItems": {
+        "tist1": "Une augmentation de la consommation de carburant",
+        "tist2": "Une accumulation d'algues affectant la vitesse et l'efficacité",
+        "tist3": "Une corrosion due à la pollution biologique",
+        "tist4": "Une diminution de la manœuvrabilité",
+        "tist5": "Des périodes d'amarrage prolongées",
+        "tist6": "Une surchauffe fréquente du moteur",
+        "tist7": "Des vibrations causées par la résistance de la coque",
+        "tist8": "La conformité aux réglementations maritimes"
+      }
+    },
+    "Startpage4": {
+      "title": "Informations importantes sur le nettoyage de coque",
+      "description": "Certaines opérations de nettoyage de coque nécessitent une expertise spécialisée pour garantir la sécurité du navire et la conformité aux réglementations maritimes. Nos plongeurs utilisent des équipements professionnels et respectent les directives environnementales pour minimiser l'impact écologique. Nous proposons des devis gratuits et des prix clairs sur notre site web, afin que vous sachiez toujours à quoi vous attendre sans frais cachés !"
+    },
+    "contact": "Contactez-nous",
+    "faqItems": {
+      "question1": "1. Quels types de services de nettoyage de coque proposez-vous ?",
+      "answer1": "Nous offrons un nettoyage complet de la coque, l'élimination de la pollution biologique, le polissage des hélices et des inspections sous-marines pour garantir une performance optimale de votre navire.",
+      "question2": "2. Proposez-vous un service d'urgence pour le nettoyage de coque ?",
+      "answer2": "Oui, nous offrons un service d'urgence 24/7 pour éviter une traînée excessive et des dommages potentiels à votre navire.",
+      "question3": "3. Fournissez-vous un devis avant l'intervention ?",
+      "answer3": "Oui, nous fournissons un devis gratuit et détaillé avant toute intervention, afin que vous soyez pleinement informé des coûts et des procédures.",
+      "question4": "4. Pouvez-vous nettoyer des coques très encrassées ?",
+      "answer4": "Oui, nous traitons tous les niveaux de pollution biologique et d'accumulation marine, tout en respectant les normes de sécurité et environnementales.",
+      "question5": "5. Combien de temps prend un nettoyage de coque ?",
+      "answer5": "La durée dépend du niveau d'encrassement, mais la plupart des nettoyages sont effectués en quelques heures."
+    }
+  },
   "Electricity": {
     "mainHeading": "Maintenance de l'électricité domestique",
     "title2": "Devis de nettoyage gratuit en ligne",

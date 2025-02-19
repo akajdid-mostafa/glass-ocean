@@ -37,19 +37,19 @@ export default function boatclean({ locale }) {
 
   const cardData = [
     {
-      imageSrc: "/images/solair/so2.svg",
+      imageSrc: "/images/boatcleaning/durabilite.jpg",
       imageAlt: "Durabilité",
       title: t("cardData.title1"),
       description: t("cardData.description1"),
     },
     {
-      imageSrc: "/images/solair/so3.svg",
+      imageSrc: "/images/boatcleaning/fuel.jpg",
       imageAlt: "Optimisation",
       title: t("cardData.title2"),
       description: t("cardData.description2"),
     },
     {
-      imageSrc: "/images/solair/so1.svg",
+      imageSrc: "/images/boatcleaning/yacht.jpg",
       imageAlt: "Fiabilité",
       title: t("cardData.title3"),
       description: t("cardData.description3"),
@@ -59,13 +59,13 @@ export default function boatclean({ locale }) {
   return (
     <main>
       <Start
-        backgroundImage="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2FWhatsApp%20Image%202024-11-18%20at%2011.46.04.jpeg?alt=media&token=9737830c-4b5c-4e81-a094-931e188779bf"
+        backgroundImage="/images/boatcleaning/boatclean1.jpg"
         mainHeading={t("mainHeading")}
         dividerColor="#ffffff"
       />
 
       <Startpage
-        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Ftravail-nettoyage-panneaux-solaires-dans-centrale-solaire-nettoyage-professionnel-panneau-solaires_1429-19921.jpg?alt=media&token=c924f0be-ffd2-44e6-939d-f27b37c3b559"
+        image="/images/boatcleaning/boatclean2.jpg"
         subHeading={t("Startpage1.subHeading")}
         title={t("Startpage1.title")}
         description={t("Startpage1.description")}
@@ -84,7 +84,7 @@ export default function boatclean({ locale }) {
       />
       <Features locale={locale} />
       <Startpage
-        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fservice%2F6.jpeg?alt=media&token=fcb1cb5f-1c68-474a-bb39-3cc24c32b546"
+        image="/images/boatcleaning/boatclean4.jpg"
         title={t("Startpage2.title")}
         description={t("Startpage2.description")}
         description1={t("Startpage2.description1")}
@@ -95,7 +95,7 @@ export default function boatclean({ locale }) {
         secondbutton={t("Startpage1.secondbutton")}
       />
       <Startpage
-        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fservice%2F5.jpeg?alt=media&token=5db074fd-2d14-40bf-98df-722408cffeeb"
+        image="/images/boatcleaning/boatclean3.jpg"
         //subHeading="Nettoyage de façade"
         title={t("Startpage3.title")}
         description={t("Startpage3.description")}
@@ -111,7 +111,7 @@ export default function boatclean({ locale }) {
         secondbutton={t("Startpage1.secondbutton")}
       />
       <Startpage
-        image="https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2Fglass%20team%2Fservice%2F2.jpeg?alt=media&token=4b22c275-ba17-4c63-9ebb-7b343916d8d5"
+        image="/images/boatcleaning/boatclean5.jpg"
         subHeading={t("Startpage4.subHeading")}
         title={t("Startpage4.title")}
         description={t("Startpage4.description")}
