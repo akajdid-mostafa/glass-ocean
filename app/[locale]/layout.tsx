@@ -60,7 +60,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
-        <GoogleAnalytics gaId={`${process.env.GOOGLE_ANALYTICS_ID}`} />
+        <GoogleAnalytics gaId="G-B8WXTCK5L1" />
         <NextIntlClientProvider messages={messages}>
           <div className="mb-20">
             <Navbar locale={locale} />
