@@ -93,11 +93,11 @@ const Navbar: React.FC<NavbarProps> = ({ locale }) => {
         },
         {
           name: t("boat_cleaning"),
-          href: `/${locale}/destruction-des-insectes-nuisibles`,
+          href: `/${locale}/nettoyage-des-bateaux-et-yachts`,
         },
         {
           name: t("hull_underwater"),
-          href: `/${locale}/destruction-des-insectes-nuisibles`,
+          href: `/${locale}/underwater-hull-cleaning`,
         },
       ],
     },
