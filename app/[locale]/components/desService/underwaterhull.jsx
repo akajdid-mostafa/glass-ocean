@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 import FAQSection from "./faq-section";
 import { useTranslations } from "next-intl";
 
-export default function Electrique({ locale }) {
+export default function UnderWaterHull({ locale }) {
   const t = useTranslations("UnderWaterHull");
 
   const faqItems = [
