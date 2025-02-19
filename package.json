@@ -12,6 +12,7 @@
     "@fancyapps/ui": "^5.0.36",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
+    "@next/third-parties": "^15.1.7",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "20.2.0",
     "@types/react": "18.2.6",

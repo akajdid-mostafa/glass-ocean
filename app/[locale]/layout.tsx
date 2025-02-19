@@ -4,6 +4,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/index";
 import { notFound } from "next/navigation";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export async function generateMetadata({
   params,
@@ -59,6 +60,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
+        <GoogleAnalytics gaId={`${process.env.GOOGLE_ANALYTICS_ID}`} />
         <NextIntlClientProvider messages={messages}>
           <div className="mb-20">
             <Navbar locale={locale} />
