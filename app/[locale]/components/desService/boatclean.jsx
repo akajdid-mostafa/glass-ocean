@@ -9,7 +9,7 @@ import { Fade } from "react-awesome-reveal";
 import FAQSection from "./faq-section";
 import { useTranslations } from "next-intl";
 
-export default function boatclean({ locale }) {
+export default function Boatclean({ locale }) {
   const t = useTranslations("boatCleaning");
 
   const faqItems = [
