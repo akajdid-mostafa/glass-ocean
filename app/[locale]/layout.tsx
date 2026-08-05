@@ -9,7 +9,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export async function generateMetadata({
   params,
 }: Readonly<{
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
@@ -26,11 +26,12 @@ export async function generateMetadata({
 
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
   const messages = await getMessages();
 
   const validLocales = ["fr", "en", "ar"];

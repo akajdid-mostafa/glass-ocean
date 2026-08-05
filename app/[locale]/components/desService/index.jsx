@@ -109,12 +109,12 @@ const StartPage = ({
               <div className="hero-image md:px-5 lg:px-0 w-full lg:w-1/2 rounded-3xl md:pt-2 lg:pt-0 relative isolate">
               <Fade direction="up" delay={600} triggerOnce={true}>
                 <Image
-                  className="rounded-3xl"
+                  className="rounded-3xl w-full h-auto"
                   src={image}
                   alt="Streamlined Services"
                   width={1080}
                   height={720}
-                  layout="responsive"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                 />
                 </Fade>
               </div>
@@ -124,12 +124,12 @@ const StartPage = ({
               <div className="hero-image md:px-5 lg:px-0 w-full lg:w-1/2 rounded-3xl md:pt-2 lg:pt-0 relative isolate">
               <Fade direction="up" delay={600} triggerOnce={true}>
                 <Image
-                  className="rounded-3xl"
+                  className="rounded-3xl w-full h-auto"
                   src={image}
                   alt="Streamlined Services"
                   width={1080}
                   height={720}
-                  layout="responsive"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                 />
                 </Fade>
               </div>

@@ -46,7 +46,7 @@ const ServicesSection = ({ locale }) => {
       title: t("service6.title"),
       description: t("service6.description"),
       image:
-        "https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-19%20at%2011.19.07.jpeg?alt=media&token=283c0429-fc21-4ead-b20c-bfbc39b5bbc7?height=80&width=80",
+        "https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-19%20at%2011.19.07.jpeg?alt=media&token=283c0429-fc21-4ead-b20c-bfbc39b5bbc7",
     },
     {
       link: `/${locale}/nettoyage-des-bateaux-et-yachts`,

@@ -4,8 +4,8 @@ import Simulat from "../components/desService/facade";
 
 // The component doesn't need explicit typing in JSX, but we handle params via destructuring
 export default async function Page({ params }) {
-  const { locale } = params;
-  const messages = await getMessages(locale);
+  const { locale } = await params;
+  const messages = await getMessages({ locale });
 
   return (
     <NextIntlClientProvider messages={messages}>
