@@ -25,7 +25,7 @@
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^3.0.1",
     "lucide-react": "^0.453.0",
-    "next": "^15.0.3",
+    "next": "^15.5.22",
     "next-i18next": "^15.4.0",
     "next-intl": "^3.25.2",
     "nodemailer": "^6.9.16",
