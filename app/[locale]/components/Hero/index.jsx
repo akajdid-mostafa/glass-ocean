@@ -33,7 +33,7 @@ const Banner = ({locale} ) =>  {
         playsInline
       >
         <source
-          src="https://www.youtube.com/watch?v=njx-CtWPX3E"
+          src="https://res.cloudinary.com/dzqres7rq/video/upload/v1786017713/20678104-uhd_3840_2160_30fps_fh7fbe.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

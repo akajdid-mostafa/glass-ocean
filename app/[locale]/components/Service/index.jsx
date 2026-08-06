@@ -45,8 +45,7 @@ const ServicesSection = ({ locale }) => {
       link: `/${locale}/destruction-des-insectes-nuisibles`,
       title: t("service6.title"),
       description: t("service6.description"),
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/oceangallery-d06ae.appspot.com/o/Site%20ocean%2FWhatsApp%20Image%202024-11-19%20at%2011.19.07.jpeg?alt=media&token=283c0429-fc21-4ead-b20c-bfbc39b5bbc7",
+      image: "/images/boatcleaning/boatclean1.jpg",
     },
     {
       link: `/${locale}/nettoyage-des-bateaux-et-yachts`,
